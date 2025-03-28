@@ -21,4 +21,7 @@ model Match {
   currentQuestionId                  Int
   createdAt                          DateTime @default(now())
   updatedAt                          DateTime @updatedAt
+
+  // Prefix project name to table name so that I can use 1 DB for multiple projects
+  @@map("fitg_match")
 }
