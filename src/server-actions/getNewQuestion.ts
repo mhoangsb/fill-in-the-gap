@@ -5,6 +5,7 @@ import "server-only";
 import prisma from "@/utils/prisma";
 import { NULL_QUESTION_ID } from "@/utils/constants";
 import generateQuestion from "@/utils/generateQuestion";
+import { ServerActionResult } from "@/utils/types";
 
 export type QuestionSendToClient = {
   text: string;
@@ -17,17 +18,6 @@ enum GetNewQuestionErrorCode {
   InvalidHealth,
   OngoingQuestion,
 }
-
-type ServerActionResult<T> =
-  | {
-      isOk: false;
-      errorMessage: string;
-      errorCode: number;
-    }
-  | {
-      isOk: true;
-      payload: T;
-    };
 
 export default async function getNewQuestion(
   matchToken: string,
