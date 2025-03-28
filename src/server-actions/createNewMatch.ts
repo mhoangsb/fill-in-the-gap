@@ -7,7 +7,7 @@ import generateCryptographicallyStrongRandomToken from "@/utils/generateCryptogr
 import { INITIAL_HEALTH, INITIAL_SCORE, NULL_QUESTION_ID } from "@/utils/constants";
 
 /**
- * Create, initialize match value in database, then return match id
+ * Create, initialize match value in database, then return match token
  */
 export default async function createNewMatch(): Promise<string> {
   const randomToken = await generateCryptographicallyStrongRandomToken();
