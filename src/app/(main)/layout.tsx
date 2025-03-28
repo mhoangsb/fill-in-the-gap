@@ -19,8 +19,7 @@ const bungee = Bungee({
 export default function MainLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  const [isSmallScreenNavBarShown, SetIsSmallScreenNavBarShown] =
-    useState(false);
+  const [isSmallScreenNavBarShown, SetIsSmallScreenNavBarShown] = useState(false);
 
   const handleUserToggleSmallScreenNavBar = () =>
     SetIsSmallScreenNavBarShown(!isSmallScreenNavBarShown);
@@ -50,7 +49,7 @@ export default function MainLayout({
         <div className="grow py-2 text-center text-4xl">Fill In The Gap</div>
       </header>
 
-      <nav className="fixed top-0 z-30 mt-14 hidden h-screen flex-col border-r-2 border-dashed border-r-gray-600 pb-14 max-[365px]:mt-24 sm:flex">
+      <nav className="fixed top-0 z-30 mt-14 hidden h-screen flex-col border-r-2 border-dashed border-r-gray-600 bg-gray-950 pb-14 max-[365px]:mt-24 sm:flex">
         {navItems.map(({ Icon, href, label }) => (
           <Link
             href={href}
@@ -73,9 +72,7 @@ export default function MainLayout({
           <div
             className={`${bungee.className} z-50 flex w-screen border-b-2 border-dashed border-b-gray-600`}
           >
-            <div className="grow py-2 text-center text-4xl">
-              Fill In The Gap
-            </div>
+            <div className="grow py-2 text-center text-4xl">Fill In The Gap</div>
             <div
               className="grid place-content-center border-l-2 border-dashed border-l-gray-600 px-3 sm:hidden"
               onClick={handleUserToggleSmallScreenNavBar}
