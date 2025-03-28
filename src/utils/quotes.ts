@@ -9,8 +9,7 @@ type Quote = {
 
 export const quotes: Quote[] = [
   {
-    quoteText:
-      "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    quoteText: "Genius is one percent inspiration and ninety-nine percent perspiration.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -29,18 +28,12 @@ export const quotes: Quote[] = [
     quoteText: "Fate is in your hands and no one elses",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "Be the chief but never the lord.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "Be the chief but never the lord.", quoteAuthor: "Lao Tzu" },
   {
     quoteText: "Nothing happens unless first we dream.",
     quoteAuthor: "Carl Sandburg",
   },
-  {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
   {
     quoteText: "Life is a learning experience, only if you learn.",
     quoteAuthor: "Yogi Berra",
@@ -81,10 +74,7 @@ export const quotes: Quote[] = [
     quoteText: "Every man dies. Not every man really lives.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "To lead people walk behind them.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "To lead people walk behind them.", quoteAuthor: "Lao Tzu" },
   {
     quoteText: "Having nothing, nothing can he lose.",
     quoteAuthor: "William Shakespeare",
@@ -101,10 +91,7 @@ export const quotes: Quote[] = [
     quoteText: "Ideas are the beginning points of all fortunes.",
     quoteAuthor: "Napoleon Hill",
   },
-  {
-    quoteText: "Everything in life is luck.",
-    quoteAuthor: "Donald Trump",
-  },
+  { quoteText: "Everything in life is luck.", quoteAuthor: "Donald Trump" },
   {
     quoteText: "Doing nothing is better than being busy doing nothing.",
     quoteAuthor: "Lao Tzu",
@@ -161,10 +148,7 @@ export const quotes: Quote[] = [
     quoteText: "Learning is a treasure that will follow its owner everywhere",
     quoteAuthor: "Chinese proverb",
   },
-  {
-    quoteText: "Be as you wish to seem.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Be as you wish to seem.", quoteAuthor: "Socrates" },
   {
     quoteText: "The world is always in movement.",
     quoteAuthor: "V. Naipaul",
@@ -193,18 +177,9 @@ export const quotes: Quote[] = [
     quoteText: "Be kind whenever possible. It is always possible.",
     quoteAuthor: "Dalai Lama",
   },
-  {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
-  {
-    quoteText: "He is able who thinks he is able.",
-    quoteAuthor: "Buddha",
-  },
-  {
-    quoteText: "Be as you wish to seem.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
+  { quoteText: "He is able who thinks he is able.", quoteAuthor: "Buddha" },
+  { quoteText: "Be as you wish to seem.", quoteAuthor: "Socrates" },
   {
     quoteText: "A goal without a plan is just a wish.",
     quoteAuthor: "Larry Elder",
@@ -221,10 +196,7 @@ export const quotes: Quote[] = [
     quoteText: "A weed is no more than a flower in disguise.",
     quoteAuthor: "James Lowell",
   },
-  {
-    quoteText: "Do, or do not. There is no try.",
-    quoteAuthor: "Yoda",
-  },
+  { quoteText: "Do, or do not. There is no try.", quoteAuthor: "Yoda" },
   {
     quoteText: "All serious daring starts from within.",
     quoteAuthor: "Harriet Beecher Stowe",
@@ -253,22 +225,13 @@ export const quotes: Quote[] = [
     quoteText: "Time is the wisest counsellor of all.",
     quoteAuthor: "Pericles",
   },
-  {
-    quoteText: "You give before you get.",
-    quoteAuthor: "Napoleon Hill",
-  },
-  {
-    quoteText: "Wisdom begins in wonder.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "You give before you get.", quoteAuthor: "Napoleon Hill" },
+  { quoteText: "Wisdom begins in wonder.", quoteAuthor: "Socrates" },
   {
     quoteText: "Without courage, wisdom bears no fruit.",
     quoteAuthor: "Baltasar Gracian",
   },
-  {
-    quoteText: "Change in all things is sweet.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Change in all things is sweet.", quoteAuthor: "Aristotle" },
   {
     quoteText: "What you fear is that which requires action to overcome.",
     quoteAuthor: "Byron Pulsifer",
@@ -278,8 +241,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "When performance exceeds ambition, the overlap is called success.",
+    quoteText: "When performance exceeds ambition, the overlap is called success.",
     quoteAuthor: "Cullen Hightower",
   },
   {
@@ -287,13 +249,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "African proverb",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
-    quoteText:
-      "When performance exceeds ambition, the overlap is called success.",
+    quoteText: "When performance exceeds ambition, the overlap is called success.",
     quoteAuthor: "Cullen Hightower",
   },
   {
@@ -345,8 +305,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Michelangelo",
   },
   {
-    quoteText:
-      "Courage is going from failure to failure without losing enthusiasm.",
+    quoteText: "Courage is going from failure to failure without losing enthusiasm.",
     quoteAuthor: "Winston Churchill",
   },
   {
@@ -361,10 +320,7 @@ export const quotes: Quote[] = [
     quoteText: "Those who are free of resentful thoughts surely find peace.",
     quoteAuthor: "Buddha",
   },
-  {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
   {
     quoteText: "A short saying often contains much wisdom.",
     quoteAuthor: "Sophocles",
@@ -377,10 +333,7 @@ export const quotes: Quote[] = [
     quoteText: "It takes both sunshine and rain to make a rainbow.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "A beautiful thing is never perfect.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A beautiful thing is never perfect.", quoteAuthor: "" },
   {
     quoteText: "Only do what your heart tells you.",
     quoteAuthor: "Princess Diana",
@@ -434,8 +387,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bo Jackson",
   },
   {
-    quoteText:
-      "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    quoteText: "Genius is one percent inspiration and ninety-nine percent perspiration.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -458,10 +410,7 @@ export const quotes: Quote[] = [
     quoteText: "Do more than dream: work.",
     quoteAuthor: "William Arthur Ward",
   },
-  {
-    quoteText: "No man was ever wise by chance.",
-    quoteAuthor: "Seneca",
-  },
+  { quoteText: "No man was ever wise by chance.", quoteAuthor: "Seneca" },
   {
     quoteText: "Some pursue happiness, others create it.",
     quoteAuthor: "",
@@ -474,10 +423,7 @@ export const quotes: Quote[] = [
     quoteText: "Think how hard physics would be if particles could think.",
     quoteAuthor: "Murray Gell-Mann",
   },
-  {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
   {
     quoteText: "He that is giddy thinks the world turns round.",
     quoteAuthor: "William Shakespeare",
@@ -490,10 +436,7 @@ export const quotes: Quote[] = [
     quoteText: "Do something wonderful, people may imitate it.",
     quoteAuthor: "Albert Schweitzer",
   },
-  {
-    quoteText: "We do what we do because we believe.",
-    quoteAuthor: "",
-  },
+  { quoteText: "We do what we do because we believe.", quoteAuthor: "" },
   {
     quoteText: "Great talent finds happiness in execution.",
     quoteAuthor: "Johann Wolfgang von Goethe",
@@ -514,10 +457,7 @@ export const quotes: Quote[] = [
     quoteText: "Who looks outside, dreams; who looks inside, awakes.",
     quoteAuthor: "Carl Jung",
   },
-  {
-    quoteText: "What we think, we become.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "What we think, we become.", quoteAuthor: "Buddha" },
   {
     quoteText: "The shortest answer is doing.",
     quoteAuthor: "Lord Herbert",
@@ -526,10 +466,7 @@ export const quotes: Quote[] = [
     quoteText: "All our knowledge has its origins in our perceptions.",
     quoteAuthor: "Leonardo da Vinci",
   },
-  {
-    quoteText: "He is able who thinks he is able.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "He is able who thinks he is able.", quoteAuthor: "Buddha" },
   {
     quoteText: "The harder you fall, the higher you bounce.",
     quoteAuthor: "",
@@ -542,10 +479,7 @@ export const quotes: Quote[] = [
     quoteText: "Truth is powerful and it prevails.",
     quoteAuthor: "Sojourner Truth",
   },
-  {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
   {
     quoteText: "Light tomorrow with today!",
     quoteAuthor: "Elizabeth Browning",
@@ -555,13 +489,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "German proverb",
   },
   {
-    quoteText:
-      "Society develops wit, but its contemplation alone forms genius.",
+    quoteText: "Society develops wit, but its contemplation alone forms genius.",
     quoteAuthor: "Madame de Stael",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -580,10 +512,7 @@ export const quotes: Quote[] = [
     quoteText: "What you give is what you get.",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
   {
     quoteText: "A short saying often contains much wisdom.",
     quoteAuthor: "Sophocles",
@@ -616,10 +545,7 @@ export const quotes: Quote[] = [
     quoteText: "Life shrinks or expands in proportion to one's courage.",
     quoteAuthor: "Anais Nin",
   },
-  {
-    quoteText: "You have to believe in yourself.",
-    quoteAuthor: "Sun Tzu",
-  },
+  { quoteText: "You have to believe in yourself.", quoteAuthor: "Sun Tzu" },
   {
     quoteText: "Our intention creates our reality.",
     quoteAuthor: "Wayne Dyer",
@@ -636,10 +562,7 @@ export const quotes: Quote[] = [
     quoteText: "From little acorns mighty oaks do grow.",
     quoteAuthor: "American proverb",
   },
-  {
-    quoteText: "You have to believe in yourself.",
-    quoteAuthor: "Sun Tzu",
-  },
+  { quoteText: "You have to believe in yourself.", quoteAuthor: "Sun Tzu" },
   {
     quoteText: "You can't stop the waves, but you can learn to surf.",
     quoteAuthor: "Jon Kabat-Zinn",
@@ -665,8 +588,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Wayne Dyer",
   },
   {
-    quoteText:
-      "Society develops wit, but its contemplation alone forms genius.",
+    quoteText: "Society develops wit, but its contemplation alone forms genius.",
     quoteAuthor: "Madame de Stael",
   },
   {
@@ -678,8 +600,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Pearl Buck",
   },
   {
-    quoteText:
-      "You can do what's reasonable or you can decide what's possible.",
+    quoteText: "You can do what's reasonable or you can decide what's possible.",
     quoteAuthor: "",
   },
   {
@@ -730,10 +651,7 @@ export const quotes: Quote[] = [
     quoteText: "A good plan today is better than a perfect plan tomorrow.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "Be as you wish to seem.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Be as you wish to seem.", quoteAuthor: "Socrates" },
   {
     quoteText: "If the shoe doesn't fit, must we change the foot?",
     quoteAuthor: "Gloria Steinem",
@@ -747,13 +665,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Publilius Syrus",
   },
   {
-    quoteText:
-      "Life isn't about finding yourself. Life is about creating yourself.",
+    quoteText: "Life isn't about finding yourself. Life is about creating yourself.",
     quoteAuthor: "Bernard Shaw",
   },
   {
-    quoteText:
-      "To bring anything into your life, imagine that it's already there.",
+    quoteText: "To bring anything into your life, imagine that it's already there.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -770,8 +686,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Without faith, nothing is possible. With it, nothing is impossible.",
+    quoteText: "Without faith, nothing is possible. With it, nothing is impossible.",
     quoteAuthor: "Mary Bethune",
   },
   {
@@ -799,10 +714,7 @@ export const quotes: Quote[] = [
     quoteText: "The shortest answer is doing.",
     quoteAuthor: "Lord Herbert",
   },
-  {
-    quoteText: "A beautiful thing is never perfect.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A beautiful thing is never perfect.", quoteAuthor: "" },
   {
     quoteText: "Fear is a darkroom where negatives develop.",
     quoteAuthor: "Usman Asif",
@@ -823,13 +735,9 @@ export const quotes: Quote[] = [
     quoteText: "Freedom is the right to live as we wish.",
     quoteAuthor: "Epictetus",
   },
+  { quoteText: "Change your thoughts, change your life!", quoteAuthor: "" },
   {
-    quoteText: "Change your thoughts, change your life!",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Never ignore a gut feeling, but never believe that it's enough.",
+    quoteText: "Never ignore a gut feeling, but never believe that it's enough.",
     quoteAuthor: "Robert Heller",
   },
   {
@@ -856,10 +764,7 @@ export const quotes: Quote[] = [
     quoteText: "The day always looks brighter from behind a smile.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "A beautiful thing is never perfect.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A beautiful thing is never perfect.", quoteAuthor: "" },
   {
     quoteText: "No alibi will save you from accepting the responsibility.",
     quoteAuthor: "Napoleon Hill",
@@ -876,22 +781,13 @@ export const quotes: Quote[] = [
     quoteText: "Reality leaves a lot to the imagination.",
     quoteAuthor: "John Lennon",
   },
-  {
-    quoteText: "A stumble may prevent a fall.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A stumble may prevent a fall.", quoteAuthor: "" },
   {
     quoteText: "He who talks more is sooner exhausted.",
     quoteAuthor: "Lao Tzu",
   },
-  {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
-  {
-    quoteText: "He who is contented is rich.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
+  { quoteText: "He who is contented is rich.", quoteAuthor: "Lao Tzu" },
   {
     quoteText: "Work out your own salvation. Do not depend on others.",
     quoteAuthor: "Buddha",
@@ -917,10 +813,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText: "Put your future in good hands — your own.",
-    quoteAuthor: "",
-  },
-  {
     quoteText: "We choose our destiny in the way we treat others.",
     quoteAuthor: "Wit",
   },
@@ -936,10 +828,7 @@ export const quotes: Quote[] = [
     quoteText: "Smile, breathe, and go slowly.",
     quoteAuthor: "Thich Nhat Hanh",
   },
-  {
-    quoteText: "Fortune favours the brave.",
-    quoteAuthor: "Virgil",
-  },
+  { quoteText: "Fortune favours the brave.", quoteAuthor: "Virgil" },
   {
     quoteText: "I believe in one thing only, the power of human will.",
     quoteAuthor: "Joseph Stalin",
@@ -993,18 +882,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "May our hearts garden of awakening bloom with hundreds of flowers.",
+    quoteText: "May our hearts garden of awakening bloom with hundreds of flowers.",
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText: "Nobody will believe in you unless you believe in yourself.",
     quoteAuthor: "Liberace",
   },
-  {
-    quoteText: "Fortune befriends the bold.",
-    quoteAuthor: "John Dryden",
-  },
+  { quoteText: "Fortune befriends the bold.", quoteAuthor: "John Dryden" },
   {
     quoteText: "Keep true to the dreams of thy youth.",
     quoteAuthor: "Friedrich von Schiller",
@@ -1122,8 +1007,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Anais Nin",
   },
   {
-    quoteText:
-      "May our hearts garden of awakening bloom with hundreds of flowers.",
+    quoteText: "May our hearts garden of awakening bloom with hundreds of flowers.",
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
@@ -1138,10 +1022,7 @@ export const quotes: Quote[] = [
     quoteText: "There is no way to prosperity, prosperity is the way.",
     quoteAuthor: "Wayne Dyer",
   },
-  {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
   {
     quoteText: "Wherever you go, go with all your heart.",
     quoteAuthor: "Confucius",
@@ -1159,8 +1040,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Publilius Syrus",
   },
   {
-    quoteText:
-      "Follow your instincts. That is where true wisdom manifests itself.",
+    quoteText: "Follow your instincts. That is where true wisdom manifests itself.",
     quoteAuthor: "Oprah Winfrey",
   },
   {
@@ -1251,14 +1131,8 @@ export const quotes: Quote[] = [
     quoteText: "Once you choose hope, anythings possible.",
     quoteAuthor: "Christopher Reeve",
   },
-  {
-    quoteText: "Worry gives a small thing a big shadow.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "Do, or do not. There is no try.",
-    quoteAuthor: "Yoda",
-  },
+  { quoteText: "Worry gives a small thing a big shadow.", quoteAuthor: "" },
+  { quoteText: "Do, or do not. There is no try.", quoteAuthor: "Yoda" },
   {
     quoteText: "Fears are nothing more than a state of mind.",
     quoteAuthor: "Napoleon Hill",
@@ -1268,8 +1142,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "May our hearts garden of awakening bloom with hundreds of flowers.",
+    quoteText: "May our hearts garden of awakening bloom with hundreds of flowers.",
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
@@ -1289,10 +1162,7 @@ export const quotes: Quote[] = [
     quoteText: "The greatest remedy for anger is delay.",
     quoteAuthor: "Seneca",
   },
-  {
-    quoteText: "Worry gives a small thing a big shadow.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Worry gives a small thing a big shadow.", quoteAuthor: "" },
   {
     quoteText: "Blaze with the fire that is never extinguished.",
     quoteAuthor: "Luisa Sigea",
@@ -1377,10 +1247,7 @@ export const quotes: Quote[] = [
     quoteText: "Once we accept our limits, we go beyond them.",
     quoteAuthor: "Albert Einstein",
   },
-  {
-    quoteText: "The cautious seldom err.",
-    quoteAuthor: "Confucius",
-  },
+  { quoteText: "The cautious seldom err.", quoteAuthor: "Confucius" },
   {
     quoteText: "Ideas are the beginning points of all fortunes.",
     quoteAuthor: "Napoleon Hill",
@@ -1433,17 +1300,13 @@ export const quotes: Quote[] = [
     quoteText: "The only real valuable thing is intuition.",
     quoteAuthor: "Albert Einstein",
   },
-  {
-    quoteText: "Fortune befriends the bold.",
-    quoteAuthor: "John Dryden",
-  },
+  { quoteText: "Fortune befriends the bold.", quoteAuthor: "John Dryden" },
   {
     quoteText: "I have often regretted my speech, never my silence.",
     quoteAuthor: "Publilius Syrus",
   },
   {
-    quoteText:
-      "May our hearts garden of awakening bloom with hundreds of flowers.",
+    quoteText: "May our hearts garden of awakening bloom with hundreds of flowers.",
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
@@ -1474,17 +1337,13 @@ export const quotes: Quote[] = [
     quoteText: "Imagination rules the world.",
     quoteAuthor: "Napoleon Bonaparte",
   },
-  {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
   {
     quoteText: "The best way out is always through.",
     quoteAuthor: "Robert Frost",
   },
   {
-    quoteText:
-      "Without faith, nothing is possible. With it, nothing is impossible.",
+    quoteText: "Without faith, nothing is possible. With it, nothing is impossible.",
     quoteAuthor: "Mary Bethune",
   },
   {
@@ -1492,8 +1351,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "All seasons are beautiful for the person who carries happiness within.",
+    quoteText: "All seasons are beautiful for the person who carries happiness within.",
     quoteAuthor: "Horace Friess",
   },
   {
@@ -1558,18 +1416,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
-    quoteText:
-      "The future belongs to those who believe in the beauty of their dreams.",
+    quoteText: "The future belongs to those who believe in the beauty of their dreams.",
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
@@ -1588,13 +1443,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Og Mandino",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
-    quoteText:
-      "To forgive is to set a prisoner free and realize that prisoner was you.",
+    quoteText: "To forgive is to set a prisoner free and realize that prisoner was you.",
     quoteAuthor: "Lewis B. Smedes",
   },
   {
@@ -1609,11 +1462,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Letting go isn’t the end of the world; it’s the beginning of a new life.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
       "All the great performers I have worked with are fuelled by a personal dream.",
     quoteAuthor: "John Eliot",
   },
@@ -1623,13 +1471,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "A. A. Milne",
   },
   {
-    quoteText:
-      "I never see what has been done; I only see what remains to be done.",
+    quoteText: "I never see what has been done; I only see what remains to be done.",
     quoteAuthor: "Marie Curie",
   },
   {
-    quoteText:
-      "Begin at once to live and count each separate day as a separate life.",
+    quoteText: "Begin at once to live and count each separate day as a separate life.",
     quoteAuthor: "Seneca",
   },
   {
@@ -1648,13 +1494,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Hannah More",
   },
   {
-    quoteText:
-      "The bird of paradise alights only upon the hand that does not grasp.",
+    quoteText: "The bird of paradise alights only upon the hand that does not grasp.",
     quoteAuthor: "John Berry",
   },
   {
-    quoteText:
-      "Think as a wise man but communicate in the language of the people.",
+    quoteText: "Think as a wise man but communicate in the language of the people.",
     quoteAuthor: "William Yeats",
   },
   {
@@ -1663,13 +1507,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
-    quoteText:
-      "Our greatest glory is not in never failing but rising everytime we fall.",
+    quoteText: "Our greatest glory is not in never failing but rising everytime we fall.",
     quoteAuthor: "",
   },
   {
@@ -1678,13 +1520,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
-    quoteText:
-      "If we did the things we are capable of, we would astound ourselves.",
+    quoteText: "If we did the things we are capable of, we would astound ourselves.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -1702,8 +1542,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Life is a process. We are a process. The universe is a process.",
+    quoteText: "Life is a process. We are a process. The universe is a process.",
     quoteAuthor: "Anne Schaef",
   },
   {
@@ -1712,8 +1551,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
-    quoteText:
-      "We learn what we have said from those who listen to our speaking.",
+    quoteText: "We learn what we have said from those who listen to our speaking.",
     quoteAuthor: "Kenneth Patton",
   },
   {
@@ -1722,8 +1560,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Kahlil Gibran",
   },
   {
-    quoteText:
-      "If you get up one more time than you fall, you will make it through.",
+    quoteText: "If you get up one more time than you fall, you will make it through.",
     quoteAuthor: "",
   },
   {
@@ -1756,13 +1593,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Everything is perfect in the universe — even your desire to improve it.",
-    quoteAuthor: "Wayne Dyer",
-  },
-  {
-    quoteText:
-      "Begin at once to live and count each separate day as a separate life.",
+    quoteText: "Begin at once to live and count each separate day as a separate life.",
     quoteAuthor: "Seneca",
   },
   {
@@ -1781,8 +1612,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mark Twain",
   },
   {
-    quoteText:
-      "To forgive is to set a prisoner free and realize that prisoner was you.",
+    quoteText: "To forgive is to set a prisoner free and realize that prisoner was you.",
     quoteAuthor: "Lewis B. Smedes",
   },
   {
@@ -1800,13 +1630,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Short words are best and the old words when short are best of all.",
+    quoteText: "Short words are best and the old words when short are best of all.",
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "If you light a lamp for somebody, it will also brighten your path.",
+    quoteText: "If you light a lamp for somebody, it will also brighten your path.",
     quoteAuthor: "Buddha",
   },
   {
@@ -1820,23 +1648,19 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "Give thanks for the rain of life that propels us to reach new horizons.",
+    quoteText: "Give thanks for the rain of life that propels us to reach new horizons.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "Love is just a word until someone comes along and gives it meaning.",
+    quoteText: "Love is just a word until someone comes along and gives it meaning.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "We all have problems. The way we solve them is what makes us different.",
+    quoteText: "We all have problems. The way we solve them is what makes us different.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "The secret to a rich life is to have more beginnings than endings.",
+    quoteText: "The secret to a rich life is to have more beginnings than endings.",
     quoteAuthor: "Dave Weinbaum",
   },
   {
@@ -1859,8 +1683,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "The world is a book, and those who do not travel read only a page.",
+    quoteText: "The world is a book, and those who do not travel read only a page.",
     quoteAuthor: "Augustinus Sanctus",
   },
   {
@@ -1869,8 +1692,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "So long as a person is capable of self-renewal they are a living being.",
+    quoteText: "So long as a person is capable of self-renewal they are a living being.",
     quoteAuthor: "Henri-Frederic Amiel",
   },
   {
@@ -1878,8 +1700,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Louisa Alcott",
   },
   {
-    quoteText:
-      "Think for yourselves and let others enjoy the privilege to do so too.",
+    quoteText: "Think for yourselves and let others enjoy the privilege to do so too.",
     quoteAuthor: "Voltaire",
   },
   {
@@ -1887,8 +1708,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Annie Dillard",
   },
   {
-    quoteText:
-      "It has never been my object to record my dreams, just to realize them.",
+    quoteText: "It has never been my object to record my dreams, just to realize them.",
     quoteAuthor: "Man Ray",
   },
   {
@@ -1911,13 +1731,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Flora Whittemore",
   },
   {
-    quoteText:
-      "If you think you can, you can. And if you think you can't, you're right.",
+    quoteText: "If you think you can, you can. And if you think you can't, you're right.",
     quoteAuthor: "Henry Ford",
   },
   {
-    quoteText:
-      "Better to have loved and lost, than to have never loved at all.",
+    quoteText: "Better to have loved and lost, than to have never loved at all.",
     quoteAuthor: "St. Augustine",
   },
   {
@@ -1940,23 +1758,19 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "Slow down and everything you are chasing will come around and catch you.",
+    quoteText: "Slow down and everything you are chasing will come around and catch you.",
     quoteAuthor: "John De Paola",
   },
   {
-    quoteText:
-      "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
+    quoteText: "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "I always wanted to be somebody, but I should have been more specific.",
+    quoteText: "I always wanted to be somebody, but I should have been more specific.",
     quoteAuthor: "Lily Tomlin",
   },
   {
-    quoteText:
-      "Yeah we all shine on, like the moon, and the stars, and the sun.",
+    quoteText: "Yeah we all shine on, like the moon, and the stars, and the sun.",
     quoteAuthor: "John Lennon",
   },
   {
@@ -1985,8 +1799,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
@@ -2014,8 +1827,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
-    quoteText:
-      "If you correct your mind, the rest of your life will fall into place.",
+    quoteText: "If you correct your mind, the rest of your life will fall into place.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -2037,13 +1849,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry David Thoreau",
   },
   {
-    quoteText:
-      "Think for yourselves and let others enjoy the privilege to do so too.",
+    quoteText: "Think for yourselves and let others enjoy the privilege to do so too.",
     quoteAuthor: "Voltaire",
   },
   {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
@@ -2057,13 +1867,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Schweitzer",
   },
   {
-    quoteText:
-      "We cannot do everything at once, but we can do something at once.",
+    quoteText: "We cannot do everything at once, but we can do something at once.",
     quoteAuthor: "Calvin Coolidge",
   },
   {
-    quoteText:
-      "You have to do your own growing no matter how tall your grandfather was.",
+    quoteText: "You have to do your own growing no matter how tall your grandfather was.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
@@ -2120,13 +1928,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "Most people are about as happy as they make up their minds to be",
+    quoteText: "Most people are about as happy as they make up their minds to be",
     quoteAuthor: "Abraham Lincoln",
   },
   {
-    quoteText:
-      "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    quoteText: "Three things cannot be long hidden: the sun, the moon, and the truth.",
     quoteAuthor: "Buddha",
   },
   {
@@ -2140,8 +1946,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jim Beggs",
   },
   {
-    quoteText:
-      "A man of ability and the desire to accomplish something can do anything.",
+    quoteText: "A man of ability and the desire to accomplish something can do anything.",
     quoteAuthor: "Donald Kircher",
   },
   {
@@ -2155,8 +1960,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eckhart Tolle",
   },
   {
-    quoteText:
-      "We learn what we have said from those who listen to our speaking.",
+    quoteText: "We learn what we have said from those who listen to our speaking.",
     quoteAuthor: "Kenneth Patton",
   },
   {
@@ -2169,8 +1973,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Don't be afraid to go out on a limb. That's where the fruit is.",
+    quoteText: "Don't be afraid to go out on a limb. That's where the fruit is.",
     quoteAuthor: "H. Jackson Browne",
   },
   {
@@ -2189,18 +1992,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Walter Lippmann",
   },
   {
-    quoteText:
-      "If you change the way you look at things, the things you look at change.",
+    quoteText: "If you change the way you look at things, the things you look at change.",
     quoteAuthor: "Wayne Dyer",
   },
   {
-    quoteText:
-      "No man can succeed in a line of endeavor which he does not like.",
+    quoteText: "No man can succeed in a line of endeavor which he does not like.",
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "Think for yourselves and let others enjoy the privilege to do so too.",
+    quoteText: "Think for yourselves and let others enjoy the privilege to do so too.",
     quoteAuthor: "Voltaire",
   },
   {
@@ -2209,8 +2009,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "The future belongs to those who believe in the beauty of their dreams.",
+    quoteText: "The future belongs to those who believe in the beauty of their dreams.",
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
@@ -2224,8 +2023,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Og Mandino",
   },
   {
-    quoteText:
-      "Don't judge each day by the harvest you reap but by the seeds you plant.",
+    quoteText: "Don't judge each day by the harvest you reap but by the seeds you plant.",
     quoteAuthor: "Robert Stevenson",
   },
   {
@@ -2249,13 +2047,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Horace",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
-    quoteText:
-      "If you light a lamp for somebody, it will also brighten your path.",
+    quoteText: "If you light a lamp for somebody, it will also brighten your path.",
     quoteAuthor: "Buddha",
   },
   {
@@ -2274,13 +2070,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Edwin Chapin",
   },
   {
-    quoteText:
-      "Letting go isn’t the end of the world; it’s the beginning of a new life.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Shoot for the moon. Even if you miss, you'll land among the stars.",
+    quoteText: "Shoot for the moon. Even if you miss, you'll land among the stars.",
     quoteAuthor: "Les Brown",
   },
   {
@@ -2298,13 +2088,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Louisa Alcott",
   },
   {
-    quoteText:
-      "It does not matter how slowly you go as long as you do not stop.",
+    quoteText: "It does not matter how slowly you go as long as you do not stop.",
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Every day may not be good, but there's something good in every day.",
+    quoteText: "Every day may not be good, but there's something good in every day.",
     quoteAuthor: "",
   },
   {
@@ -2313,24 +2101,17 @@ export const quotes: Quote[] = [
     quoteAuthor: "Pema Chodron",
   },
   {
-    quoteText:
-      "To forgive is to set a prisoner free and realize that prisoner was you.",
+    quoteText: "To forgive is to set a prisoner free and realize that prisoner was you.",
     quoteAuthor: "Lewis B. Smedes",
   },
   {
-    quoteText:
-      "Most folks are about as happy as they make up their minds to be.",
+    quoteText: "Most folks are about as happy as they make up their minds to be.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
     quoteText:
       "If you would take, you must first give, this is the beginning of intelligence.",
     quoteAuthor: "Lao Tzu",
-  },
-  {
-    quoteText:
-      "Some people think it's holding that makes one strong — sometimes it's letting go.",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -2353,13 +2134,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Ruskin",
   },
   {
-    quoteText:
-      "To study and not think is a waste. To think and not study is dangerous.",
+    quoteText: "To study and not think is a waste. To think and not study is dangerous.",
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Life is a succession of lessons, which must be lived to be understood.",
+    quoteText: "Life is a succession of lessons, which must be lived to be understood.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -2368,8 +2147,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Love is just a word until someone comes along and gives it meaning.",
+    quoteText: "Love is just a word until someone comes along and gives it meaning.",
     quoteAuthor: "",
   },
   {
@@ -2388,8 +2166,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Wayne Dyer",
   },
   {
-    quoteText:
-      "Our greatest glory is not in never failing but rising everytime we fall.",
+    quoteText: "Our greatest glory is not in never failing but rising everytime we fall.",
     quoteAuthor: "",
   },
   {
@@ -2407,18 +2184,12 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
     quoteText: "If you cannot do great things, do small things in a great way.",
     quoteAuthor: "Napoleon Hill",
-  },
-  {
-    quoteText:
-      "Everything is perfect in the universe — even your desire to improve it.",
-    quoteAuthor: "Wayne Dyer",
   },
   {
     quoteText:
@@ -2436,8 +2207,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Leonardo Ruiz",
   },
   {
-    quoteText:
-      "The free man is he who does not fear to go to the end of his thought.",
+    quoteText: "The free man is he who does not fear to go to the end of his thought.",
     quoteAuthor: "Leon Blum",
   },
   {
@@ -2499,11 +2269,6 @@ export const quotes: Quote[] = [
     quoteText:
       "I will not be concerned at other men is not knowing me;I will be concerned at my own want of ability.",
     quoteAuthor: "Confucius",
-  },
-  {
-    quoteText:
-      "Why worry about things you can’t control when you can keep yourself busy controlling the things that depend on you?",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -2664,11 +2429,6 @@ export const quotes: Quote[] = [
     quoteText:
       "If we have a positive mental attitude, then even when surrounded by hostility, we shall not lack inner peace.",
     quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
-      "There is only one success — to be able to spend your life in your own way.",
-    quoteAuthor: "Christopher Morley",
   },
   {
     quoteText:
@@ -2857,18 +2617,8 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "One does not discover new lands without consenting to lose sight of the shore for a very long time.",
-    quoteAuthor: "André Gide",
-  },
-  {
-    quoteText:
       "What is new in the world? Nothing. What is old in the world? Nothing. Everything has always been and will always be.",
     quoteAuthor: "Sai Baba",
-  },
-  {
-    quoteText:
-      "Genuine love should first be directed at oneself – if we do not love ourselves, how can we love others?",
-    quoteAuthor: "Dalai Lama",
   },
   {
     quoteText:
@@ -2947,11 +2697,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
-  },
-  {
-    quoteText:
       "When you see a man of worth, think of how you may emulate him. When you see one who is unworthy, examine yourself.",
     quoteAuthor: "Confucius",
   },
@@ -2984,11 +2729,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Experience is not what happens to a man. It is what a man does with what happens to him.",
     quoteAuthor: "Aldous Huxley",
-  },
-  {
-    quoteText:
-      "A good teacher is like a candle — it consumes itself to light the way for others.",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -3064,11 +2804,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Many people think of prosperity that concerns money only to forget that true prosperity is of the mind.",
     quoteAuthor: "Byron Pulsifer",
-  },
-  {
-    quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText:
@@ -3482,11 +3217,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "There is only one success — to be able to spend your life in your own way.",
-    quoteAuthor: "Christopher Morley",
-  },
-  {
-    quoteText:
       "Patience is a virtue but you will never ever accomplish anything if you don't exercise action over patience.",
     quoteAuthor: "Byron Pulsifer",
   },
@@ -3872,11 +3602,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "To free us from the expectations of others, to give us back to ourselves — there lies the great, singular power of self-respect.",
-    quoteAuthor: "Joan Didion",
-  },
-  {
-    quoteText:
       "Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements.",
     quoteAuthor: "Napoleon Hill",
   },
@@ -3893,11 +3618,6 @@ export const quotes: Quote[] = [
   {
     quoteText:
       "When you don't know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Why worry about things you can’t control when you can keep yourself busy controlling the things that depend on you?",
     quoteAuthor: "",
   },
   {
@@ -3959,11 +3679,6 @@ export const quotes: Quote[] = [
     quoteText:
       "There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them.",
     quoteAuthor: "Denis Waitley",
-  },
-  {
-    quoteText:
-      "Every sixty seconds you spend angry, upset or mad, is a full minute of happiness you’ll never get back.",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -4032,11 +3747,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
-  },
-  {
-    quoteText:
       "When you are content to be simply yourself and don't compare or compete, everybody will respect you.",
     quoteAuthor: "Lao Tzu",
   },
@@ -4082,11 +3792,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Why worry about things you can’t control when you can keep yourself busy controlling the things that depend on you?",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
       "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
     quoteAuthor: "John Muir",
   },
@@ -4117,18 +3822,8 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The aim of life is self-development. To realize ones nature perfectly — that is what each of us is here for.",
-    quoteAuthor: "Oscar Wilde",
-  },
-  {
-    quoteText:
       "Great indeed is the sublimity of the Creative, to which all beings owe their beginning and which permeates all heaven.",
     quoteAuthor: "Lao Tzu",
-  },
-  {
-    quoteText:
-      "One does not discover new lands without consenting to lose sight of the shore for a very long time.",
-    quoteAuthor: "André Gide",
   },
   {
     quoteText:
@@ -4164,11 +3859,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Remember always that you not only have the right to be an individual, you have an obligation to be one.",
     quoteAuthor: "Eleanor Roosevelt",
-  },
-  {
-    quoteText:
-      "There is only one success — to be able to spend your life in your own way.",
-    quoteAuthor: "Christopher Morley",
   },
   {
     quoteText:
@@ -4216,8 +3906,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sai Baba",
   },
   {
-    quoteText:
-      "If it is not right do not do it; if it is not true do not say it.",
+    quoteText: "If it is not right do not do it; if it is not true do not say it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -4244,11 +3933,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Man is equally incapable of seeing the nothingness from which he emerges and the infinity in which he is engulfed.",
     quoteAuthor: "Blaise Pascal",
-  },
-  {
-    quoteText:
-      "Arrogance and rudeness are training wheels on the bicycle of life — for weak people who cannot keep their balance without them.",
-    quoteAuthor: "Laura Teresa Marquez",
   },
   {
     quoteText:
@@ -4284,11 +3968,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Can miles truly separate you from friends... If you want to be with someone you love, aren't you already there?",
     quoteAuthor: "Richard Bach",
-  },
-  {
-    quoteText:
-      "Arrogance and rudeness are training wheels on the bicycle of life — for weak people who cannot keep their balance without them.",
-    quoteAuthor: "Laura Teresa Marquez",
   },
   {
     quoteText:
@@ -4367,11 +4046,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "You have power over your mind — not outside events. Realize this, and you will find strength.",
-    quoteAuthor: "Marcus Aurelius",
-  },
-  {
-    quoteText:
       "Silences make the real conversations between friends. Not the saying but the never needing to say is what counts.",
     quoteAuthor: "Margaret Runbeck",
   },
@@ -4382,11 +4056,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "A good teacher is like a candle — it consumes itself to light the way for others.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
       "There are two primary choices in life: to accept conditions as they exist, or accept responsibility for changing them.",
     quoteAuthor: "Denis Waitley",
   },
@@ -4394,11 +4063,6 @@ export const quotes: Quote[] = [
     quoteText:
       "The greatest good you can do for another is not just to share your riches but to reveal to him his own.",
     quoteAuthor: "Benjamin Disraeli",
-  },
-  {
-    quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText:
@@ -4467,11 +4131,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "To free us from the expectations of others, to give us back to ourselves — there lies the great, singular power of self-respect.",
-    quoteAuthor: "Joan Didion",
-  },
-  {
-    quoteText:
       "At the center of your being you have the answer; you know who you are and you know what you want.",
     quoteAuthor: "Lao Tzu",
   },
@@ -4534,11 +4193,6 @@ export const quotes: Quote[] = [
     quoteText:
       "The only difference between your abilities and others is the ability to put yourself in their shoes and actually try.",
     quoteAuthor: "Leonardo Ruiz",
-  },
-  {
-    quoteText:
-      "To free us from the expectations of others, to give us back to ourselves — there lies the great, singular power of self-respect.",
-    quoteAuthor: "Joan Didion",
   },
   {
     quoteText:
@@ -4606,19 +4260,13 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "It is not enough to have a good mind; the main thing is to use it well.",
+    quoteText: "It is not enough to have a good mind; the main thing is to use it well.",
     quoteAuthor: "Rene Descartes",
   },
   {
     quoteText:
       "Aerodynamically the bumblebee shouldn't be able to fly, but the bumblebee doesn't know that so it goes on flying anyway.",
     quoteAuthor: "Mary Kay Ash",
-  },
-  {
-    quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText:
@@ -4792,11 +4440,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Arrogance and rudeness are training wheels on the bicycle of life — for weak people who cannot keep their balance without them.",
-    quoteAuthor: "Laura Teresa Marquez",
-  },
-  {
-    quoteText:
       "I find hope in the darkest of days, and focus in the brightest. I do not judge the universe.",
     quoteAuthor: "Dalai Lama",
   },
@@ -4809,11 +4452,6 @@ export const quotes: Quote[] = [
     quoteText:
       "The possession of knowledge does not kill the sense of wonder and mystery. There is always more mystery.",
     quoteAuthor: "Anais Nin",
-  },
-  {
-    quoteText:
-      "One does not discover new lands without consenting to lose sight of the shore for a very long time.",
-    quoteAuthor: "André Gide",
   },
   {
     quoteText:
@@ -4902,8 +4540,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Luisa Sigea",
   },
   {
-    quoteText:
-      "An obstacle may be either a stepping stone or a stumbling block.",
+    quoteText: "An obstacle may be either a stepping stone or a stumbling block.",
     quoteAuthor: "",
   },
   {
@@ -4948,8 +4585,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Aristotle",
   },
   {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
@@ -4966,8 +4602,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Never idealize others. They will never live up to your expectations.",
+    quoteText: "Never idealize others. They will never live up to your expectations.",
     quoteAuthor: "Leo Buscaglia",
   },
   {
@@ -4975,19 +4610,13 @@ export const quotes: Quote[] = [
       "The only limit to our realization of tomorrow will be our doubts of today.",
     quoteAuthor: "Franklin Roosevelt",
   },
-  {
-    quoteText: "He who is contented is rich.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "He who is contented is rich.", quoteAuthor: "Lao Tzu" },
   {
     quoteText:
       "When you realize there is nothing lacking, the whole world belongs to you.",
     quoteAuthor: "Lao Tzu",
   },
-  {
-    quoteText: "No man was ever wise by chance.",
-    quoteAuthor: "Seneca",
-  },
+  { quoteText: "No man was ever wise by chance.", quoteAuthor: "Seneca" },
   {
     quoteText: "The more you know yourself, the more you forgive yourself.",
     quoteAuthor: "Confucius",
@@ -5001,8 +4630,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Lennon",
   },
   {
-    quoteText:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quoteText: "Happiness is not something ready made. It comes from your own actions.",
     quoteAuthor: "Dalai Lama",
   },
   {
@@ -5036,8 +4664,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Leonardo da Vinci",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -5050,8 +4677,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "All achievements, all earned riches, have their beginning in an idea.",
+    quoteText: "All achievements, all earned riches, have their beginning in an idea.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -5059,8 +4685,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Publilius Syrus",
   },
   {
-    quoteText:
-      "You can't trust without risk but neither can you live in a cocoon.",
+    quoteText: "You can't trust without risk but neither can you live in a cocoon.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -5073,8 +4698,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Channing",
   },
   {
-    quoteText:
-      "The truth is always exciting. Speak it, then. Life is dull without it.",
+    quoteText: "The truth is always exciting. Speak it, then. Life is dull without it.",
     quoteAuthor: "Pearl Buck",
   },
   {
@@ -5087,8 +4711,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "H. W. Arnold",
   },
   {
-    quoteText:
-      "The superior man is modest in his speech, but exceeds in his actions.",
+    quoteText: "The superior man is modest in his speech, but exceeds in his actions.",
     quoteAuthor: "Confucius",
   },
   {
@@ -5109,13 +4732,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Aristotle",
   },
   {
-    quoteText:
-      "Life isn't about finding yourself. Life is about creating yourself.",
+    quoteText: "Life isn't about finding yourself. Life is about creating yourself.",
     quoteAuthor: "Bernard Shaw",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -5127,8 +4748,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "You might well remember that nothing can bring you success but yourself.",
+    quoteText: "You might well remember that nothing can bring you success but yourself.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -5157,10 +4777,7 @@ export const quotes: Quote[] = [
     quoteText: "To be wronged is nothing unless you continue to remember it.",
     quoteAuthor: "Confucius",
   },
-  {
-    quoteText: "Kindness is the greatest wisdom.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Kindness is the greatest wisdom.", quoteAuthor: "" },
   {
     quoteText: "Action will remove the doubts that theory cannot solve.",
     quoteAuthor: "Tehyi Hsieh",
@@ -5174,10 +4791,7 @@ export const quotes: Quote[] = [
     quoteText: "Your big opportunity may be right where you are now.",
     quoteAuthor: "Napoleon Hill",
   },
-  {
-    quoteText: "Kindness is the greatest wisdom.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Kindness is the greatest wisdom.", quoteAuthor: "" },
   {
     quoteText:
       "People who say it cannot be done should not interrupt those who are doing it.",
@@ -5201,18 +4815,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Edwin Chapin",
   },
   {
-    quoteText:
-      "Accept challenges, so that you may feel the exhilaration of victory.",
+    quoteText: "Accept challenges, so that you may feel the exhilaration of victory.",
     quoteAuthor: "George Patton",
   },
   {
-    quoteText:
-      "It is better to understand a little than to misunderstand a lot.",
+    quoteText: "It is better to understand a little than to misunderstand a lot.",
     quoteAuthor: "Anatole France",
   },
   {
-    quoteText:
-      "You don't drown by falling in water. You drown by staying there.",
+    quoteText: "You don't drown by falling in water. You drown by staying there.",
     quoteAuthor: "",
   },
   {
@@ -5251,8 +4862,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Lennon",
   },
   {
-    quoteText:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quoteText: "Happiness is not something ready made. It comes from your own actions.",
     quoteAuthor: "Dalai Lama",
   },
   {
@@ -5265,13 +4875,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Charles Swindoll",
   },
   {
-    quoteText:
-      "We all have problems. The way we solve them is what makes us different.",
+    quoteText: "We all have problems. The way we solve them is what makes us different.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "An obstacle may be either a stepping stone or a stumbling block.",
+    quoteText: "An obstacle may be either a stepping stone or a stumbling block.",
     quoteAuthor: "",
   },
   {
@@ -5279,8 +4887,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cynthia Ozick",
   },
   {
-    quoteText:
-      "The future belongs to those who believe in the beauty of their dreams.",
+    quoteText: "The future belongs to those who believe in the beauty of their dreams.",
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
@@ -5297,8 +4904,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "Short words are best and the old words when short are best of all.",
+    quoteText: "Short words are best and the old words when short are best of all.",
     quoteAuthor: "Winston Churchill",
   },
   {
@@ -5319,14 +4925,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "If you light a lamp for somebody, it will also brighten your path.",
+    quoteText: "If you light a lamp for somebody, it will also brighten your path.",
     quoteAuthor: "Buddha",
-  },
-  {
-    quoteText:
-      "Never tell me the sky’s the limit when there are footprints on the moon.",
-    quoteAuthor: "",
   },
   {
     quoteText: "You must welcome change as the rule but not as your ruler.",
@@ -5341,10 +4941,7 @@ export const quotes: Quote[] = [
     quoteText: "Always be smarter than the people who hire you.",
     quoteAuthor: "Lena Horne",
   },
-  {
-    quoteText: "We do what we do because we believe.",
-    quoteAuthor: "",
-  },
+  { quoteText: "We do what we do because we believe.", quoteAuthor: "" },
   {
     quoteText: "Formula for success: under promise and over deliver.",
     quoteAuthor: "Tom Peters",
@@ -5358,13 +4955,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jon Kabat-Zinn",
   },
   {
-    quoteText:
-      "Some people think it's holding that makes one strong — sometimes it's letting go.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    quoteText: "Genius is one percent inspiration and ninety-nine percent perspiration.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -5382,11 +4973,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
-    quoteAuthor: "André Gide",
-  },
-  {
-    quoteText:
       "Everything that irritates us about others can lead us to an understanding about ourselves.",
     quoteAuthor: "Carl Jung",
   },
@@ -5394,10 +4980,7 @@ export const quotes: Quote[] = [
     quoteText: "Never mistake activity for achievement.",
     quoteAuthor: "John Wooden",
   },
-  {
-    quoteText: "Fortune favours the brave.",
-    quoteAuthor: "Virgil",
-  },
+  { quoteText: "Fortune favours the brave.", quoteAuthor: "Virgil" },
   {
     quoteText: "Can you imagine what I would do if I could do all I can?",
     quoteAuthor: "Sun Tzu",
@@ -5425,13 +5008,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "They must often change, who would be constant in happiness or wisdom.",
+    quoteText: "They must often change, who would be constant in happiness or wisdom.",
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "There are no failures. Just experiences and your reactions to them.",
+    quoteText: "There are no failures. Just experiences and your reactions to them.",
     quoteAuthor: "Tom Krause",
   },
   {
@@ -5453,13 +5034,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Shunryu Suzuki",
   },
   {
-    quoteText:
-      "It is better to understand a little than to misunderstand a lot.",
+    quoteText: "It is better to understand a little than to misunderstand a lot.",
     quoteAuthor: "Anatole France",
   },
   {
-    quoteText:
-      "If we did the things we are capable of, we would astound ourselves.",
+    quoteText: "If we did the things we are capable of, we would astound ourselves.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -5477,8 +5056,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cicero",
   },
   {
-    quoteText:
-      "The superior man is modest in his speech, but exceeds in his actions.",
+    quoteText: "The superior man is modest in his speech, but exceeds in his actions.",
     quoteAuthor: "Confucius",
   },
   {
@@ -5486,8 +5064,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Donald Trump",
   },
   {
-    quoteText:
-      "Without some goals and some efforts to reach it, no man can live.",
+    quoteText: "Without some goals and some efforts to reach it, no man can live.",
     quoteAuthor: "John Dewey",
   },
   {
@@ -5515,13 +5092,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cervantes",
   },
   {
-    quoteText:
-      "You have to do your own growing no matter how tall your grandfather was.",
+    quoteText: "You have to do your own growing no matter how tall your grandfather was.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -5560,8 +5135,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jean de la Fontaine",
   },
   {
-    quoteText:
-      "In the long run we get no more than we have been willing to risk giving.",
+    quoteText: "In the long run we get no more than we have been willing to risk giving.",
     quoteAuthor: "Sheldon Kopp",
   },
   {
@@ -5569,13 +5143,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Without some goals and some efforts to reach it, no man can live.",
+    quoteText: "Without some goals and some efforts to reach it, no man can live.",
     quoteAuthor: "John Dewey",
   },
   {
-    quoteText:
-      "So long as a person is capable of self-renewal they are a living being.",
+    quoteText: "So long as a person is capable of self-renewal they are a living being.",
     quoteAuthor: "Henri-Frederic Amiel",
   },
   {
@@ -5587,8 +5159,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sigmund Freud",
   },
   {
-    quoteText:
-      "They must often change, who would be constant in happiness or wisdom.",
+    quoteText: "They must often change, who would be constant in happiness or wisdom.",
     quoteAuthor: "Confucius",
   },
   {
@@ -5632,8 +5203,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "If it is not right do not do it; if it is not true do not say it.",
+    quoteText: "If it is not right do not do it; if it is not true do not say it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -5675,11 +5245,6 @@ export const quotes: Quote[] = [
     quoteText:
       "People of mediocre ability sometimes achieve outstanding success because they don't know when to quit. Most men succeed because they are determined to.",
     quoteAuthor: "George Allen",
-  },
-  {
-    quoteText:
-      "Happiness is a Swedish sunset — it is there for all, but most of us look the other way and lose it.",
-    quoteAuthor: "Mark Twain",
   },
   {
     quoteText:
@@ -5800,11 +5365,6 @@ export const quotes: Quote[] = [
     quoteText:
       "A fine quotation is a diamond on the finger of a man of wit, and a pebble in the hand of a fool.",
     quoteAuthor: "Joseph Roux",
-  },
-  {
-    quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
   },
   {
     quoteText:
@@ -6127,8 +5687,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Laozi",
   },
   {
-    quoteText:
-      "The best thing about the future is that it only comes one day at a time.",
+    quoteText: "The best thing about the future is that it only comes one day at a time.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
@@ -6273,11 +5832,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Genuine love should first be directed at oneself – if we do not love ourselves, how can we love others?",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
       "Courage is not about taking risks unknowingly but putting your own being in front of challenges that others may not be able to.",
     quoteAuthor: "Byron Pulsifer",
   },
@@ -6333,11 +5887,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
-  },
-  {
-    quoteText:
       "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.",
     quoteAuthor: "Buddha",
   },
@@ -6380,11 +5929,6 @@ export const quotes: Quote[] = [
     quoteText:
       "The smallest flower is a thought, a life answering to some feature of the Great Whole, of whom they have a persistent intuition.",
     quoteAuthor: "Honore de Balzac",
-  },
-  {
-    quoteText:
-      "The greatest antidote to insecurity and the sense of fear is compassion — it brings one back to the basis of one's inner strength",
-    quoteAuthor: "Dalai Lama",
   },
   {
     quoteText:
@@ -6507,8 +6051,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Rene Descartes",
   },
   {
-    quoteText:
-      "A man should look for what is, and not for what he thinks should be.",
+    quoteText: "A man should look for what is, and not for what he thinks should be.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -6578,11 +6121,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Genuine love should first be directed at oneself – if we do not love ourselves, how can we love others?",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
       "To choose what is difficult all ones days, as if it were easy, that is faith.",
     quoteAuthor: "W. H. Auden",
   },
@@ -6610,11 +6148,6 @@ export const quotes: Quote[] = [
     quoteText:
       "There are things so deep and complex that only intuition can reach it in our stage of development as human beings.",
     quoteAuthor: "John Astin",
-  },
-  {
-    quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText:
@@ -6793,11 +6326,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The secret of joy in work is contained in one word — excellence. To know how to do something well is to enjoy it.",
-    quoteAuthor: "Pearl Buck",
-  },
-  {
-    quoteText:
       "When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self.",
     quoteAuthor: "Confucius",
   },
@@ -6815,11 +6343,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Most of our obstacles would melt away if, instead of cowering before them, we should make up our minds to walk boldly through them.",
     quoteAuthor: "Orison Marden",
-  },
-  {
-    quoteText:
-      "Everything can be taken from a man but ... the last of the human freedoms — to choose ones attitude in any given set of circumstances, to choose ones own way.",
-    quoteAuthor: "Victor Frankl",
   },
   {
     quoteText:
@@ -6903,11 +6426,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love.",
-    quoteAuthor: "Marcus Aurelius",
-  },
-  {
-    quoteText:
       "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, vision cleared, ambition inspired, and success achieved.",
     quoteAuthor: "Helen Keller",
   },
@@ -6915,11 +6433,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.",
     quoteAuthor: "Oprah Winfrey",
-  },
-  {
-    quoteText:
-      "You must train your intuition — you must trust the small voice inside you which tells you exactly what to say, what to decide.",
-    quoteAuthor: "Ingrid Bergman",
   },
   {
     quoteText:
@@ -6993,17 +6506,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate — that's my philosophy.",
-    quoteAuthor: "Thornton Wilder",
-  },
-  {
-    quoteText:
       "Conflict is the gadfly of thought. It stirs us to observation and memory. It instigates to invention. It shocks us out of sheeplike passivity, and sets us at noting and contriving.",
     quoteAuthor: "John Dewey",
   },
   {
-    quoteText:
-      "He who conquers others is strong; He who conquers himself is mighty.",
+    quoteText: "He who conquers others is strong; He who conquers himself is mighty.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -7019,8 +6526,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "Anything you really want, you can attain, if you really go after it.",
+    quoteText: "Anything you really want, you can attain, if you really go after it.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -7033,8 +6539,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "James Oppenheim",
   },
   {
-    quoteText:
-      "Don't be afraid to go out on a limb. That's where the fruit is.",
+    quoteText: "Don't be afraid to go out on a limb. That's where the fruit is.",
     quoteAuthor: "H. Jackson Browne",
   },
   {
@@ -7060,8 +6565,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Tony Robbins",
   },
   {
-    quoteText:
-      "It is only possible to live happily ever after on a day to day basis.",
+    quoteText: "It is only possible to live happily ever after on a day to day basis.",
     quoteAuthor: "Margaret Bonnano",
   },
   {
@@ -7075,8 +6579,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Elizabeth Browning",
   },
   {
-    quoteText:
-      "Don't judge each day by the harvest you reap but by the seeds you plant.",
+    quoteText: "Don't judge each day by the harvest you reap but by the seeds you plant.",
     quoteAuthor: "Robert Stevenson",
   },
   {
@@ -7101,8 +6604,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Lennon",
   },
   {
-    quoteText:
-      "Believe deep down in your heart that you're destined to do great things.",
+    quoteText: "Believe deep down in your heart that you're destined to do great things.",
     quoteAuthor: "Joe Paterno",
   },
   {
@@ -7110,8 +6612,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "The only limit to your impact is your imagination and commitment.",
+    quoteText: "The only limit to your impact is your imagination and commitment.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -7144,8 +6645,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Louisa Alcott",
   },
   {
-    quoteText:
-      "To know oneself is to study oneself in action with another person.",
+    quoteText: "To know oneself is to study oneself in action with another person.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -7154,8 +6654,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Arthur Conan Doyle",
   },
   {
-    quoteText:
-      "We must not allow ourselves to become like the system we oppose.",
+    quoteText: "We must not allow ourselves to become like the system we oppose.",
     quoteAuthor: "Bishop Desmond Tutu",
   },
   {
@@ -7179,8 +6678,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Franklin Roosevelt",
   },
   {
-    quoteText:
-      "Always be mindful of the kindness and not the faults of others.",
+    quoteText: "Always be mindful of the kindness and not the faults of others.",
     quoteAuthor: "Buddha",
   },
   {
@@ -7193,8 +6691,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dale Carnegie",
   },
   {
-    quoteText:
-      "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    quoteText: "The weak can never forgive. Forgiveness is the attribute of the strong.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -7202,17 +6699,12 @@ export const quotes: Quote[] = [
     quoteAuthor: "Chanakya",
   },
   {
-    quoteText:
-      "Success is getting what you want. Happiness is wanting what you get.",
+    quoteText: "Success is getting what you want. Happiness is wanting what you get.",
     quoteAuthor: "Dale Carnegie",
   },
   {
     quoteText: "I believe that every person is born with talent.",
     quoteAuthor: "Maya Angelou",
-  },
-  {
-    quoteText: "Put your future in good hands — your own.",
-    quoteAuthor: "",
   },
   {
     quoteText: "Don't be pushed by your problems; be led by your dreams.",
@@ -7228,10 +6720,7 @@ export const quotes: Quote[] = [
       "Truth isn't all about what actually happens but more about how what has happened is interpreted.",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "The cautious seldom err.",
-    quoteAuthor: "Confucius",
-  },
+  { quoteText: "The cautious seldom err.", quoteAuthor: "Confucius" },
   {
     quoteText: "No garden is without its weeds.",
     quoteAuthor: "Thomas Fuller",
@@ -7240,38 +6729,30 @@ export const quotes: Quote[] = [
     quoteText: "Who looks outside, dreams; who looks inside, awakes.",
     quoteAuthor: "Carl Jung",
   },
-  {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
     quoteText:
       "Don't judge each day by the harvest you reap but by the seeds that you plant.",
     quoteAuthor: "Robert Stevenson",
   },
   {
-    quoteText:
-      "Small opportunities are often the beginning of great enterprises.",
+    quoteText: "Small opportunities are often the beginning of great enterprises.",
     quoteAuthor: "Demosthenes",
   },
   {
-    quoteText:
-      "You can do what's reasonable or you can decide what's possible.",
+    quoteText: "You can do what's reasonable or you can decide what's possible.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "To be tested is good. The challenged life may be the best therapist.",
+    quoteText: "To be tested is good. The challenged life may be the best therapist.",
     quoteAuthor: "Gail Sheehy",
   },
   {
-    quoteText:
-      "If you think you can, you can. And if you think you can't, you're right.",
+    quoteText: "If you think you can, you can. And if you think you can't, you're right.",
     quoteAuthor: "Henry Ford",
   },
   {
-    quoteText:
-      "There are no failures. Just experiences and your reactions to them.",
+    quoteText: "There are no failures. Just experiences and your reactions to them.",
     quoteAuthor: "Tom Krause",
   },
   {
@@ -7291,8 +6772,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "English proverb",
   },
   {
-    quoteText:
-      "Happiness is the reward we get for living to the highest right we know.",
+    quoteText: "Happiness is the reward we get for living to the highest right we know.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -7300,8 +6780,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cervantes",
   },
   {
-    quoteText:
-      "Freedom is not worth having if it does not connote freedom to err.",
+    quoteText: "Freedom is not worth having if it does not connote freedom to err.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -7352,23 +6831,19 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Peace cannot be kept by force. It can only be achieved by understanding.",
+    quoteText: "Peace cannot be kept by force. It can only be achieved by understanding.",
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Real success is finding your lifework in the work that you love.",
+    quoteText: "Real success is finding your lifework in the work that you love.",
     quoteAuthor: "David McCullough",
   },
   {
-    quoteText:
-      "Better than a thousand hollow words, is one word that brings peace.",
+    quoteText: "Better than a thousand hollow words, is one word that brings peace.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "All the flowers of all the tomorrows are in the seeds of today.",
+    quoteText: "All the flowers of all the tomorrows are in the seeds of today.",
     quoteAuthor: "",
   },
   {
@@ -7376,8 +6851,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Your sacred space is where you can find yourself again and again.",
+    quoteText: "Your sacred space is where you can find yourself again and again.",
     quoteAuthor: "Joseph Campbell",
   },
   {
@@ -7431,8 +6905,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Euripides",
   },
   {
-    quoteText:
-      "Hope arouses, as nothing else can arouse, a passion for the possible.",
+    quoteText: "Hope arouses, as nothing else can arouse, a passion for the possible.",
     quoteAuthor: "William Sloane Coffin",
   },
   {
@@ -7444,8 +6917,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Leonardo da Vinci",
   },
   {
-    quoteText:
-      "The future belongs to those who believe in the beauty of their dreams.",
+    quoteText: "The future belongs to those who believe in the beauty of their dreams.",
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
@@ -7453,8 +6925,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Courage is going from failure to failure without losing enthusiasm.",
+    quoteText: "Courage is going from failure to failure without losing enthusiasm.",
     quoteAuthor: "Winston Churchill",
   },
   {
@@ -7462,8 +6933,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "Nothing ever goes away until it has taught us what we need to know.",
+    quoteText: "Nothing ever goes away until it has taught us what we need to know.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -7476,8 +6946,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Small opportunities are often the beginning of great enterprises.",
+    quoteText: "Small opportunities are often the beginning of great enterprises.",
     quoteAuthor: "Demosthenes",
   },
   {
@@ -7494,8 +6963,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Wit",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -7519,13 +6987,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Andy Rooney",
   },
   {
-    quoteText:
-      "Life is a process. We are a process. The universe is a process.",
+    quoteText: "Life is a process. We are a process. The universe is a process.",
     quoteAuthor: "Anne Schaef",
   },
   {
-    quoteText:
-      "Love is the only force capable of transforming an enemy into friend.",
+    quoteText: "Love is the only force capable of transforming an enemy into friend.",
     quoteAuthor: "Martin Luther King, Jr.",
   },
   {
@@ -7541,8 +7007,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Wayne Dyer",
   },
   {
-    quoteText:
-      "In all chaos there is a cosmos, in all disorder a secret order.",
+    quoteText: "In all chaos there is a cosmos, in all disorder a secret order.",
     quoteAuthor: "Carl Jung",
   },
   {
@@ -7550,8 +7015,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "You can do what's reasonable or you can decide what's possible.",
+    quoteText: "You can do what's reasonable or you can decide what's possible.",
     quoteAuthor: "",
   },
   {
@@ -7571,8 +7035,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "You might well remember that nothing can bring you success but yourself.",
+    quoteText: "You might well remember that nothing can bring you success but yourself.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -7598,12 +7061,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText: "The world doesn’t happen to you it happens from you.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "It is only possible to live happily ever after on a day to day basis.",
+    quoteText: "It is only possible to live happily ever after on a day to day basis.",
     quoteAuthor: "Margaret Bonnano",
   },
   {
@@ -7628,13 +7086,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "Don't judge each day by the harvest you reap but by the seeds you plant.",
+    quoteText: "Don't judge each day by the harvest you reap but by the seeds you plant.",
     quoteAuthor: "Robert Stevenson",
   },
   {
-    quoteText:
-      "We learn what we have said from those who listen to our speaking.",
+    quoteText: "We learn what we have said from those who listen to our speaking.",
     quoteAuthor: "Kenneth Patton",
   },
   {
@@ -7643,18 +7099,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "Peter Drucker",
   },
   {
-    quoteText:
-      "Saying thank you is more than good manners. It is good spirituality.",
+    quoteText: "Saying thank you is more than good manners. It is good spirituality.",
     quoteAuthor: "Alfred Painter",
   },
   {
     quoteText: "Silence is a source of great strength.",
     quoteAuthor: "Lao Tzu",
   },
-  {
-    quoteText: "Joy is the best makeup.",
-    quoteAuthor: "Anne Lamott",
-  },
+  { quoteText: "Joy is the best makeup.", quoteAuthor: "Anne Lamott" },
   {
     quoteText: "If you cannot be silent be brilliant and thoughtful.",
     quoteAuthor: "Byron Pulsifer",
@@ -7668,10 +7120,7 @@ export const quotes: Quote[] = [
       "The biggest adventure you can ever take is to live the life of your dreams.",
     quoteAuthor: "Oprah Winfrey",
   },
-  {
-    quoteText: "A jug fills drop by drop.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "A jug fills drop by drop.", quoteAuthor: "Buddha" },
   {
     quoteText: "You must welcome change as the rule but not as your ruler.",
     quoteAuthor: "Denis Waitley",
@@ -7685,10 +7134,7 @@ export const quotes: Quote[] = [
     quoteText: "Once you choose hope, anythings possible.",
     quoteAuthor: "Christopher Reeve",
   },
-  {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
   {
     quoteText:
       "In separateness lies the world's great misery, in compassion lies the world's true strength.",
@@ -7699,8 +7145,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Accept challenges, so that you may feel the exhilaration of victory.",
+    quoteText: "Accept challenges, so that you may feel the exhilaration of victory.",
     quoteAuthor: "George Patton",
   },
   {
@@ -7726,8 +7171,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "All men who have achieved great things have been great dreamers.",
+    quoteText: "All men who have achieved great things have been great dreamers.",
     quoteAuthor: "Orison Marden",
   },
   {
@@ -7740,8 +7184,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Walter Lippmann",
   },
   {
-    quoteText:
-      "Everything that exists is in a manner the seed of that which will be.",
+    quoteText: "Everything that exists is in a manner the seed of that which will be.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -7766,11 +7209,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Everything is perfect in the universe — even your desire to improve it.",
-    quoteAuthor: "Wayne Dyer",
-  },
-  {
-    quoteText:
       "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice.",
     quoteAuthor: "Wayne Dyer",
   },
@@ -7783,23 +7221,19 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Kennedy",
   },
   {
-    quoteText:
-      "Lose an hour in the morning, and you will spend all day looking for it.",
+    quoteText: "Lose an hour in the morning, and you will spend all day looking for it.",
     quoteAuthor: "Richard Whately",
   },
   {
-    quoteText:
-      "Mistakes are always forgivable, if one has the courage to admit them.",
+    quoteText: "Mistakes are always forgivable, if one has the courage to admit them.",
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "Go to your bosom: Knock there, and ask your heart what it doth know.",
+    quoteText: "Go to your bosom: Knock there, and ask your heart what it doth know.",
     quoteAuthor: "William Shakespeare",
   },
   {
-    quoteText:
-      "If you think you can, you can. And if you think you can't, you're right.",
+    quoteText: "If you think you can, you can. And if you think you can't, you're right.",
     quoteAuthor: "Henry Ford",
   },
   {
@@ -7813,17 +7247,12 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "If you do not change direction, you may end up where you are heading.",
+    quoteText: "If you do not change direction, you may end up where you are heading.",
     quoteAuthor: "Lao Tzu",
   },
+  { quoteText: "What we see is mainly what we look for.", quoteAuthor: "" },
   {
-    quoteText: "What we see is mainly what we look for.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "If you correct your mind, the rest of your life will fall into place.",
+    quoteText: "If you correct your mind, the rest of your life will fall into place.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -7857,8 +7286,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "Most people are about as happy as they make up their minds to be",
+    quoteText: "Most people are about as happy as they make up their minds to be",
     quoteAuthor: "Abraham Lincoln",
   },
   {
@@ -7874,8 +7302,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Honore de Balzac",
   },
   {
-    quoteText:
-      "I always wanted to be somebody, but I should have been more specific.",
+    quoteText: "I always wanted to be somebody, but I should have been more specific.",
     quoteAuthor: "Lily Tomlin",
   },
   {
@@ -7888,13 +7315,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jonathan Kozol",
   },
   {
-    quoteText:
-      "If we did the things we are capable of, we would astound ourselves.",
+    quoteText: "If we did the things we are capable of, we would astound ourselves.",
     quoteAuthor: "Thomas Edison",
   },
   {
-    quoteText:
-      "Don't talk about what you have done or what you are going to do.",
+    quoteText: "Don't talk about what you have done or what you are going to do.",
     quoteAuthor: "Thomas Jefferson",
   },
   {
@@ -7920,8 +7345,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Hannah More",
   },
   {
-    quoteText:
-      "Experience can only be gained by doing not by thinking or dreaming.",
+    quoteText: "Experience can only be gained by doing not by thinking or dreaming.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -7963,8 +7387,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Doing what you love is the cornerstone of having abundance in your life.",
+    quoteText: "Doing what you love is the cornerstone of having abundance in your life.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -7977,8 +7400,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mother Teresa",
   },
   {
-    quoteText:
-      "Kindness is the golden chain by which society is bound together.",
+    quoteText: "Kindness is the golden chain by which society is bound together.",
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
@@ -8002,19 +7424,12 @@ export const quotes: Quote[] = [
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "No yesterdays are ever wasted for those who give themselves to today.",
+    quoteText: "No yesterdays are ever wasted for those who give themselves to today.",
     quoteAuthor: "Brendan Francis",
   },
   {
-    quoteText:
-      "The truth is always exciting. Speak it, then. Life is dull without it.",
+    quoteText: "The truth is always exciting. Speak it, then. Life is dull without it.",
     quoteAuthor: "Pearl Buck",
-  },
-  {
-    quoteText:
-      "There are no failures — just experiences and your reactions to them.",
-    quoteAuthor: "Tom Krause",
   },
   {
     quoteText: "Action is the foundational key to all success.",
@@ -8061,8 +7476,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "Imagination is not a talent of some men but is the health of every man.",
+    quoteText: "Imagination is not a talent of some men but is the health of every man.",
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
@@ -8070,8 +7484,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Kenji Miyazawa",
   },
   {
-    quoteText:
-      "It has never been my object to record my dreams, just to realize them.",
+    quoteText: "It has never been my object to record my dreams, just to realize them.",
     quoteAuthor: "Man Ray",
   },
   {
@@ -8089,8 +7502,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lululemon",
   },
   {
-    quoteText:
-      "Better to have loved and lost, than to have never loved at all.",
+    quoteText: "Better to have loved and lost, than to have never loved at all.",
     quoteAuthor: "St. Augustine",
   },
   {
@@ -8106,19 +7518,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "Maya Angelou",
   },
   {
-    quoteText:
-      "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    quoteText: "Three things cannot be long hidden: the sun, the moon, and the truth.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Every day may not be good, but there's something good in every day.",
+    quoteText: "Every day may not be good, but there's something good in every day.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
   {
     quoteText:
       "In separateness lies the world's great misery, in compassion lies the world's true strength.",
@@ -8147,18 +7554,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "Frances de Sales",
   },
   {
-    quoteText:
-      "Life is a process. We are a process. The universe is a process.",
+    quoteText: "Life is a process. We are a process. The universe is a process.",
     quoteAuthor: "Anne Schaef",
   },
   {
     quoteText: "Don't wait. The time will never be just right.",
     quoteAuthor: "Napoleon Hill",
   },
-  {
-    quoteText: "Be as you wish to seem.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Be as you wish to seem.", quoteAuthor: "Socrates" },
   {
     quoteText: "Knowing is not enough; we must apply!",
     quoteAuthor: "Johann Wolfgang von Goethe",
@@ -8172,8 +7575,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Tony Robbins",
   },
   {
-    quoteText:
-      "Freedom is not worth having if it does not connote freedom to err.",
+    quoteText: "Freedom is not worth having if it does not connote freedom to err.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -8204,8 +7606,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Grandma Moses",
   },
   {
-    quoteText:
-      "If you do not change direction, you may end up where you are heading.",
+    quoteText: "If you do not change direction, you may end up where you are heading.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -8243,8 +7644,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "George Eliot",
   },
   {
-    quoteText:
-      "The truth which has made us free will in the end make us glad also.",
+    quoteText: "The truth which has made us free will in the end make us glad also.",
     quoteAuthor: "Felix Adler",
   },
   {
@@ -8260,14 +7660,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Joseph Joubert",
   },
   {
-    quoteText:
-      "Never ignore a gut feeling, but never believe that it's enough.",
+    quoteText: "Never ignore a gut feeling, but never believe that it's enough.",
     quoteAuthor: "Robert Heller",
   },
-  {
-    quoteText: "Everything in life is luck.",
-    quoteAuthor: "Donald Trump",
-  },
+  { quoteText: "Everything in life is luck.", quoteAuthor: "Donald Trump" },
   {
     quoteText: "A goal without a plan is just a wish.",
     quoteAuthor: "Larry Elder",
@@ -8281,22 +7677,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Franklin",
   },
   {
-    quoteText:
-      "When performance exceeds ambition, the overlap is called success.",
+    quoteText: "When performance exceeds ambition, the overlap is called success.",
     quoteAuthor: "Cullen Hightower",
   },
   {
     quoteText: "Work out your own salvation. Do not depend on others.",
     quoteAuthor: "Buddha",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "We do what we do because we believe.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
+  { quoteText: "We do what we do because we believe.", quoteAuthor: "" },
   {
     quoteText: "Whoso loves, believes the impossible.",
     quoteAuthor: "Elizabeth Browning",
@@ -8306,8 +7695,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -8315,13 +7703,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
+    quoteText: "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "The greatest obstacle to connecting with our joy is resentment.",
+    quoteText: "The greatest obstacle to connecting with our joy is resentment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -8361,13 +7747,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jonas Salk",
   },
   {
-    quoteText:
-      "Always be mindful of the kindness and not the faults of others.",
+    quoteText: "Always be mindful of the kindness and not the faults of others.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "No yesterdays are ever wasted for those who give themselves to today.",
+    quoteText: "No yesterdays are ever wasted for those who give themselves to today.",
     quoteAuthor: "Brendan Francis",
   },
   {
@@ -8388,13 +7772,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Pablo Picasso",
   },
   {
-    quoteText:
-      "If you can't explain it simply, you don't understand it well enough.",
+    quoteText: "If you can't explain it simply, you don't understand it well enough.",
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "The truth which has made us free will in the end make us glad also.",
+    quoteText: "The truth which has made us free will in the end make us glad also.",
     quoteAuthor: "Felix Adler",
   },
   {
@@ -8402,13 +7784,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the world.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the world.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
-    quoteText:
-      "Begin at once to live and count each separate day as a separate life.",
+    quoteText: "Begin at once to live and count each separate day as a separate life.",
     quoteAuthor: "Seneca",
   },
   {
@@ -8424,13 +7804,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Blaise Pascal",
   },
   {
-    quoteText:
-      "Think as a wise man but communicate in the language of the people.",
+    quoteText: "Think as a wise man but communicate in the language of the people.",
     quoteAuthor: "William Yeats",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -8438,8 +7816,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Turkish proverb",
   },
   {
-    quoteText:
-      "Build a better mousetrap and the world will beat a path to your door.",
+    quoteText: "Build a better mousetrap and the world will beat a path to your door.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -8477,13 +7854,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Japanese proverb",
   },
   {
-    quoteText:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quoteText: "Happiness is not something ready made. It comes from your own actions.",
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
+    quoteText: "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
     quoteAuthor: "",
   },
   {
@@ -8541,8 +7916,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mary Almanac",
   },
   {
-    quoteText:
-      "If you correct your mind, the rest of your life will fall into place.",
+    quoteText: "If you correct your mind, the rest of your life will fall into place.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -8556,19 +7930,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "Elbert Hubbard",
   },
   {
-    quoteText:
-      "If you do not change direction, you may end up where you are heading.",
+    quoteText: "If you do not change direction, you may end up where you are heading.",
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "An obstacle may be either a stepping stone or a stumbling block.",
+    quoteText: "An obstacle may be either a stepping stone or a stumbling block.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "A beautiful thing is never perfect.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A beautiful thing is never perfect.", quoteAuthor: "" },
   {
     quoteText: "A man sees in the world what he carries in his heart.",
     quoteAuthor: "Goethe",
@@ -8587,13 +7956,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Marston",
   },
   {
-    quoteText:
-      "People may doubt what you say, but they will believe what you do.",
+    quoteText: "People may doubt what you say, but they will believe what you do.",
     quoteAuthor: "Lewis Cass",
   },
   {
-    quoteText:
-      "The most formidable weapon against errors of every kind is reason.",
+    quoteText: "The most formidable weapon against errors of every kind is reason.",
     quoteAuthor: "Thomas Paine",
   },
   {
@@ -8622,18 +7989,13 @@ export const quotes: Quote[] = [
       "Beware of missing chances; otherwise it may be altogether too late some day.",
     quoteAuthor: "Franz Liszt",
   },
+  { quoteText: "You only lose what you cling to.", quoteAuthor: "Buddha" },
   {
-    quoteText: "You only lose what you cling to.",
-    quoteAuthor: "Buddha",
-  },
-  {
-    quoteText:
-      "Life is a succession of moments. To live each one is to succeed.",
+    quoteText: "Life is a succession of moments. To live each one is to succeed.",
     quoteAuthor: "Corita Kent",
   },
   {
-    quoteText:
-      "Most of the shadows of life are caused by standing in our own sunshine.",
+    quoteText: "Most of the shadows of life are caused by standing in our own sunshine.",
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
@@ -8646,8 +8008,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Antoine de Saint-Exupery",
   },
   {
-    quoteText:
-      "Freedom is not worth having if it does not connote freedom to err.",
+    quoteText: "Freedom is not worth having if it does not connote freedom to err.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -8659,8 +8020,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Spock",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
@@ -8715,8 +8075,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Swedish proverb",
   },
   {
-    quoteText:
-      "He who has health has hope, and he who has hope has everything.",
+    quoteText: "He who has health has hope, and he who has hope has everything.",
     quoteAuthor: "",
   },
   {
@@ -8737,8 +8096,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "Impossibilities are merely things which we have not yet learned.",
+    quoteText: "Impossibilities are merely things which we have not yet learned.",
     quoteAuthor: "Charles Chesnutt",
   },
   {
@@ -8760,8 +8118,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Without faith, nothing is possible. With it, nothing is impossible.",
+    quoteText: "Without faith, nothing is possible. With it, nothing is impossible.",
     quoteAuthor: "Mary Bethune",
   },
   {
@@ -8774,8 +8131,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quoteText: "Happiness is not something ready made. It comes from your own actions.",
     quoteAuthor: "Dalai Lama",
   },
   {
@@ -8818,8 +8174,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "He who conquers others is strong; He who conquers himself is mighty.",
+    quoteText: "He who conquers others is strong; He who conquers himself is mighty.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -8862,14 +8217,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Channing",
   },
   {
-    quoteText:
-      "The difficulties of life are intended to make us better, not bitter.",
+    quoteText: "The difficulties of life are intended to make us better, not bitter.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
     quoteText: "We choose our destiny in the way we treat others.",
     quoteAuthor: "Wit",
@@ -8896,14 +8247,8 @@ export const quotes: Quote[] = [
     quoteText: "Quality means doing it right when no one is looking.",
     quoteAuthor: "Henry Ford",
   },
-  {
-    quoteText: "The cautious seldom err.",
-    quoteAuthor: "Confucius",
-  },
-  {
-    quoteText: "Change your words. Change your world.",
-    quoteAuthor: "",
-  },
+  { quoteText: "The cautious seldom err.", quoteAuthor: "Confucius" },
+  { quoteText: "Change your words. Change your world.", quoteAuthor: "" },
   {
     quoteText: "Worry often gives a small thing a big shadow.",
     quoteAuthor: "Swedish proverb",
@@ -8914,8 +8259,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "The superior man is modest in his speech, but exceeds in his actions.",
+    quoteText: "The superior man is modest in his speech, but exceeds in his actions.",
     quoteAuthor: "Confucius",
   },
   {
@@ -8923,8 +8267,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Heraclitus",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
@@ -8932,8 +8275,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Antoine de Saint-Exupery",
   },
   {
-    quoteText:
-      "Every day may not be good, but there's something good in every day.",
+    quoteText: "Every day may not be good, but there's something good in every day.",
     quoteAuthor: "",
   },
   {
@@ -8949,8 +8291,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "The odds of hitting your target go up dramatically when you aim at it.",
+    quoteText: "The odds of hitting your target go up dramatically when you aim at it.",
     quoteAuthor: "Mal Pancoast",
   },
   {
@@ -8962,10 +8303,7 @@ export const quotes: Quote[] = [
       "The superior man is satisfied and composed; the mean man is always full of distress.",
     quoteAuthor: "Confucius",
   },
-  {
-    quoteText: "Open minds lead to open doors.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Open minds lead to open doors.", quoteAuthor: "" },
   {
     quoteText: "They can do all because they think they can.",
     quoteAuthor: "Virgil",
@@ -8979,8 +8317,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "Courage is going from failure to failure without losing enthusiasm.",
+    quoteText: "Courage is going from failure to failure without losing enthusiasm.",
     quoteAuthor: "Winston Churchill",
   },
   {
@@ -8992,8 +8329,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Donald Trump",
   },
   {
-    quoteText:
-      "The world is a book, and those who do not travel read only a page.",
+    quoteText: "The world is a book, and those who do not travel read only a page.",
     quoteAuthor: "Augustinus Sanctus",
   },
   {
@@ -9006,13 +8342,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
-    quoteText:
-      "It is better to understand a little than to misunderstand a lot.",
+    quoteText: "It is better to understand a little than to misunderstand a lot.",
     quoteAuthor: "Anatole France",
   },
   {
@@ -9038,8 +8372,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Leonardo da Vinci",
   },
   {
-    quoteText:
-      "Most folks are about as happy as they make up their minds to be.",
+    quoteText: "Most folks are about as happy as they make up their minds to be.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
@@ -9053,8 +8386,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "You can do what's reasonable or you can decide what's possible.",
+    quoteText: "You can do what's reasonable or you can decide what's possible.",
     quoteAuthor: "",
   },
   {
@@ -9072,8 +8404,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Liberace",
   },
   {
-    quoteText:
-      "The one who always loses, is the only person who gets the reward.",
+    quoteText: "The one who always loses, is the only person who gets the reward.",
     quoteAuthor: "Claire Charmont",
   },
   {
@@ -9085,8 +8416,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "All the flowers of all the tomorrows are in the seeds of today.",
+    quoteText: "All the flowers of all the tomorrows are in the seeds of today.",
     quoteAuthor: "",
   },
   {
@@ -9116,8 +8446,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Andy Warhol",
   },
   {
-    quoteText:
-      "The future is completely open, and we are writing it moment to moment.",
+    quoteText: "The future is completely open, and we are writing it moment to moment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -9170,8 +8499,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "Better to have loved and lost, than to have never loved at all.",
+    quoteText: "Better to have loved and lost, than to have never loved at all.",
     quoteAuthor: "St. Augustine",
   },
   {
@@ -9179,8 +8507,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sigmund Freud",
   },
   {
-    quoteText:
-      "No man can succeed in a line of endeavor which he does not like.",
+    quoteText: "No man can succeed in a line of endeavor which he does not like.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -9211,13 +8538,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Listen to your intuition. It will tell you everything you need to know.",
+    quoteText: "Listen to your intuition. It will tell you everything you need to know.",
     quoteAuthor: "Anthony D'Angelo",
   },
   {
-    quoteText:
-      "To bring anything into your life, imagine that it's already there.",
+    quoteText: "To bring anything into your life, imagine that it's already there.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -9225,14 +8550,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Elizabeth Browning",
   },
   {
-    quoteText:
-      "The personal life deeply lived always expands into truths beyond itself.",
+    quoteText: "The personal life deeply lived always expands into truths beyond itself.",
     quoteAuthor: "Anais Nin",
-  },
-  {
-    quoteText:
-      "Everything is perfect in the universe — even your desire to improve it.",
-    quoteAuthor: "Wayne Dyer",
   },
   {
     quoteText: "The undertaking of a new action brings new strength.",
@@ -9252,10 +8571,7 @@ export const quotes: Quote[] = [
     quoteText: "Being angry never solves anything.",
     quoteAuthor: "Catherine Pulsifer",
   },
-  {
-    quoteText: "Fortune favours the brave.",
-    quoteAuthor: "Virgil",
-  },
+  { quoteText: "Fortune favours the brave.", quoteAuthor: "Virgil" },
   {
     quoteText: "What is not started today is never finished tomorrow.",
     quoteAuthor: "Goethe",
@@ -9274,8 +8590,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jon Kabat-Zinn",
   },
   {
-    quoteText:
-      "Nothing ever goes away until it has taught us what we need to know.",
+    quoteText: "Nothing ever goes away until it has taught us what we need to know.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -9296,8 +8611,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Chaos is inherent in all compounded things. Strive on with diligence.",
+    quoteText: "Chaos is inherent in all compounded things. Strive on with diligence.",
     quoteAuthor: "Buddha",
   },
   {
@@ -9315,8 +8629,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Nikos Kazantzakis",
   },
   {
-    quoteText:
-      "They must often change, who would be constant in happiness or wisdom.",
+    quoteText: "They must often change, who would be constant in happiness or wisdom.",
     quoteAuthor: "Confucius",
   },
   {
@@ -9324,8 +8637,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Charles Perkhurst",
   },
   {
-    quoteText:
-      "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    quoteText: "The weak can never forgive. Forgiveness is the attribute of the strong.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -9337,13 +8649,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "We all have problems. The way we solve them is what makes us different.",
+    quoteText: "We all have problems. The way we solve them is what makes us different.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -9368,8 +8678,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "Know how to listen, and you will profit even from those who talk badly.",
+    quoteText: "Know how to listen, and you will profit even from those who talk badly.",
     quoteAuthor: "Plutarch",
   },
   {
@@ -9392,10 +8701,7 @@ export const quotes: Quote[] = [
     quoteText: "The time you think you're missing, misses you too.",
     quoteAuthor: "Ymber Delecto",
   },
-  {
-    quoteText: "No man was ever wise by chance.",
-    quoteAuthor: "Seneca",
-  },
+  { quoteText: "No man was ever wise by chance.", quoteAuthor: "Seneca" },
   {
     quoteText: "You won't skid if you stay in a rut.",
     quoteAuthor: "Kin Hubbard",
@@ -9406,8 +8712,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bernard Shaw",
   },
   {
-    quoteText:
-      "Give thanks for the rain of life that propels us to reach new horizons.",
+    quoteText: "Give thanks for the rain of life that propels us to reach new horizons.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -9434,8 +8739,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sophocles",
   },
   {
-    quoteText:
-      "If you love life, don't waste time, for time is what life is made up of.",
+    quoteText: "If you love life, don't waste time, for time is what life is made up of.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -9448,8 +8752,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Socrates",
   },
   {
-    quoteText:
-      "Imagination is the living power and prime agent of all human perception.",
+    quoteText: "Imagination is the living power and prime agent of all human perception.",
     quoteAuthor: "Samuel Taylor Coleridge",
   },
   {
@@ -9485,8 +8788,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cervantes",
   },
   {
-    quoteText:
-      "It is impossible to feel grateful and depressed in the same moment.",
+    quoteText: "It is impossible to feel grateful and depressed in the same moment.",
     quoteAuthor: "Naomi Williams",
   },
   {
@@ -9528,11 +8830,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "There are no failures — just experiences and your reactions to them.",
-    quoteAuthor: "Tom Krause",
-  },
-  {
-    quoteText:
       "He that never changes his opinions, never corrects his mistakes, and will never be wiser on the morrow than he is today.",
     quoteAuthor: "Tryon Edwards",
   },
@@ -9559,14 +8856,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jason Fried",
   },
   {
-    quoteText:
-      "Always do your best. What you plant now, you will harvest later.",
+    quoteText: "Always do your best. What you plant now, you will harvest later.",
     quoteAuthor: "Og Mandino",
-  },
-  {
-    quoteText:
-      "My mama always said: life's like a box of chocolate — you never know what you gonna get.",
-    quoteAuthor: "Forrest Gump",
   },
   {
     quoteText:
@@ -9574,8 +8865,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jean Lacordaire",
   },
   {
-    quoteText:
-      "If you light a lamp for somebody, it will also brighten your path.",
+    quoteText: "If you light a lamp for somebody, it will also brighten your path.",
     quoteAuthor: "Buddha",
   },
   {
@@ -9605,8 +8895,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cervantes",
   },
   {
-    quoteText:
-      "He who conquers others is strong; He who conquers himself is mighty.",
+    quoteText: "He who conquers others is strong; He who conquers himself is mighty.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -9689,8 +8978,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Maya Angelou",
   },
   {
-    quoteText:
-      "Never idealize others. They will never live up to your expectations.",
+    quoteText: "Never idealize others. They will never live up to your expectations.",
     quoteAuthor: "Leo Buscaglia",
   },
   {
@@ -9711,8 +8999,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Pablo Picasso",
   },
   {
-    quoteText:
-      "May our hearts garden of awakening bloom with hundreds of flowers.",
+    quoteText: "May our hearts garden of awakening bloom with hundreds of flowers.",
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
@@ -9745,8 +9032,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry Longfellow",
   },
   {
-    quoteText:
-      "The bird of paradise alights only upon the hand that does not grasp.",
+    quoteText: "The bird of paradise alights only upon the hand that does not grasp.",
     quoteAuthor: "John Berry",
   },
   {
@@ -9777,18 +9063,13 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "It's not what happens to you, but how you react to it that matters.",
+    quoteText: "It's not what happens to you, but how you react to it that matters.",
     quoteAuthor: "Epictetus",
   },
   {
     quoteText:
       "It is very easy to forgive others their mistakes; it takes more grit to forgive them for having witnessed your own.",
     quoteAuthor: "Jessamyn West",
-  },
-  {
-    quoteText: "Take it easy — but take it.",
-    quoteAuthor: "Woody Guthrie",
   },
   {
     quoteText:
@@ -9846,8 +9127,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
@@ -9880,13 +9160,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Arthur Schopenhauer",
   },
   {
-    quoteText:
-      "Doing what you love is the cornerstone of having abundance in your life.",
+    quoteText: "Doing what you love is the cornerstone of having abundance in your life.",
     quoteAuthor: "Wayne Dyer",
   },
   {
-    quoteText:
-      "May our hearts garden of awakening bloom with hundreds of flowers.",
+    quoteText: "May our hearts garden of awakening bloom with hundreds of flowers.",
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
@@ -9925,8 +9203,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry Thoreau",
   },
   {
-    quoteText:
-      "The exercise of an extraordinary gift is the supremest pleasure in life.",
+    quoteText: "The exercise of an extraordinary gift is the supremest pleasure in life.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -9972,8 +9249,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Londen",
   },
   {
-    quoteText:
-      "Believe deep down in your heart that you're destined to do great things.",
+    quoteText: "Believe deep down in your heart that you're destined to do great things.",
     quoteAuthor: "Joe Paterno",
   },
   {
@@ -10031,8 +9307,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "The exercise of an extraordinary gift is the supremest pleasure in life.",
+    quoteText: "The exercise of an extraordinary gift is the supremest pleasure in life.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -10045,8 +9320,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Experience keeps a dear school, but fools will learn in no other.",
+    quoteText: "Experience keeps a dear school, but fools will learn in no other.",
     quoteAuthor: "Benjamin Franklin",
   },
   {
@@ -10121,8 +9395,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -10153,10 +9426,7 @@ export const quotes: Quote[] = [
       "With realization of ones own potential and self-confidence in ones ability, one can build a better world.",
     quoteAuthor: "Dalai Lama",
   },
-  {
-    quoteText: "Fortune favours the brave.",
-    quoteAuthor: "Virgil",
-  },
+  { quoteText: "Fortune favours the brave.", quoteAuthor: "Virgil" },
   {
     quoteText:
       "You can adopt the attitude there is nothing you can do, or you can see the challenge as your call to action.",
@@ -10179,19 +9449,13 @@ export const quotes: Quote[] = [
     quoteAuthor: "Edmond Rostand",
   },
   {
-    quoteText:
-      "Imagination is the living power and prime agent of all human perception.",
+    quoteText: "Imagination is the living power and prime agent of all human perception.",
     quoteAuthor: "Samuel Taylor Coleridge",
   },
   {
     quoteText:
       "The smallest flower is a thought, a life answering to some feature of the Great Whole, of whom they have a persistent intuition.",
     quoteAuthor: "Honore de Balzac",
-  },
-  {
-    quoteText:
-      "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate — that's my philosophy.",
-    quoteAuthor: "Thornton Wilder",
   },
   {
     quoteText:
@@ -10204,27 +9468,21 @@ export const quotes: Quote[] = [
     quoteAuthor: "Abraham Lincoln",
   },
   {
-    quoteText:
-      "Kindness is the language which the deaf can hear and the blind can see.",
+    quoteText: "Kindness is the language which the deaf can hear and the blind can see.",
     quoteAuthor: "Mark Twain",
   },
-  {
-    quoteText: "Be the chief but never the lord.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "Be the chief but never the lord.", quoteAuthor: "Lao Tzu" },
   {
     quoteText:
       "Every action of our lives touches on some chord that will vibrate in eternity.",
     quoteAuthor: "Edwin Chapin",
   },
   {
-    quoteText:
-      "I may not know everything, but everything is not known yet anyway.",
+    quoteText: "I may not know everything, but everything is not known yet anyway.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "The bird of paradise alights only upon the hand that does not grasp.",
+    quoteText: "The bird of paradise alights only upon the hand that does not grasp.",
     quoteAuthor: "John Berry",
   },
   {
@@ -10243,8 +9501,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "You cannot travel the path until you have become the path itself.",
+    quoteText: "You cannot travel the path until you have become the path itself.",
     quoteAuthor: "Buddha",
   },
   {
@@ -10257,8 +9514,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Theodore Roosevelt",
   },
   {
-    quoteText:
-      "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
+    quoteText: "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
     quoteAuthor: "William White",
   },
   {
@@ -10271,10 +9527,7 @@ export const quotes: Quote[] = [
       "If you are patient in one moment of anger, you will escape one hundred days of sorrow.",
     quoteAuthor: "Chinese proverb",
   },
-  {
-    quoteText: "When you lose, don't lose the lesson.",
-    quoteAuthor: "",
-  },
+  { quoteText: "When you lose, don't lose the lesson.", quoteAuthor: "" },
   {
     quoteText: "Character develops itself in the stream of life.",
     quoteAuthor: "Johann Wolfgang von Goethe",
@@ -10303,14 +9556,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Catherine Pulsifer",
   },
   {
-    quoteText:
-      "An obstacle may be either a stepping stone or a stumbling block.",
+    quoteText: "An obstacle may be either a stepping stone or a stumbling block.",
     quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Everything can be taken from a man but ... the last of the human freedoms — to choose ones attitude in any given set of circumstances, to choose ones own way.",
-    quoteAuthor: "Victor Frankl",
   },
   {
     quoteText: "I think and that is all that I am.",
@@ -10421,8 +9668,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Lynd",
   },
   {
-    quoteText:
-      "Stay committed to your decisions, but stay flexible in your approach.",
+    quoteText: "Stay committed to your decisions, but stay flexible in your approach.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -10451,17 +9697,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "One does not discover new lands without consenting to lose sight of the shore for a very long time.",
-    quoteAuthor: "André Gide",
-  },
-  {
-    quoteText:
       "All our talents increase in the using, and the every faculty, both good and bad, strengthen by exercise.",
     quoteAuthor: "Anne Bronte",
   },
   {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
@@ -10479,10 +9719,7 @@ export const quotes: Quote[] = [
       "Each man has his own vocation; his talent is his call. There is one direction in which all space is open to him.",
     quoteAuthor: "Ralph Emerson",
   },
-  {
-    quoteText: "We do what we do because we believe.",
-    quoteAuthor: "",
-  },
+  { quoteText: "We do what we do because we believe.", quoteAuthor: "" },
   {
     quoteText:
       "Never bend your head. Always hold it high. Look the world right in the eye.",
@@ -10550,19 +9787,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "Everything can be taken from a man but ... the last of the human freedoms — to choose ones attitude in any given set of circumstances, to choose ones own way.",
-    quoteAuthor: "Victor Frankl",
-  },
-  {
-    quoteText:
-      "Better than a thousand hollow words, is one word that brings peace.",
+    quoteText: "Better than a thousand hollow words, is one word that brings peace.",
     quoteAuthor: "Buddha",
-  },
-  {
-    quoteText:
-      "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
-    quoteAuthor: "André Gide",
   },
   {
     quoteText: "The only real valuable thing is intuition.",
@@ -10583,10 +9809,7 @@ export const quotes: Quote[] = [
       "Aim for success, not perfection. Never give up your right to be wrong, because then you will lose the ability to learn new things and move forward with your life.",
     quoteAuthor: "Dr. David M. Burns",
   },
-  {
-    quoteText: "Wisdom begins in wonder.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Wisdom begins in wonder.", quoteAuthor: "Socrates" },
   {
     quoteText:
       "I have done my best: that is about all the philosophy of living one needs.",
@@ -10598,8 +9821,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mohandas Gandhi",
   },
   {
-    quoteText:
-      "Peace cannot be kept by force. It can only be achieved by understanding.",
+    quoteText: "Peace cannot be kept by force. It can only be achieved by understanding.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -10612,8 +9834,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "It does not matter how slowly you go as long as you do not stop.",
+    quoteText: "It does not matter how slowly you go as long as you do not stop.",
     quoteAuthor: "Confucius",
   },
   {
@@ -10641,8 +9862,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "When there is no enemy within, the enemies outside cannot hurt you.",
+    quoteText: "When there is no enemy within, the enemies outside cannot hurt you.",
     quoteAuthor: "African proverb",
   },
   {
@@ -10700,8 +9920,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Zig Ziglar",
   },
   {
-    quoteText:
-      "Don't let what you can't do stop you from doing what you can do.",
+    quoteText: "Don't let what you can't do stop you from doing what you can do.",
     quoteAuthor: "",
   },
   {
@@ -10723,8 +9942,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mother Teresa",
   },
   {
-    quoteText:
-      "Everything that exists is in a manner the seed of that which will be.",
+    quoteText: "Everything that exists is in a manner the seed of that which will be.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -10746,8 +9964,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Rumi",
   },
   {
-    quoteText:
-      "The world turns aside to let any man pass who knows where he is going.",
+    quoteText: "The world turns aside to let any man pass who knows where he is going.",
     quoteAuthor: "Epictetus",
   },
   {
@@ -10768,8 +9985,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -10778,8 +9994,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "Truth, and goodness, and beauty are but different faces of the same all.",
+    quoteText: "Truth, and goodness, and beauty are but different faces of the same all.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -10796,8 +10011,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
@@ -10828,8 +10042,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "Think as a wise man but communicate in the language of the people.",
+    quoteText: "Think as a wise man but communicate in the language of the people.",
     quoteAuthor: "William Yeats",
   },
   {
@@ -10841,11 +10054,6 @@ export const quotes: Quote[] = [
     quoteText:
       "I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence.",
     quoteAuthor: "Frederick Douglass",
-  },
-  {
-    quoteText:
-      "The most decisive actions of our life... are most often unconsidered actions.",
-    quoteAuthor: "André Gide",
   },
   {
     quoteText:
@@ -10882,8 +10090,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Virgil",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -10892,13 +10099,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "In all chaos there is a cosmos, in all disorder a secret order.",
+    quoteText: "In all chaos there is a cosmos, in all disorder a secret order.",
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "It is the quality of our work which will please God, not the quantity.",
+    quoteText: "It is the quality of our work which will please God, not the quantity.",
     quoteAuthor: "Mahatma Gandhi",
   },
   {
@@ -10929,8 +10134,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "You can do what's reasonable or you can decide what's possible.",
+    quoteText: "You can do what's reasonable or you can decide what's possible.",
     quoteAuthor: "",
   },
   {
@@ -10938,13 +10142,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Walter Anderson",
   },
   {
-    quoteText:
-      "Don't be afraid to go out on a limb. That's where the fruit is.",
+    quoteText: "Don't be afraid to go out on a limb. That's where the fruit is.",
     quoteAuthor: "H. Jackson Browne",
   },
   {
-    quoteText:
-      "Mistakes are always forgivable, if one has the courage to admit them.",
+    quoteText: "Mistakes are always forgivable, if one has the courage to admit them.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -10989,8 +10191,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Schweitzer",
   },
   {
-    quoteText:
-      "We are Divine enough to ask and we are important enough to receive.",
+    quoteText: "We are Divine enough to ask and we are important enough to receive.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -10998,17 +10199,12 @@ export const quotes: Quote[] = [
     quoteAuthor: "Korean proverb",
   },
   {
-    quoteText: "Put your future in good hands — your own.",
-    quoteAuthor: "",
-  },
-  {
     quoteText:
       "The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own.",
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "All men who have achieved great things have been great dreamers.",
+    quoteText: "All men who have achieved great things have been great dreamers.",
     quoteAuthor: "Orison Marden",
   },
   {
@@ -11057,11 +10253,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The greatest antidote to insecurity and the sense of fear is compassion — it brings one back to the basis of one's inner strength",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
       "The truth of the matter is that you always know the right thing to do. The hard part is doing it.",
     quoteAuthor: "Norman Schwarzkopf",
   },
@@ -11071,18 +10262,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Steinbeck",
   },
   {
-    quoteText:
-      "No yesterdays are ever wasted for those who give themselves to today.",
+    quoteText: "No yesterdays are ever wasted for those who give themselves to today.",
     quoteAuthor: "Brendan Francis",
   },
   {
-    quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
-  },
-  {
-    quoteText:
-      "I may not know everything, but everything is not known yet anyway.",
+    quoteText: "I may not know everything, but everything is not known yet anyway.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -11095,8 +10279,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dhammapada",
   },
   {
-    quoteText:
-      "Chaos is inherent in all compounded things. Strive on with diligence.",
+    quoteText: "Chaos is inherent in all compounded things. Strive on with diligence.",
     quoteAuthor: "Buddha",
   },
   {
@@ -11138,8 +10321,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Washington Irving",
   },
   {
-    quoteText:
-      "In all chaos there is a cosmos, in all disorder a secret order.",
+    quoteText: "In all chaos there is a cosmos, in all disorder a secret order.",
     quoteAuthor: "Carl Jung",
   },
   {
@@ -11171,13 +10353,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "Respect should be earned by actions, and not acquired by years.",
+    quoteText: "Respect should be earned by actions, and not acquired by years.",
     quoteAuthor: "Frank Wright",
   },
   {
-    quoteText:
-      "I hear and I forget. I see and I remember. I do and I understand.",
+    quoteText: "I hear and I forget. I see and I remember. I do and I understand.",
     quoteAuthor: "Confucius",
   },
   {
@@ -11260,11 +10440,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "People are not lazy. They simply have impotent goals — that is, goals that do not inspire them.",
-    quoteAuthor: "Tony Robbins",
-  },
-  {
-    quoteText:
       "You do not become good by trying to be good, but by finding the goodness that is already within you.",
     quoteAuthor: "Eckhart Tolle",
   },
@@ -11274,8 +10449,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Gray",
   },
   {
-    quoteText:
-      "Waste no more time arguing about what a good man should be. Be one.",
+    quoteText: "Waste no more time arguing about what a good man should be. Be one.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -11284,8 +10458,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Don't be afraid to go out on a limb. That's where the fruit is.",
+    quoteText: "Don't be afraid to go out on a limb. That's where the fruit is.",
     quoteAuthor: "H. Jackson Browne",
   },
   {
@@ -11302,8 +10475,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "Happiness often sneaks in through a door you didn't know you left open.",
+    quoteText: "Happiness often sneaks in through a door you didn't know you left open.",
     quoteAuthor: "John Barrymore",
   },
   {
@@ -11326,8 +10498,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Abraham Lincoln",
   },
   {
-    quoteText:
-      "Think as a wise man but communicate in the language of the people.",
+    quoteText: "Think as a wise man but communicate in the language of the people.",
     quoteAuthor: "William Yeats",
   },
   {
@@ -11355,8 +10526,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "It has never been my object to record my dreams, just to realize them.",
+    quoteText: "It has never been my object to record my dreams, just to realize them.",
     quoteAuthor: "Man Ray",
   },
   {
@@ -11370,8 +10540,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Abraham Maslow",
   },
   {
-    quoteText:
-      "To forgive is to set a prisoner free and realize that prisoner was you.",
+    quoteText: "To forgive is to set a prisoner free and realize that prisoner was you.",
     quoteAuthor: "Lewis B. Smedes",
   },
   {
@@ -11388,8 +10557,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oscar Wilde",
   },
   {
-    quoteText:
-      "To study and not think is a waste. To think and not study is dangerous.",
+    quoteText: "To study and not think is a waste. To think and not study is dangerous.",
     quoteAuthor: "Confucius",
   },
   {
@@ -11449,8 +10617,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "We are Divine enough to ask and we are important enough to receive.",
+    quoteText: "We are Divine enough to ask and we are important enough to receive.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -11462,15 +10629,7 @@ export const quotes: Quote[] = [
       "A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing.",
     quoteAuthor: "Bernard Shaw",
   },
-  {
-    quoteText: "Peace begins with a smile.",
-    quoteAuthor: "Mother Teresa",
-  },
-  {
-    quoteText:
-      "Every sixty seconds you spend angry, upset or mad, is a full minute of happiness you’ll never get back.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Peace begins with a smile.", quoteAuthor: "Mother Teresa" },
   {
     quoteText: "Be your own hero, it's cheaper than a movie ticket.",
     quoteAuthor: "Doug Horton",
@@ -11480,8 +10639,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Turkish proverb",
   },
   {
-    quoteText:
-      "Turn your face toward the sun and the shadows will fall behind you.",
+    quoteText: "Turn your face toward the sun and the shadows will fall behind you.",
     quoteAuthor: "Maori proverb",
   },
   {
@@ -11498,8 +10656,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Better to have loved and lost, than to have never loved at all.",
+    quoteText: "Better to have loved and lost, than to have never loved at all.",
     quoteAuthor: "St. Augustine",
   },
   {
@@ -11523,8 +10680,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "Go to your bosom: Knock there, and ask your heart what it doth know.",
+    quoteText: "Go to your bosom: Knock there, and ask your heart what it doth know.",
     quoteAuthor: "William Shakespeare",
   },
   {
@@ -11557,8 +10713,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Louis Stevenson",
   },
   {
-    quoteText:
-      "No man can succeed in a line of endeavor which he does not like.",
+    quoteText: "No man can succeed in a line of endeavor which he does not like.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -11566,8 +10721,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
@@ -11618,13 +10772,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "M. Scott Peck",
   },
   {
-    quoteText:
-      "Yeah we all shine on, like the moon, and the stars, and the sun.",
+    quoteText: "Yeah we all shine on, like the moon, and the stars, and the sun.",
     quoteAuthor: "John Lennon",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
@@ -11638,8 +10790,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry Reed",
   },
   {
-    quoteText:
-      "It is impossible to feel grateful and depressed in the same moment.",
+    quoteText: "It is impossible to feel grateful and depressed in the same moment.",
     quoteAuthor: "Naomi Williams",
   },
   {
@@ -11656,8 +10807,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Haynes Bayly",
   },
   {
-    quoteText:
-      "Follow your instincts. That is where true wisdom manifests itself.",
+    quoteText: "Follow your instincts. That is where true wisdom manifests itself.",
     quoteAuthor: "Oprah Winfrey",
   },
   {
@@ -11709,8 +10859,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Yogi Berra",
   },
   {
-    quoteText:
-      "Don't let what you can't do stop you from doing what you can do.",
+    quoteText: "Don't let what you can't do stop you from doing what you can do.",
     quoteAuthor: "",
   },
   {
@@ -11723,13 +10872,9 @@ export const quotes: Quote[] = [
       "Never miss an opportunity to make others happy, even if you have to leave them alone in order to do it.",
     quoteAuthor: "",
   },
+  { quoteText: "Joy is the best makeup.", quoteAuthor: "Anne Lamott" },
   {
-    quoteText: "Joy is the best makeup.",
-    quoteAuthor: "Anne Lamott",
-  },
-  {
-    quoteText:
-      "The smallest act of kindness is worth more than the grandest intention.",
+    quoteText: "The smallest act of kindness is worth more than the grandest intention.",
     quoteAuthor: "Oscar Wilde",
   },
   {
@@ -11767,8 +10912,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Tenzin Gyatso",
   },
   {
-    quoteText:
-      "In all chaos there is a cosmos, in all disorder a secret order.",
+    quoteText: "In all chaos there is a cosmos, in all disorder a secret order.",
     quoteAuthor: "Carl Jung",
   },
   {
@@ -11822,13 +10966,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Marcus Aurelius",
   },
   {
-    quoteText:
-      "Logic will get you from A to B. Imagination will take you everywhere.",
+    quoteText: "Logic will get you from A to B. Imagination will take you everywhere.",
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "A man of ability and the desire to accomplish something can do anything.",
+    quoteText: "A man of ability and the desire to accomplish something can do anything.",
     quoteAuthor: "Donald Kircher",
   },
   {
@@ -11883,13 +11025,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thich Nhat Hanh",
   },
   {
-    quoteText:
-      "We must not allow ourselves to become like the system we oppose.",
+    quoteText: "We must not allow ourselves to become like the system we oppose.",
     quoteAuthor: "Bishop Desmond Tutu",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -11901,8 +11041,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Begin at once to live and count each separate day as a separate life.",
+    quoteText: "Begin at once to live and count each separate day as a separate life.",
     quoteAuthor: "Seneca",
   },
   {
@@ -11919,8 +11058,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Wit",
   },
   {
-    quoteText:
-      "Don't be afraid to go out on a limb. That's where the fruit is.",
+    quoteText: "Don't be afraid to go out on a limb. That's where the fruit is.",
     quoteAuthor: "H. Jackson Browne",
   },
   {
@@ -11928,18 +11066,14 @@ export const quotes: Quote[] = [
       "A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing.",
     quoteAuthor: "Bernard Shaw",
   },
-  {
-    quoteText: "We do what we do because we believe.",
-    quoteAuthor: "",
-  },
+  { quoteText: "We do what we do because we believe.", quoteAuthor: "" },
   {
     quoteText:
       "The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work. When you spend time having fun, you know you're being self-indulgent.",
     quoteAuthor: "Paul Graham",
   },
   {
-    quoteText:
-      "Never ignore a gut feeling, but never believe that it's enough.",
+    quoteText: "Never ignore a gut feeling, but never believe that it's enough.",
     quoteAuthor: "Robert Heller",
   },
   {
@@ -11991,8 +11125,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "To be happy is to be able to become aware of oneself without fright.",
+    quoteText: "To be happy is to be able to become aware of oneself without fright.",
     quoteAuthor: "Walter Benjamin",
   },
   {
@@ -12014,18 +11147,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quoteText: "Happiness is not something ready made. It comes from your own actions.",
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "Be gentle first with yourself if you wish to be gentle with others.",
+    quoteText: "Be gentle first with yourself if you wish to be gentle with others.",
     quoteAuthor: "Lama Yeshe",
   },
   {
-    quoteText:
-      "A man who doesn't trust himself can never really trust anyone else.",
+    quoteText: "A man who doesn't trust himself can never really trust anyone else.",
     quoteAuthor: "Cardinal Retz",
   },
   {
@@ -12050,17 +11180,13 @@ export const quotes: Quote[] = [
     quoteText: "Someone is special only if you tell them.",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "Joy is the best makeup.",
-    quoteAuthor: "Anne Lamott",
-  },
+  { quoteText: "Joy is the best makeup.", quoteAuthor: "Anne Lamott" },
   {
     quoteText: "We make our own fortunes and we call them fate.",
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "I hear and I forget. I see and I remember. I do and I understand.",
+    quoteText: "I hear and I forget. I see and I remember. I do and I understand.",
     quoteAuthor: "Confucius",
   },
   {
@@ -12086,8 +11212,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "Rather than wishing for change, you first must be prepared to change.",
+    quoteText: "Rather than wishing for change, you first must be prepared to change.",
     quoteAuthor: "Catherine Pulsifer",
   },
   {
@@ -12101,17 +11226,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Everything can be taken from a man but ... the last of the human freedoms — to choose ones attitude in any given set of circumstances, to choose ones own way.",
-    quoteAuthor: "Victor Frankl",
-  },
-  {
-    quoteText:
       "It's important to know that words don't move mountains. Work, exacting work moves mountains.",
     quoteAuthor: "Danilo Dolci",
   },
   {
-    quoteText:
-      "Fame usually comes to those who are thinking about something else.",
+    quoteText: "Fame usually comes to those who are thinking about something else.",
     quoteAuthor: "Holmes",
   },
   {
@@ -12120,13 +11239,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "I may not know everything, but everything is not known yet anyway.",
+    quoteText: "I may not know everything, but everything is not known yet anyway.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "Know how to listen, and you will profit even from those who talk badly.",
+    quoteText: "Know how to listen, and you will profit even from those who talk badly.",
     quoteAuthor: "Plutarch",
   },
   {
@@ -12152,8 +11269,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Princess Diana",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
@@ -12176,8 +11292,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Kathleen Norris",
   },
   {
-    quoteText:
-      "Turn your face toward the sun and the shadows will fall behind you.",
+    quoteText: "Turn your face toward the sun and the shadows will fall behind you.",
     quoteAuthor: "Maori proverb",
   },
   {
@@ -12214,27 +11329,20 @@ export const quotes: Quote[] = [
     quoteText: "Myths which are believed in tend to become true.",
     quoteAuthor: "George Orwell",
   },
-  {
-    quoteText: "What we think, we become.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "What we think, we become.", quoteAuthor: "Buddha" },
   {
     quoteText:
       "The beginning of knowledge is the discovery of something we do not understand.",
     quoteAuthor: "Frank Herbert",
   },
-  {
-    quoteText: "Peace begins with a smile.",
-    quoteAuthor: "Mother Teresa",
-  },
+  { quoteText: "Peace begins with a smile.", quoteAuthor: "Mother Teresa" },
   {
     quoteText:
       "Work for something because it is good, not just because it stands a chance to succeed.",
     quoteAuthor: "Vaclav Havel",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -12274,8 +11382,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Edmond Rostand",
   },
   {
-    quoteText:
-      "Logic will get you from A to B. Imagination will take you everywhere.",
+    quoteText: "Logic will get you from A to B. Imagination will take you everywhere.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -12308,8 +11415,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sarah Breathnach",
   },
   {
-    quoteText:
-      "When deeds and words are in accord, the whole world is transformed.",
+    quoteText: "When deeds and words are in accord, the whole world is transformed.",
     quoteAuthor: "Chuang Tzu",
   },
   {
@@ -12322,22 +11428,17 @@ export const quotes: Quote[] = [
     quoteAuthor: "English proverb",
   },
   {
-    quoteText:
-      "Yeah we all shine on, like the moon, and the stars, and the sun.",
+    quoteText: "Yeah we all shine on, like the moon, and the stars, and the sun.",
     quoteAuthor: "John Lennon",
   },
-  {
-    quoteText: "No man was ever wise by chance.",
-    quoteAuthor: "Seneca",
-  },
+  { quoteText: "No man was ever wise by chance.", quoteAuthor: "Seneca" },
   {
     quoteText:
       "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
     quoteAuthor: "Walt Emerson",
   },
   {
-    quoteText:
-      "Better to have loved and lost, than to have never loved at all.",
+    quoteText: "Better to have loved and lost, than to have never loved at all.",
     quoteAuthor: "St. Augustine",
   },
   {
@@ -12386,8 +11487,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sophocles",
   },
   {
-    quoteText:
-      "Happiness often sneaks in through a door you didn't know you left open.",
+    quoteText: "Happiness often sneaks in through a door you didn't know you left open.",
     quoteAuthor: "John Barrymore",
   },
   {
@@ -12434,11 +11534,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "My mama always said: life's like a box of chocolate — you never know what you gonna get.",
-    quoteAuthor: "Forrest Gump",
-  },
-  {
-    quoteText:
       "There is nothing happens to any person but what was in his power to go through with.",
     quoteAuthor: "Marcus Aurelius",
   },
@@ -12455,8 +11550,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "African proverb",
   },
   {
-    quoteText:
-      "Peace cannot be kept by force. It can only be achieved by understanding.",
+    quoteText: "Peace cannot be kept by force. It can only be achieved by understanding.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -12474,8 +11568,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Alfred Korzybski",
   },
   {
-    quoteText:
-      "Society develops wit, but its contemplation alone forms genius.",
+    quoteText: "Society develops wit, but its contemplation alone forms genius.",
     quoteAuthor: "Madame de Stael",
   },
   {
@@ -12522,8 +11615,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jack Buck",
   },
   {
-    quoteText:
-      "We make a living by what we get, but we make a life by what we give.",
+    quoteText: "We make a living by what we get, but we make a life by what we give.",
     quoteAuthor: "Winston Churchill",
   },
   {
@@ -12540,19 +11632,13 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Fulghum",
   },
   {
-    quoteText:
-      "The smallest act of kindness is worth more than the grandest intention.",
+    quoteText: "The smallest act of kindness is worth more than the grandest intention.",
     quoteAuthor: "Oscar Wilde",
   },
   {
     quoteText:
       "Make the best use of what is in your power, and take the rest as it happens.",
     quoteAuthor: "Epictetus",
-  },
-  {
-    quoteText:
-      "If you want to study yourself — look into the hearts of other people. If you want to study other people — look into your own heart.",
-    quoteAuthor: "Friedrich von Schiller",
   },
   {
     quoteText:
@@ -12573,10 +11659,7 @@ export const quotes: Quote[] = [
       "You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.",
     quoteAuthor: "Naguib Mahfouz",
   },
-  {
-    quoteText: "Open minds lead to open doors.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Open minds lead to open doors.", quoteAuthor: "" },
   {
     quoteText: "You are special, you are unique, you are the best!",
     quoteAuthor: "Cathy Pulsifer",
@@ -12592,8 +11675,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "W. Clement Stone",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -12618,11 +11700,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "Happiness is found in doing, not merely possessing.",
     quoteAuthor: "Napoleon Hill",
-  },
-  {
-    quoteText:
-      "The first duty of a human being is to assume the right functional relationship to society — more briefly, to find your real job, and do it.",
-    quoteAuthor: "Charlotte Perkins Gilman",
   },
   {
     quoteText: "The world is but a canvas to the imagination.",
@@ -12656,8 +11733,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Francis Bacon",
   },
   {
-    quoteText:
-      "Experience keeps a dear school, but fools will learn in no other.",
+    quoteText: "Experience keeps a dear school, but fools will learn in no other.",
     quoteAuthor: "Benjamin Franklin",
   },
   {
@@ -12671,8 +11747,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "Thought is the blossom; language the bud; action the fruit behind it.",
+    quoteText: "Thought is the blossom; language the bud; action the fruit behind it.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -12790,8 +11865,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Gloria Steinem",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -12799,8 +11873,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "To be tested is good. The challenged life may be the best therapist.",
+    quoteText: "To be tested is good. The challenged life may be the best therapist.",
     quoteAuthor: "Gail Sheehy",
   },
   {
@@ -12818,8 +11891,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "To bring anything into your life, imagine that it's already there.",
+    quoteText: "To bring anything into your life, imagine that it's already there.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -12864,8 +11936,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Johannes Gaertner",
   },
   {
-    quoteText:
-      "Obstacles are those things you see when you take your eyes off the goal.",
+    quoteText: "Obstacles are those things you see when you take your eyes off the goal.",
     quoteAuthor: "Hannah More",
   },
   {
@@ -12888,18 +11959,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Blaise Pascal",
   },
   {
-    quoteText:
-      "Great ideas often receive violent opposition from mediocre minds.",
+    quoteText: "Great ideas often receive violent opposition from mediocre minds.",
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
-    quoteText:
-      "We can change our lives. We can do, have, and be exactly what we wish.",
+    quoteText: "We can change our lives. We can do, have, and be exactly what we wish.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -12935,27 +12003,17 @@ export const quotes: Quote[] = [
       "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine.",
     quoteAuthor: "Morris West",
   },
-  {
-    quoteText: "When you lose, don't lose the lesson.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "Kindness is the greatest wisdom.",
-    quoteAuthor: "",
-  },
+  { quoteText: "When you lose, don't lose the lesson.", quoteAuthor: "" },
+  { quoteText: "Kindness is the greatest wisdom.", quoteAuthor: "" },
   {
     quoteText: "We may encounter many defeats but we must not be defeated.",
     quoteAuthor: "Maya Angelou",
   },
   {
-    quoteText:
-      "Every day may not be good, but there's something good in every day.",
+    quoteText: "Every day may not be good, but there's something good in every day.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "A stumble may prevent a fall.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A stumble may prevent a fall.", quoteAuthor: "" },
   {
     quoteText:
       "He that respects himself is safe from others; he wears a coat of mail that none can pierce.",
@@ -12995,8 +12053,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sai Baba",
   },
   {
-    quoteText:
-      "You can't trust without risk but neither can you live in a cocoon.",
+    quoteText: "You can't trust without risk but neither can you live in a cocoon.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -13005,13 +12062,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "To know oneself is to study oneself in action with another person.",
+    quoteText: "To know oneself is to study oneself in action with another person.",
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "No man can succeed in a line of endeavor which he does not like.",
+    quoteText: "No man can succeed in a line of endeavor which he does not like.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -13036,17 +12091,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Genuine love should first be directed at oneself – if we do not love ourselves, how can we love others?",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
       "The least of things with a meaning is worth more in life than the greatest of things without it.",
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "The noblest worship is to make yourself as good and as just as you can.",
+    quoteText: "The noblest worship is to make yourself as good and as just as you can.",
     quoteAuthor: "Isocrates",
   },
   {
@@ -13079,8 +12128,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Don't think of it as failure. Think of it as time-released success.",
+    quoteText: "Don't think of it as failure. Think of it as time-released success.",
     quoteAuthor: "Robert Orben",
   },
   {
@@ -13109,13 +12157,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Aristotle",
   },
   {
-    quoteText:
-      "Know how to listen, and you will profit even from those who talk badly.",
+    quoteText: "Know how to listen, and you will profit even from those who talk badly.",
     quoteAuthor: "Plutarch",
   },
   {
-    quoteText:
-      "You can't trust without risk but neither can you live in a cocoon.",
+    quoteText: "You can't trust without risk but neither can you live in a cocoon.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -13123,8 +12169,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Flora Whittemore",
   },
   {
-    quoteText:
-      "You cannot travel the path until you have become the path itself.",
+    quoteText: "You cannot travel the path until you have become the path itself.",
     quoteAuthor: "Buddha",
   },
   {
@@ -13170,13 +12215,9 @@ export const quotes: Quote[] = [
       "Courage is not about taking risks unknowingly but putting your own being in front of challenges that others may not be able to.",
     quoteAuthor: "Byron Pulsifer",
   },
+  { quoteText: "Change your thoughts, change your life!", quoteAuthor: "" },
   {
-    quoteText: "Change your thoughts, change your life!",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "The best place to find a helping hand is at the end of your own arm.",
+    quoteText: "The best place to find a helping hand is at the end of your own arm.",
     quoteAuthor: "",
   },
   {
@@ -13189,8 +12230,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "It is better to understand a little than to misunderstand a lot.",
+    quoteText: "It is better to understand a little than to misunderstand a lot.",
     quoteAuthor: "Anatole France",
   },
   {
@@ -13335,8 +12375,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Frederick Douglass",
   },
   {
-    quoteText:
-      "If it is not right do not do it; if it is not true do not say it.",
+    quoteText: "If it is not right do not do it; if it is not true do not say it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -13404,11 +12443,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The greatest antidote to insecurity and the sense of fear is compassion — it brings one back to the basis of one's inner strength",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
       "When you have got an elephant by the hind legs and he is trying to run away, it's best to let him run.",
     quoteAuthor: "Abraham Lincoln",
   },
@@ -13426,13 +12460,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "I don't believe in failure. It's not failure if you enjoyed the process.",
+    quoteText: "I don't believe in failure. It's not failure if you enjoyed the process.",
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "Truth, and goodness, and beauty are but different faces of the same all.",
+    quoteText: "Truth, and goodness, and beauty are but different faces of the same all.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -13483,10 +12515,7 @@ export const quotes: Quote[] = [
       "The man who trusts men will make fewer mistakes than he who distrusts them.",
     quoteAuthor: "Cavour",
   },
-  {
-    quoteText: "A jug fills drop by drop.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "A jug fills drop by drop.", quoteAuthor: "Buddha" },
   {
     quoteText:
       "When you are content to be simply yourself and don't compare or compete, everybody will respect you.",
@@ -13553,8 +12582,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "Doing what you love is the cornerstone of having abundance in your life.",
+    quoteText: "Doing what you love is the cornerstone of having abundance in your life.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -13573,8 +12601,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Arthur Rubinstein",
   },
   {
-    quoteText:
-      "The cure for boredom is curiosity. There is no cure for curiosity.",
+    quoteText: "The cure for boredom is curiosity. There is no cure for curiosity.",
     quoteAuthor: "Ellen Parr",
   },
   {
@@ -13597,8 +12624,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Frank Crane",
   },
   {
-    quoteText:
-      "When there is no enemy within, the enemies outside cannot hurt you.",
+    quoteText: "When there is no enemy within, the enemies outside cannot hurt you.",
     quoteAuthor: "African proverb",
   },
   {
@@ -13680,11 +12706,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Nikola Tesla",
   },
   {
-    quoteText:
-      "There are no failures — just experiences and your reactions to them.",
-    quoteAuthor: "Tom Krause",
-  },
-  {
     quoteText: "The heart has eyes which the brain knows nothing of.",
     quoteAuthor: "Charles Perkhurst",
   },
@@ -13701,23 +12722,14 @@ export const quotes: Quote[] = [
     quoteText: "You cannot have what you do not want.",
     quoteAuthor: "John Acosta",
   },
-  {
-    quoteText: "You have to believe in yourself.",
-    quoteAuthor: "Sun Tzu",
-  },
+  { quoteText: "You have to believe in yourself.", quoteAuthor: "Sun Tzu" },
   {
     quoteText:
       "The most important point is to accept yourself and stand on your two feet.",
     quoteAuthor: "Shunryu Suzuki",
   },
   {
-    quoteText:
-      "When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love.",
-    quoteAuthor: "Marcus Aurelius",
-  },
-  {
-    quoteText:
-      "All the flowers of all the tomorrows are in the seeds of today.",
+    quoteText: "All the flowers of all the tomorrows are in the seeds of today.",
     quoteAuthor: "",
   },
   {
@@ -13726,8 +12738,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
-    quoteText:
-      "It is not fair to ask of others what you are unwilling to do yourself.",
+    quoteText: "It is not fair to ask of others what you are unwilling to do yourself.",
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
@@ -13749,8 +12760,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
+    quoteText: "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
     quoteAuthor: "",
   },
   {
@@ -13768,8 +12778,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry Moore",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -13777,8 +12786,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Anne Frank",
   },
   {
-    quoteText:
-      "Better than a thousand hollow words, is one word that brings peace.",
+    quoteText: "Better than a thousand hollow words, is one word that brings peace.",
     quoteAuthor: "Buddha",
   },
   {
@@ -13804,18 +12812,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sai Baba",
   },
   {
-    quoteText:
-      "If you do not change direction, you may end up where you are heading.",
+    quoteText: "If you do not change direction, you may end up where you are heading.",
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "The world is a book, and those who do not travel read only a page.",
+    quoteText: "The world is a book, and those who do not travel read only a page.",
     quoteAuthor: "Augustinus Sanctus",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -13836,8 +12841,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Marian Edelman",
   },
   {
-    quoteText:
-      "Weve got to have a dream if we are going to make a dream come true.",
+    quoteText: "Weve got to have a dream if we are going to make a dream come true.",
     quoteAuthor: "Walt Disney",
   },
   {
@@ -13851,8 +12855,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "I hear and I forget. I see and I remember. I do and I understand.",
+    quoteText: "I hear and I forget. I see and I remember. I do and I understand.",
     quoteAuthor: "Confucius",
   },
   {
@@ -13913,11 +12916,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "You must train your intuition — you must trust the small voice inside you which tells you exactly what to say, what to decide.",
-    quoteAuthor: "Ingrid Bergman",
-  },
-  {
-    quoteText:
       "Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.",
     quoteAuthor: "Buddha",
   },
@@ -13932,13 +12930,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
-    quoteText:
-      "Waste no more time arguing about what a good man should be. Be one.",
+    quoteText: "Waste no more time arguing about what a good man should be. Be one.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
-    quoteText:
-      "Freedom is not worth having if it does not connote freedom to err.",
+    quoteText: "Freedom is not worth having if it does not connote freedom to err.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -13947,8 +12943,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thomas Carlyle",
   },
   {
-    quoteText:
-      "The only real failure in life is not to be true to the best one knows.",
+    quoteText: "The only real failure in life is not to be true to the best one knows.",
     quoteAuthor: "Buddha",
   },
   {
@@ -13957,8 +12952,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    quoteText: "Three things cannot be long hidden: the sun, the moon, and the truth.",
     quoteAuthor: "Buddha",
   },
   {
@@ -14012,8 +13006,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "They must often change, who would be constant in happiness or wisdom.",
+    quoteText: "They must often change, who would be constant in happiness or wisdom.",
     quoteAuthor: "Confucius",
   },
   {
@@ -14027,8 +13020,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    quoteText: "The weak can never forgive. Forgiveness is the attribute of the strong.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -14060,23 +13052,19 @@ export const quotes: Quote[] = [
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "Obstacles are those things you see when you take your eyes off the goal.",
+    quoteText: "Obstacles are those things you see when you take your eyes off the goal.",
     quoteAuthor: "Hannah More",
   },
   {
-    quoteText:
-      "Happiness is not something ready made. It comes from your own actions.",
+    quoteText: "Happiness is not something ready made. It comes from your own actions.",
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "The one who always loses, is the only person who gets the reward.",
+    quoteText: "The one who always loses, is the only person who gets the reward.",
     quoteAuthor: "Claire Charmont",
   },
   {
@@ -14089,8 +13077,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Seneca",
   },
   {
-    quoteText:
-      "We can change our lives. We can do, have, and be exactly what we wish.",
+    quoteText: "We can change our lives. We can do, have, and be exactly what we wish.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -14098,8 +13085,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Charles Perkhurst",
   },
   {
-    quoteText:
-      "To know oneself is to study oneself in action with another person.",
+    quoteText: "To know oneself is to study oneself in action with another person.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -14111,13 +13097,9 @@ export const quotes: Quote[] = [
     quoteText: "Only those who dare to fail greatly can ever achieve greatly.",
     quoteAuthor: "Robert Kennedy",
   },
+  { quoteText: "Peace begins with a smile.", quoteAuthor: "Mother Teresa" },
   {
-    quoteText: "Peace begins with a smile.",
-    quoteAuthor: "Mother Teresa",
-  },
-  {
-    quoteText:
-      "Stay committed to your decisions, but stay flexible in your approach.",
+    quoteText: "Stay committed to your decisions, but stay flexible in your approach.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -14126,8 +13108,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Steinbeck",
   },
   {
-    quoteText:
-      "The only limit to your impact is your imagination and commitment.",
+    quoteText: "The only limit to your impact is your imagination and commitment.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -14135,8 +13116,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "It is better to understand a little than to misunderstand a lot.",
+    quoteText: "It is better to understand a little than to misunderstand a lot.",
     quoteAuthor: "Anatole France",
   },
   {
@@ -14145,8 +13125,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry Miller",
   },
   {
-    quoteText:
-      "No man can succeed in a line of endeavor which he does not like.",
+    quoteText: "No man can succeed in a line of endeavor which he does not like.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -14167,11 +13146,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "Autumn is a second spring when every leaf is a flower.",
     quoteAuthor: "Albert Camus",
-  },
-  {
-    quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText:
@@ -14256,26 +13230,20 @@ export const quotes: Quote[] = [
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "I always wanted to be somebody, but I should have been more specific.",
+    quoteText: "I always wanted to be somebody, but I should have been more specific.",
     quoteAuthor: "Lily Tomlin",
   },
   {
     quoteText: "To enjoy life, we must touch much of it lightly.",
     quoteAuthor: "Voltaire",
   },
+  { quoteText: "We do what we do because we believe.", quoteAuthor: "" },
   {
-    quoteText: "We do what we do because we believe.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Learn to listen. Opportunity could be knocking at your door very softly.",
+    quoteText: "Learn to listen. Opportunity could be knocking at your door very softly.",
     quoteAuthor: "Frank Tyger",
   },
   {
-    quoteText:
-      "All action results from thought, so it is thoughts that matter.",
+    quoteText: "All action results from thought, so it is thoughts that matter.",
     quoteAuthor: "Sai Baba",
   },
   {
@@ -14293,13 +13261,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lou Holtz",
   },
   {
-    quoteText:
-      "The cure for boredom is curiosity. There is no cure for curiosity.",
+    quoteText: "The cure for boredom is curiosity. There is no cure for curiosity.",
     quoteAuthor: "Ellen Parr",
   },
   {
-    quoteText:
-      "Don't judge each day by the harvest you reap but by the seeds you plant.",
+    quoteText: "Don't judge each day by the harvest you reap but by the seeds you plant.",
     quoteAuthor: "Robert Stevenson",
   },
   {
@@ -14313,18 +13279,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Dewey",
   },
   {
-    quoteText:
-      "Rather than wishing for change, you first must be prepared to change.",
+    quoteText: "Rather than wishing for change, you first must be prepared to change.",
     quoteAuthor: "Catherine Pulsifer",
   },
   {
     quoteText: "You'll see it when you believe it.",
     quoteAuthor: "Wayne Dyer",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
   {
     quoteText:
       "Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.",
@@ -14336,18 +13298,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mother Teresa",
   },
   {
-    quoteText:
-      "There is only one success — to be able to spend your life in your own way.",
-    quoteAuthor: "Christopher Morley",
-  },
-  {
     quoteText: "Yesterdays home runs don't win today's games.",
     quoteAuthor: "Babe Ruth",
-  },
-  {
-    quoteText:
-      "Letting go isn’t the end of the world; it’s the beginning of a new life.",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -14365,8 +13317,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
+    quoteText: "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
     quoteAuthor: "William White",
   },
   {
@@ -14394,8 +13345,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Geoffrey F. Abert",
   },
   {
-    quoteText:
-      "Stay committed to your decisions, but stay flexible in your approach.",
+    quoteText: "Stay committed to your decisions, but stay flexible in your approach.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -14421,8 +13371,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "He who conquers others is strong; He who conquers himself is mighty.",
+    quoteText: "He who conquers others is strong; He who conquers himself is mighty.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -14431,13 +13380,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Penn",
   },
   {
-    quoteText:
-      "Life is a process. We are a process. The universe is a process.",
+    quoteText: "Life is a process. We are a process. The universe is a process.",
     quoteAuthor: "Anne Schaef",
   },
   {
-    quoteText:
-      "One may say the eternal mystery of the world is its comprehensibility.",
+    quoteText: "One may say the eternal mystery of the world is its comprehensibility.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -14452,11 +13399,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
-  },
-  {
-    quoteText:
       "The self is not something ready-made, but something in continuous formation through choice of action.",
     quoteAuthor: "John Dewey",
   },
@@ -14466,17 +13408,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Everything is perfect in the universe — even your desire to improve it.",
-    quoteAuthor: "Wayne Dyer",
-  },
-  {
-    quoteText:
       "Ability is what you're capable of doing. Motivation determines what you do.Attitude determines how well you do it.",
     quoteAuthor: "Lou Holtz",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -14499,8 +13435,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mahatma Gandhi",
   },
   {
-    quoteText:
-      "The noblest worship is to make yourself as good and as just as you can.",
+    quoteText: "The noblest worship is to make yourself as good and as just as you can.",
     quoteAuthor: "Isocrates",
   },
   {
@@ -14568,8 +13503,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "George Orwell",
   },
   {
-    quoteText:
-      "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
+    quoteText: "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
     quoteAuthor: "",
   },
   {
@@ -14597,8 +13531,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lama Yeshe",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -14636,8 +13569,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Og Mandino",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -14698,8 +13630,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Frank Tyger",
   },
   {
-    quoteText:
-      "Every day may not be good, but there's something good in every day.",
+    quoteText: "Every day may not be good, but there's something good in every day.",
     quoteAuthor: "",
   },
   {
@@ -14711,13 +13642,9 @@ export const quotes: Quote[] = [
     quoteText: "The heart has eyes which the brain knows nothing of.",
     quoteAuthor: "Charles Perkhurst",
   },
+  { quoteText: "What we see is mainly what we look for.", quoteAuthor: "" },
   {
-    quoteText: "What we see is mainly what we look for.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "It is impossible to feel grateful and depressed in the same moment.",
+    quoteText: "It is impossible to feel grateful and depressed in the same moment.",
     quoteAuthor: "Naomi Williams",
   },
   {
@@ -14731,8 +13658,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Leonardo da Vinci",
   },
   {
-    quoteText:
-      "The best place to find a helping hand is at the end of your own arm.",
+    quoteText: "The best place to find a helping hand is at the end of your own arm.",
     quoteAuthor: "",
   },
   {
@@ -14774,18 +13700,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thomas Edison",
   },
   {
-    quoteText:
-      "Give thanks for the rain of life that propels us to reach new horizons.",
+    quoteText: "Give thanks for the rain of life that propels us to reach new horizons.",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "A beautiful thing is never perfect.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "You give before you get.",
-    quoteAuthor: "Napoleon Hill",
-  },
+  { quoteText: "A beautiful thing is never perfect.", quoteAuthor: "" },
+  { quoteText: "You give before you get.", quoteAuthor: "Napoleon Hill" },
   {
     quoteText:
       "We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light.",
@@ -14797,8 +13716,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Blaise Pascal",
   },
   {
-    quoteText:
-      "There are no failures. Just experiences and your reactions to them.",
+    quoteText: "There are no failures. Just experiences and your reactions to them.",
     quoteAuthor: "Tom Krause",
   },
   {
@@ -14817,8 +13735,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Dewey",
   },
   {
-    quoteText:
-      "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
+    quoteText: "Don't let today's disappointments cast a shadow on tomorrow's dreams.",
     quoteAuthor: "",
   },
   {
@@ -14827,8 +13744,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Marshall",
   },
   {
-    quoteText:
-      "Imagination is the living power and prime agent of all human perception.",
+    quoteText: "Imagination is the living power and prime agent of all human perception.",
     quoteAuthor: "Samuel Taylor Coleridge",
   },
   {
@@ -14836,10 +13752,7 @@ export const quotes: Quote[] = [
       "When you don't know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "You only lose what you cling to.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "You only lose what you cling to.", quoteAuthor: "Buddha" },
   {
     quoteText: "There is only one happiness in life, to love and be loved.",
     quoteAuthor: "George Sand",
@@ -14853,10 +13766,7 @@ export const quotes: Quote[] = [
       "Live through feeling and you will live through love. For feeling is the language of the soul, and feeling is truth.",
     quoteAuthor: "Matt Zotti",
   },
-  {
-    quoteText: "He who is contented is rich.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "He who is contented is rich.", quoteAuthor: "Lao Tzu" },
   {
     quoteText:
       "You are always free to change your mind and choose a different future, or a different past.",
@@ -14868,8 +13778,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "Reason and free inquiry are the only effectual agents against error.",
+    quoteText: "Reason and free inquiry are the only effectual agents against error.",
     quoteAuthor: "Thomas Jefferson",
   },
   {
@@ -14890,8 +13799,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Bonaparte",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -14995,8 +13903,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Blaise Pascal",
   },
   {
-    quoteText:
-      "Fame usually comes to those who are thinking about something else.",
+    quoteText: "Fame usually comes to those who are thinking about something else.",
     quoteAuthor: "Holmes",
   },
   {
@@ -15011,10 +13918,7 @@ export const quotes: Quote[] = [
     quoteText: "The best thing in every noble dream is the dreamer...",
     quoteAuthor: "Moncure Conway",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
   {
     quoteText: "If you want a thing done well, do it yourself.",
     quoteAuthor: "Napoleon Bonaparte",
@@ -15029,8 +13933,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Waste no more time arguing about what a good man should be. Be one.",
+    quoteText: "Waste no more time arguing about what a good man should be. Be one.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -15074,11 +13977,6 @@ export const quotes: Quote[] = [
     quoteText:
       "It is not only for what we do that we are held responsible, but also for what we do not do.",
     quoteAuthor: "Moliere",
-  },
-  {
-    quoteText:
-      "A good teacher is like a candle — it consumes itself to light the way for others.",
-    quoteAuthor: "",
   },
   {
     quoteText: "Be kind whenever possible. It is always possible.",
@@ -15152,8 +14050,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mark Twain",
   },
   {
-    quoteText:
-      "Your attitude, not your aptitude, will determine your altitude.",
+    quoteText: "Your attitude, not your aptitude, will determine your altitude.",
     quoteAuthor: "Zig Ziglar",
   },
   {
@@ -15167,8 +14064,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Louise Hay",
   },
   {
-    quoteText:
-      "Don't be afraid to go out on a limb. That's where the fruit is.",
+    quoteText: "Don't be afraid to go out on a limb. That's where the fruit is.",
     quoteAuthor: "H. Jackson Browne",
   },
   {
@@ -15207,8 +14103,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Doug Horton",
   },
   {
-    quoteText:
-      "I gave my life to become the person I am right now. Was it worth it?",
+    quoteText: "I gave my life to become the person I am right now. Was it worth it?",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -15274,18 +14169,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Chinese proverb",
   },
   {
-    quoteText:
-      "The first duty of a human being is to assume the right functional relationship to society — more briefly, to find your real job, and do it.",
-    quoteAuthor: "Charlotte Perkins Gilman",
-  },
-  {
-    quoteText:
-      "Mistakes are always forgivable, if one has the courage to admit them.",
+    quoteText: "Mistakes are always forgivable, if one has the courage to admit them.",
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "Forgiveness does not change the past, but it does enlarge the future.",
+    quoteText: "Forgiveness does not change the past, but it does enlarge the future.",
     quoteAuthor: "Paul Boese",
   },
   {
@@ -15317,13 +14205,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Fame usually comes to those who are thinking about something else.",
+    quoteText: "Fame usually comes to those who are thinking about something else.",
     quoteAuthor: "Holmes",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
@@ -15347,8 +14233,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "The deepest craving of human nature is the need to be appreciated.",
+    quoteText: "The deepest craving of human nature is the need to be appreciated.",
     quoteAuthor: "William James",
   },
   {
@@ -15376,8 +14261,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Walt Disney",
   },
   {
-    quoteText:
-      "The odds of hitting your target go up dramatically when you aim at it.",
+    quoteText: "The odds of hitting your target go up dramatically when you aim at it.",
     quoteAuthor: "Mal Pancoast",
   },
   {
@@ -15404,17 +14288,13 @@ export const quotes: Quote[] = [
       "The key to growth is the introduction of higher dimensions of consciousness into our awareness.",
     quoteAuthor: "Lao Tzu",
   },
-  {
-    quoteText: "Fortune befriends the bold.",
-    quoteAuthor: "John Dryden",
-  },
+  { quoteText: "Fortune befriends the bold.", quoteAuthor: "John Dryden" },
   {
     quoteText: "Excellence is not a skill. It is an attitude.",
     quoteAuthor: "Ralph Marston",
   },
   {
-    quoteText:
-      "Your attitude, not your aptitude, will determine your altitude.",
+    quoteText: "Your attitude, not your aptitude, will determine your altitude.",
     quoteAuthor: "Zig Ziglar",
   },
   {
@@ -15439,11 +14319,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Arrogance and rudeness are training wheels on the bicycle of life — for weak people who cannot keep their balance without them.",
-    quoteAuthor: "Laura Teresa Marquez",
-  },
-  {
-    quoteText:
       "Every person, all the events of your life are there because you have drawn them there. What you choose to do with them is up to you.",
     quoteAuthor: "Richard Bach",
   },
@@ -15458,8 +14333,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Edwin Markham",
   },
   {
-    quoteText:
-      "Obstacles are those things you see when you take your eyes off the goal.",
+    quoteText: "Obstacles are those things you see when you take your eyes off the goal.",
     quoteAuthor: "Hannah More",
   },
   {
@@ -15522,8 +14396,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "I always wanted to be somebody, but I should have been more specific.",
+    quoteText: "I always wanted to be somebody, but I should have been more specific.",
     quoteAuthor: "Lily Tomlin",
   },
   {
@@ -15532,8 +14405,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Helen Keller",
   },
   {
-    quoteText:
-      "You can't trust without risk but neither can you live in a cocoon.",
+    quoteText: "You can't trust without risk but neither can you live in a cocoon.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -15546,11 +14418,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bob Newhart",
   },
   {
-    quoteText:
-      "The secret of joy in work is contained in one word — excellence. To know how to do something well is to enjoy it.",
-    quoteAuthor: "Pearl Buck",
-  },
-  {
     quoteText: "There is only one happiness in life, to love and be loved.",
     quoteAuthor: "George Sand",
   },
@@ -15558,13 +14425,9 @@ export const quotes: Quote[] = [
     quoteText: "The eye sees only what the mind is prepared to comprehend.",
     quoteAuthor: "Henri Bergson",
   },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
   {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
-  {
-    quoteText:
-      "Don't think of it as failure. Think of it as time-released success.",
+    quoteText: "Don't think of it as failure. Think of it as time-released success.",
     quoteAuthor: "Robert Orben",
   },
   {
@@ -15586,8 +14449,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mohandas Gandhi",
   },
   {
-    quoteText:
-      "The most formidable weapon against errors of every kind is reason.",
+    quoteText: "The most formidable weapon against errors of every kind is reason.",
     quoteAuthor: "Thomas Paine",
   },
   {
@@ -15614,18 +14476,12 @@ export const quotes: Quote[] = [
       "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
     quoteAuthor: "Oprah Winfrey",
   },
-  {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
     quoteText: "Goals are the fuel in the furnace of achievement.",
     quoteAuthor: "Brian Tracy",
   },
-  {
-    quoteText: "He who is contented is rich.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "He who is contented is rich.", quoteAuthor: "Lao Tzu" },
   {
     quoteText: "God always takes the simplest way.",
     quoteAuthor: "Albert Einstein",
@@ -15638,10 +14494,7 @@ export const quotes: Quote[] = [
     quoteText: "Formula for success: under promise and over deliver.",
     quoteAuthor: "Tom Peters",
   },
-  {
-    quoteText: "Everything in life is luck.",
-    quoteAuthor: "Donald Trump",
-  },
+  { quoteText: "Everything in life is luck.", quoteAuthor: "Donald Trump" },
   {
     quoteText:
       "The greatest part of our happiness depends on our dispositions, not our circumstances.",
@@ -15673,11 +14526,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "To free us from the expectations of others, to give us back to ourselves — there lies the great, singular power of self-respect.",
-    quoteAuthor: "Joan Didion",
-  },
-  {
-    quoteText:
       "Success means having the courage, the determination, and the will to become the person you believe you were meant to be.",
     quoteAuthor: "George Sheehan",
   },
@@ -15691,10 +14539,7 @@ export const quotes: Quote[] = [
       "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigour of the mind.",
     quoteAuthor: "Leonardo da Vinci",
   },
-  {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
     quoteText: "You won't skid if you stay in a rut.",
     quoteAuthor: "Kin Hubbard",
@@ -15712,13 +14557,9 @@ export const quotes: Quote[] = [
       "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.",
     quoteAuthor: "William Shakespeare",
   },
+  { quoteText: "Change in all things is sweet.", quoteAuthor: "Aristotle" },
   {
-    quoteText: "Change in all things is sweet.",
-    quoteAuthor: "Aristotle",
-  },
-  {
-    quoteText:
-      "Fame usually comes to those who are thinking about something else.",
+    quoteText: "Fame usually comes to those who are thinking about something else.",
     quoteAuthor: "Holmes",
   },
   {
@@ -15765,8 +14606,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Arthur Rubinstein",
   },
   {
-    quoteText:
-      "It does not matter how slowly you go as long as you do not stop.",
+    quoteText: "It does not matter how slowly you go as long as you do not stop.",
     quoteAuthor: "Confucius",
   },
   {
@@ -15778,8 +14618,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Our greatest glory is not in never failing but rising everytime we fall.",
+    quoteText: "Our greatest glory is not in never failing but rising everytime we fall.",
     quoteAuthor: "",
   },
   {
@@ -15828,13 +14667,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Abraham Lincoln",
   },
   {
-    quoteText:
-      "All achievements, all earned riches, have their beginning in an idea.",
+    quoteText: "All achievements, all earned riches, have their beginning in an idea.",
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "To follow, without halt, one aim: There is the secret of success.",
+    quoteText: "To follow, without halt, one aim: There is the secret of success.",
     quoteAuthor: "Anna Pavlova",
   },
   {
@@ -15856,8 +14693,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -15876,8 +14712,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Marston",
   },
   {
-    quoteText:
-      "What is a weed? A plant whose virtues have not yet been discovered.",
+    quoteText: "What is a weed? A plant whose virtues have not yet been discovered.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -15920,11 +14755,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "To free us from the expectations of others, to give us back to ourselves — there lies the great, singular power of self-respect.",
-    quoteAuthor: "Joan Didion",
-  },
-  {
-    quoteText:
       "In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time.",
     quoteAuthor: "Leonardo da Vinci",
   },
@@ -15952,8 +14782,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "If only wed stop trying to be happy wed have a pretty good time.",
+    quoteText: "If only wed stop trying to be happy wed have a pretty good time.",
     quoteAuthor: "Edith Wharton",
   },
   {
@@ -15974,13 +14803,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sri Chinmoy",
   },
   {
-    quoteText:
-      "One may say the eternal mystery of the world is its comprehensibility.",
+    quoteText: "One may say the eternal mystery of the world is its comprehensibility.",
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -16073,8 +14900,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buckminster Fuller",
   },
   {
-    quoteText:
-      "Most of the shadows of life are caused by standing in our own sunshine.",
+    quoteText: "Most of the shadows of life are caused by standing in our own sunshine.",
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
@@ -16095,8 +14921,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Michelangelo",
   },
   {
-    quoteText:
-      "Thought is the blossom; language the bud; action the fruit behind it.",
+    quoteText: "Thought is the blossom; language the bud; action the fruit behind it.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -16118,13 +14943,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Edna Millay",
   },
   {
-    quoteText:
-      "The bird of paradise alights only upon the hand that does not grasp.",
+    quoteText: "The bird of paradise alights only upon the hand that does not grasp.",
     quoteAuthor: "John Berry",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -16172,8 +14995,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Shakespeare",
   },
   {
-    quoteText:
-      "I gave my life to become the person I am right now. Was it worth it?",
+    quoteText: "I gave my life to become the person I am right now. Was it worth it?",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -16182,8 +15004,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mary Kay Ash",
   },
   {
-    quoteText:
-      "To study and not think is a waste. To think and not study is dangerous.",
+    quoteText: "To study and not think is a waste. To think and not study is dangerous.",
     quoteAuthor: "Confucius",
   },
   {
@@ -16215,14 +15036,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jack Buck",
   },
   {
-    quoteText:
-      "If it is not right do not do it; if it is not true do not say it.",
+    quoteText: "If it is not right do not do it; if it is not true do not say it.",
     quoteAuthor: "Marcus Aurelius",
-  },
-  {
-    quoteText:
-      "To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.",
-    quoteAuthor: "Thich Nhat Hanh",
   },
   {
     quoteText: "Love is the master key that opens the gates of happiness.",
@@ -16236,11 +15051,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "What we achieve inwardly will change outer reality.",
     quoteAuthor: "Plutarch",
-  },
-  {
-    quoteText:
-      "The most decisive actions of our life... are most often unconsidered actions.",
-    quoteAuthor: "André Gide",
   },
   {
     quoteText: "If I know what love is, it is because of you.",
@@ -16272,8 +15082,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cecil B. DeMille",
   },
   {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
@@ -16304,8 +15113,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Disraeli",
   },
   {
-    quoteText:
-      "Good thoughts are no better than good dreams, unless they be executed.",
+    quoteText: "Good thoughts are no better than good dreams, unless they be executed.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -16314,8 +15122,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Alfred Adler",
   },
   {
-    quoteText:
-      "Success is getting what you want. Happiness is wanting what you get.",
+    quoteText: "Success is getting what you want. Happiness is wanting what you get.",
     quoteAuthor: "Dale Carnegie",
   },
   {
@@ -16329,8 +15136,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jean Lacordaire",
   },
   {
-    quoteText:
-      "The only real failure in life is not to be true to the best one knows.",
+    quoteText: "The only real failure in life is not to be true to the best one knows.",
     quoteAuthor: "Buddha",
   },
   {
@@ -16351,8 +15157,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cervantes",
   },
   {
-    quoteText:
-      "I always wanted to be somebody, but I should have been more specific.",
+    quoteText: "I always wanted to be somebody, but I should have been more specific.",
     quoteAuthor: "Lily Tomlin",
   },
   {
@@ -16374,8 +15179,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "James Faust",
   },
   {
-    quoteText:
-      "If you correct your mind, the rest of your life will fall into place.",
+    quoteText: "If you correct your mind, the rest of your life will fall into place.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -16419,11 +15223,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Why worry about things you can’t control when you can keep yourself busy controlling the things that depend on you?",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
       "The best and most beautiful things in the world cannot be seen, nor touched... but are felt in the heart.",
     quoteAuthor: "Helen Keller",
   },
@@ -16452,8 +15251,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cavour",
   },
   {
-    quoteText:
-      "To get something you never had, you have to do something you never did.",
+    quoteText: "To get something you never had, you have to do something you never did.",
     quoteAuthor: "",
   },
   {
@@ -16471,8 +15269,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eckhart Tolle",
   },
   {
-    quoteText:
-      "Better than a thousand hollow words is one word that brings peace.",
+    quoteText: "Better than a thousand hollow words is one word that brings peace.",
     quoteAuthor: "Buddha",
   },
   {
@@ -16491,8 +15288,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "The possibilities are numerous once we decide to act and not react.",
+    quoteText: "The possibilities are numerous once we decide to act and not react.",
     quoteAuthor: "George Bernard Shaw",
   },
   {
@@ -16545,8 +15341,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Janis Joplin",
   },
   {
-    quoteText:
-      "Never ignore a gut feeling, but never believe that it's enough.",
+    quoteText: "Never ignore a gut feeling, but never believe that it's enough.",
     quoteAuthor: "Robert Heller",
   },
   {
@@ -16563,14 +15358,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henri Amiel",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
-  {
-    quoteText: "He who is contented is rich.",
-    quoteAuthor: "Lao Tzu",
-  },
+  { quoteText: "He who is contented is rich.", quoteAuthor: "Lao Tzu" },
   {
     quoteText: "Where all think alike, no one thinks very much.",
     quoteAuthor: "Walter Lippmann",
@@ -16585,8 +15376,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "Sometimes by losing a battle you find a new way to win the war.",
+    quoteText: "Sometimes by losing a battle you find a new way to win the war.",
     quoteAuthor: "Donald Trump",
   },
   {
@@ -16663,8 +15453,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Anais Nin",
   },
   {
-    quoteText:
-      "The greatest obstacle to connecting with our joy is resentment.",
+    quoteText: "The greatest obstacle to connecting with our joy is resentment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -16685,13 +15474,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "American proverb",
   },
   {
-    quoteText:
-      "You might well remember that nothing can bring you success but yourself.",
+    quoteText: "You might well remember that nothing can bring you success but yourself.",
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "Don't settle for a relationship that won't let you be yourself.",
+    quoteText: "Don't settle for a relationship that won't let you be yourself.",
     quoteAuthor: "Oprah Winfrey",
   },
   {
@@ -16720,8 +15507,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Tony Robbins",
   },
   {
-    quoteText:
-      "The only limit to your impact is your imagination and commitment.",
+    quoteText: "The only limit to your impact is your imagination and commitment.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -16749,13 +15535,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "You might well remember that nothing can bring you success but yourself.",
+    quoteText: "You might well remember that nothing can bring you success but yourself.",
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "If you do what you've always done, you'll get what youve always gotten.",
+    quoteText: "If you do what you've always done, you'll get what youve always gotten.",
     quoteAuthor: "Tony Robbins",
   },
   {
@@ -16782,11 +15566,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Knowledge has three degrees — opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition.",
-    quoteAuthor: "Plotinus",
-  },
-  {
-    quoteText:
       "I find hope in the darkest of days, and focus in the brightest. I do not judge the universe.",
     quoteAuthor: "Dalai Lama",
   },
@@ -16796,8 +15575,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Paavo Nurmi",
   },
   {
-    quoteText:
-      "Never ignore a gut feeling, but never believe that it's enough.",
+    quoteText: "Never ignore a gut feeling, but never believe that it's enough.",
     quoteAuthor: "Robert Heller",
   },
   {
@@ -16805,13 +15583,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "You don't drown by falling in water. You drown by staying there.",
+    quoteText: "You don't drown by falling in water. You drown by staying there.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Obstacles are those things you see when you take your eyes off the goal.",
+    quoteText: "Obstacles are those things you see when you take your eyes off the goal.",
     quoteAuthor: "Hannah More",
   },
   {
@@ -16820,23 +15596,14 @@ export const quotes: Quote[] = [
     quoteAuthor: "Harriet Tubman",
   },
   {
-    quoteText:
-      "Don't talk about what you have done or what you are going to do.",
+    quoteText: "Don't talk about what you have done or what you are going to do.",
     quoteAuthor: "Thomas Jefferson",
   },
-  {
-    quoteText: "Everything in life is luck.",
-    quoteAuthor: "Donald Trump",
-  },
+  { quoteText: "Everything in life is luck.", quoteAuthor: "Donald Trump" },
   {
     quoteText:
       "Love vanquishes time. To lovers, a moment can be eternity, eternity can be the tick of a clock.",
     quoteAuthor: "Mary Parrish",
-  },
-  {
-    quoteText:
-      "Letting go isn’t the end of the world; it’s the beginning of a new life.",
-    quoteAuthor: "",
   },
   {
     quoteText: "Science is organized knowledge. Wisdom is organized life.",
@@ -16886,8 +15653,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mary Wollstonecraft",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -16910,13 +15676,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Franklin",
   },
   {
-    quoteText:
-      "I always wanted to be somebody, but I should have been more specific.",
+    quoteText: "I always wanted to be somebody, but I should have been more specific.",
     quoteAuthor: "Lily Tomlin",
   },
   {
-    quoteText:
-      "Always do your best. What you plant now, you will harvest later.",
+    quoteText: "Always do your best. What you plant now, you will harvest later.",
     quoteAuthor: "Og Mandino",
   },
   {
@@ -16930,8 +15694,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lao Tzu",
   },
   {
-    quoteText:
-      "If it is not right do not do it; if it is not true do not say it.",
+    quoteText: "If it is not right do not do it; if it is not true do not say it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -16990,10 +15753,7 @@ export const quotes: Quote[] = [
     quoteText: "A man's dreams are an index to his greatness.",
     quoteAuthor: "Zadok Rabinowitz",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
   {
     quoteText: "There is no way to happiness, happiness is the way.",
     quoteAuthor: "Thich Nhat Hanh",
@@ -17033,11 +15793,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Why worry about things you can’t control when you can keep yourself busy controlling the things that depend on you?",
-    quoteAuthor: "",
-  },
-  {
     quoteText: "Why worry about tomorrow, when today is all we have?",
     quoteAuthor: "",
   },
@@ -17048,11 +15803,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "Try and fail, but don't fail to try.",
     quoteAuthor: "Stephen Kaggwa",
-  },
-  {
-    quoteText:
-      "The first duty of a human being is to assume the right functional relationship to society — more briefly, to find your real job, and do it.",
-    quoteAuthor: "Charlotte Perkins Gilman",
   },
   {
     quoteText: "Your big opportunity may be right where you are now.",
@@ -17101,8 +15851,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "The smallest act of kindness is worth more than the grandest intention.",
+    quoteText: "The smallest act of kindness is worth more than the grandest intention.",
     quoteAuthor: "Oscar Wilde",
   },
   {
@@ -17153,14 +15902,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Helen Keller",
   },
   {
-    quoteText:
-      "To follow, without halt, one aim: There is the secret of success.",
+    quoteText: "To follow, without halt, one aim: There is the secret of success.",
     quoteAuthor: "Anna Pavlova",
   },
-  {
-    quoteText: "A stumble may prevent a fall.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A stumble may prevent a fall.", quoteAuthor: "" },
   {
     quoteText: "The years teach much which the days never know.",
     quoteAuthor: "Ralph Emerson",
@@ -17194,11 +15939,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Continuous effort—not strength or intelligence—is the key to unlocking our potential.",
-    quoteAuthor: "Winston Churchill",
-  },
-  {
-    quoteText:
       "We must learn our limits. We are all something, but none of us are everything.",
     quoteAuthor: "Blaise Pascal",
   },
@@ -17217,13 +15957,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oscar Wilde",
   },
   {
-    quoteText:
-      "Kindness is the language which the deaf can hear and the blind can see.",
+    quoteText: "Kindness is the language which the deaf can hear and the blind can see.",
     quoteAuthor: "Mark Twain",
   },
   {
-    quoteText:
-      "To be tested is good. The challenged life may be the best therapist.",
+    quoteText: "To be tested is good. The challenged life may be the best therapist.",
     quoteAuthor: "Gail Sheehy",
   },
   {
@@ -17240,10 +15978,7 @@ export const quotes: Quote[] = [
       "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
     quoteAuthor: "Franklin Roosevelt",
   },
-  {
-    quoteText: "Fortune favours the brave.",
-    quoteAuthor: "Virgil",
-  },
+  { quoteText: "Fortune favours the brave.", quoteAuthor: "Virgil" },
   {
     quoteText: "The heart has its reasons which reason knows not of.",
     quoteAuthor: "Blaise Pascal",
@@ -17272,8 +16007,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Catherine Pulsifer",
   },
   {
-    quoteText:
-      "Don't let what you can't do stop you from doing what you can do.",
+    quoteText: "Don't let what you can't do stop you from doing what you can do.",
     quoteAuthor: "",
   },
   {
@@ -17403,10 +16137,7 @@ export const quotes: Quote[] = [
       "If we look at the world with a love of life, the world will reveal its beauty to us.",
     quoteAuthor: "Daisaku Ikeda",
   },
-  {
-    quoteText: "Open minds lead to open doors.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Open minds lead to open doors.", quoteAuthor: "" },
   {
     quoteText:
       "The most important point is to accept yourself and stand on your two feet.",
@@ -17427,8 +16158,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "W. Clement Stone",
   },
   {
-    quoteText:
-      "Happiness is the reward we get for living to the highest right we know.",
+    quoteText: "Happiness is the reward we get for living to the highest right we know.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -17543,10 +16273,7 @@ export const quotes: Quote[] = [
     quoteText: "As you think, so shall you become.",
     quoteAuthor: "Bruce Lee",
   },
-  {
-    quoteText: "The cautious seldom err.",
-    quoteAuthor: "Confucius",
-  },
+  { quoteText: "The cautious seldom err.", quoteAuthor: "Confucius" },
   {
     quoteText: "Be less curious about people and more curious about ideas.",
     quoteAuthor: "Marie Curie",
@@ -17556,8 +16283,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "The future belongs to those who believe in the beauty of their dreams.",
+    quoteText: "The future belongs to those who believe in the beauty of their dreams.",
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
@@ -17565,8 +16291,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lou Holtz",
   },
   {
-    quoteText:
-      "There are no limitations to the mind except those we acknowledge.",
+    quoteText: "There are no limitations to the mind except those we acknowledge.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -17610,8 +16335,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Babatunde Olatunji",
   },
   {
-    quoteText:
-      "Don't think of it as failure. Think of it as time-released success.",
+    quoteText: "Don't think of it as failure. Think of it as time-released success.",
     quoteAuthor: "Robert Orben",
   },
   {
@@ -17620,8 +16344,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thomas Carlyle",
   },
   {
-    quoteText:
-      "The exercise of an extraordinary gift is the supremest pleasure in life.",
+    quoteText: "The exercise of an extraordinary gift is the supremest pleasure in life.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -17639,8 +16362,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Anais Nin",
   },
   {
-    quoteText:
-      "The future is completely open, and we are writing it moment to moment.",
+    quoteText: "The future is completely open, and we are writing it moment to moment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -17682,19 +16404,11 @@ export const quotes: Quote[] = [
       "Some people are always grumbling because roses have thorns; I am thankful that thorns have roses.",
     quoteAuthor: "Alphonse Karr",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
   {
     quoteText:
       "If you lose today, win tomorrow. In this never-ending spirit of challenge is the heart of a victor.",
     quoteAuthor: "Daisaku Ikeda",
-  },
-  {
-    quoteText:
-      "Arrogance and rudeness are training wheels on the bicycle of life — for weak people who cannot keep their balance without them.",
-    quoteAuthor: "Laura Teresa Marquez",
   },
   {
     quoteText: "Well done is better than well said.",
@@ -17714,8 +16428,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Elbert Hubbard",
   },
   {
-    quoteText:
-      "You can do what's reasonable or you can decide what's possible.",
+    quoteText: "You can do what's reasonable or you can decide what's possible.",
     quoteAuthor: "",
   },
   {
@@ -17752,18 +16465,10 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The secret of joy in work is contained in one word — excellence. To know how to do something well is to enjoy it.",
-    quoteAuthor: "Pearl Buck",
-  },
-  {
-    quoteText:
       "Transformation doesn't take place with a vacuum; instead, it occurs when we are indirectly and directly connected to all those around us.",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
   {
     quoteText:
       "There are two kinds of failures: those who thought and never did, and those who did and never thought.",
@@ -17812,8 +16517,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "If you think you can, you can. And if you think you can't, you're right.",
+    quoteText: "If you think you can, you can. And if you think you can't, you're right.",
     quoteAuthor: "Henry Ford",
   },
   {
@@ -17824,11 +16528,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "If you wish to be a writer, write.",
     quoteAuthor: "Epictetus",
-  },
-  {
-    quoteText:
-      "Never tell me the sky’s the limit when there are footprints on the moon.",
-    quoteAuthor: "",
   },
   {
     quoteText: "When people are like each other they tend to like each other.",
@@ -17882,8 +16581,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eckhart Tolle",
   },
   {
-    quoteText:
-      "Shoot for the moon. Even if you miss, you'll land among the stars.",
+    quoteText: "Shoot for the moon. Even if you miss, you'll land among the stars.",
     quoteAuthor: "Les Brown",
   },
   {
@@ -17902,13 +16600,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "Think for yourselves and let others enjoy the privilege to do so too.",
+    quoteText: "Think for yourselves and let others enjoy the privilege to do so too.",
     quoteAuthor: "Voltaire",
-  },
-  {
-    quoteText: "Take it easy — but take it.",
-    quoteAuthor: "Woody Guthrie",
   },
   {
     quoteText: "No garden is without its weeds.",
@@ -17939,13 +16632,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lisa Alther",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
-    quoteText:
-      "No yesterdays are ever wasted for those who give themselves to today.",
+    quoteText: "No yesterdays are ever wasted for those who give themselves to today.",
     quoteAuthor: "Brendan Francis",
   },
   {
@@ -17958,19 +16649,11 @@ export const quotes: Quote[] = [
       "Meditation brings wisdom; lack of mediation leaves ignorance. Know well what leads you forward and what hold you back, and choose the path that leads to wisdom.",
     quoteAuthor: "Buddha",
   },
-  {
-    quoteText: "Change your words. Change your world.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Change your words. Change your world.", quoteAuthor: "" },
   {
     quoteText:
       "If you must tell me your opinions, tell me what you believe in. I have plenty of douts of my own.",
     quoteAuthor: "Johann Wolfgang von Goethe",
-  },
-  {
-    quoteText:
-      "You must train your intuition — you must trust the small voice inside you which tells you exactly what to say, what to decide.",
-    quoteAuthor: "Ingrid Bergman",
   },
   {
     quoteText: "Study the past, if you would divine the future.",
@@ -18003,14 +16686,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "It does not matter how slowly you go as long as you do not stop.",
+    quoteText: "It does not matter how slowly you go as long as you do not stop.",
     quoteAuthor: "Confucius",
   },
-  {
-    quoteText: "What we think, we become.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "What we think, we become.", quoteAuthor: "Buddha" },
   {
     quoteText: "The foot feels the foot when it feels the ground.",
     quoteAuthor: "Buddha",
@@ -18020,8 +16699,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sylvia Voirol",
   },
   {
-    quoteText:
-      "Life isn't about finding yourself. Life is about creating yourself.",
+    quoteText: "Life isn't about finding yourself. Life is about creating yourself.",
     quoteAuthor: "Bernard Shaw",
   },
   {
@@ -18030,8 +16708,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Schweitzer",
   },
   {
-    quoteText:
-      "He who knows others is wise. He who knows himself is enlightened.",
+    quoteText: "He who knows others is wise. He who knows himself is enlightened.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -18189,8 +16866,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mark Twain",
   },
   {
-    quoteText:
-      "It's not what happens to you, but how you react to it that matters.",
+    quoteText: "It's not what happens to you, but how you react to it that matters.",
     quoteAuthor: "Epictetus",
   },
   {
@@ -18267,8 +16943,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Elizabeth Browning",
   },
   {
-    quoteText:
-      "Forgiveness does not change the past, but it does enlarge the future.",
+    quoteText: "Forgiveness does not change the past, but it does enlarge the future.",
     quoteAuthor: "Paul Boese",
   },
   {
@@ -18280,13 +16955,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ernest Hemingway",
   },
   {
-    quoteText:
-      "Genuine love should first be directed at oneself – if we do not love ourselves, how can we love others?",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
-      "Your attitude, not your aptitude, will determine your altitude.",
+    quoteText: "Your attitude, not your aptitude, will determine your altitude.",
     quoteAuthor: "Zig Ziglar",
   },
   {
@@ -18328,8 +16997,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Hannah Senesh",
   },
   {
-    quoteText:
-      "One who is too insistent on his own views, finds few to agree with him.",
+    quoteText: "One who is too insistent on his own views, finds few to agree with him.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -18353,8 +17021,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Your attitude, not your aptitude, will determine your altitude.",
+    quoteText: "Your attitude, not your aptitude, will determine your altitude.",
     quoteAuthor: "Zig Ziglar",
   },
   {
@@ -18367,26 +17034,20 @@ export const quotes: Quote[] = [
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "To be happy is to be able to become aware of oneself without fright.",
+    quoteText: "To be happy is to be able to become aware of oneself without fright.",
     quoteAuthor: "Walter Benjamin",
   },
-  {
-    quoteText: "You only lose what you cling to.",
-    quoteAuthor: "Buddha",
-  },
+  { quoteText: "You only lose what you cling to.", quoteAuthor: "Buddha" },
   {
     quoteText: "A weed is no more than a flower in disguise.",
     quoteAuthor: "James Lowell",
   },
   {
-    quoteText:
-      "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    quoteText: "Genius is one percent inspiration and ninety-nine percent perspiration.",
     quoteAuthor: "Thomas Edison",
   },
   {
-    quoteText:
-      "The secret to a rich life is to have more beginnings than endings.",
+    quoteText: "The secret to a rich life is to have more beginnings than endings.",
     quoteAuthor: "Dave Weinbaum",
   },
   {
@@ -18400,8 +17061,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Doug Larson",
   },
   {
-    quoteText:
-      "Nothing ever goes away until it has taught us what we need to know.",
+    quoteText: "Nothing ever goes away until it has taught us what we need to know.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -18425,8 +17085,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Tony Robbins",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -18459,8 +17118,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "Logic will get you from A to B. Imagination will take you everywhere.",
+    quoteText: "Logic will get you from A to B. Imagination will take you everywhere.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -18543,8 +17201,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "James Lowell",
   },
   {
-    quoteText:
-      "Real success is finding your lifework in the work that you love.",
+    quoteText: "Real success is finding your lifework in the work that you love.",
     quoteAuthor: "David McCullough",
   },
   {
@@ -18557,8 +17214,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Charles R. Swindoll",
   },
   {
-    quoteText:
-      "The deepest craving of human nature is the need to be appreciated.",
+    quoteText: "The deepest craving of human nature is the need to be appreciated.",
     quoteAuthor: "William James",
   },
   {
@@ -18639,8 +17295,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thomas Carlyle",
   },
   {
-    quoteText:
-      "If you can't explain it simply, you don't understand it well enough.",
+    quoteText: "If you can't explain it simply, you don't understand it well enough.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -18691,8 +17346,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Lou Holtz",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
@@ -18734,8 +17388,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Zig Ziglar",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the world.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the world.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -18744,8 +17397,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "To know oneself is to study oneself in action with another person.",
+    quoteText: "To know oneself is to study oneself in action with another person.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -18787,10 +17439,7 @@ export const quotes: Quote[] = [
       "We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light.",
     quoteAuthor: "Ralph Emerson",
   },
-  {
-    quoteText: "Change your thoughts, change your life!",
-    quoteAuthor: "",
-  },
+  { quoteText: "Change your thoughts, change your life!", quoteAuthor: "" },
   {
     quoteText:
       "You have to take it as it happens, but you should try to make it happen the way you want to take it.",
@@ -18801,8 +17450,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bob Newhart",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -18822,10 +17470,7 @@ export const quotes: Quote[] = [
     quoteText: "I think and that is all that I am.",
     quoteAuthor: "Wayne Dyer",
   },
-  {
-    quoteText: "Fortune favours the brave.",
-    quoteAuthor: "Virgil",
-  },
+  { quoteText: "Fortune favours the brave.", quoteAuthor: "Virgil" },
   {
     quoteText:
       "A leader or a man of action in a crisis almost always acts subconsciously and then thinks of the reasons for his action.",
@@ -18845,8 +17490,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Haynes Bayly",
   },
   {
-    quoteText:
-      "The best place to find a helping hand is at the end of your own arm.",
+    quoteText: "The best place to find a helping hand is at the end of your own arm.",
     quoteAuthor: "",
   },
   {
@@ -18859,8 +17503,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "He who knows others is wise. He who knows himself is enlightened.",
+    quoteText: "He who knows others is wise. He who knows himself is enlightened.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -18957,8 +17600,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Pema Chodron",
   },
   {
-    quoteText:
-      "A man who doesn't trust himself can never really trust anyone else.",
+    quoteText: "A man who doesn't trust himself can never really trust anyone else.",
     quoteAuthor: "Cardinal Retz",
   },
   {
@@ -18989,10 +17631,7 @@ export const quotes: Quote[] = [
       "Do not expect the world to look bright, if you habitually wear gray-brown glasses.",
     quoteAuthor: "Tomas Eliot",
   },
-  {
-    quoteText: "Change in all things is sweet.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Change in all things is sweet.", quoteAuthor: "Aristotle" },
   {
     quoteText: "They can do all because they think they can.",
     quoteAuthor: "Virgil",
@@ -19048,14 +17687,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Rabbi Hillel",
   },
   {
-    quoteText:
-      "It has never been my object to record my dreams, just to realize them.",
+    quoteText: "It has never been my object to record my dreams, just to realize them.",
     quoteAuthor: "Man Ray",
   },
-  {
-    quoteText: "Wisdom begins in wonder.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Wisdom begins in wonder.", quoteAuthor: "Socrates" },
   {
     quoteText:
       "We must never forget that it is through our actions, words, and thoughts that we have a choice.",
@@ -19096,8 +17731,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Julie Morgenstern",
   },
   {
-    quoteText:
-      "What is a weed? A plant whose virtues have not yet been discovered.",
+    quoteText: "What is a weed? A plant whose virtues have not yet been discovered.",
     quoteAuthor: "Ralph Emerson",
   },
   {
@@ -19118,8 +17752,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Anatole France",
   },
   {
-    quoteText:
-      "If we did the things we are capable of, we would astound ourselves.",
+    quoteText: "If we did the things we are capable of, we would astound ourselves.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -19127,13 +17760,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Zig Ziglar",
   },
   {
-    quoteText:
-      "Success is getting what you want. Happiness is wanting what you get.",
+    quoteText: "Success is getting what you want. Happiness is wanting what you get.",
     quoteAuthor: "Dale Carnegie",
   },
   {
-    quoteText:
-      "Never idealize others. They will never live up to your expectations.",
+    quoteText: "Never idealize others. They will never live up to your expectations.",
     quoteAuthor: "Leo Buscaglia",
   },
   {
@@ -19159,8 +17790,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "When performance exceeds ambition, the overlap is called success.",
+    quoteText: "When performance exceeds ambition, the overlap is called success.",
     quoteAuthor: "Cullen Hightower",
   },
   {
@@ -19206,10 +17836,7 @@ export const quotes: Quote[] = [
       "Do not give your attention to what others do or fail to do; give it to what you do or fail to do.",
     quoteAuthor: "Dhammapada",
   },
-  {
-    quoteText: "Well begun is half done.",
-    quoteAuthor: "Aristotle",
-  },
+  { quoteText: "Well begun is half done.", quoteAuthor: "Aristotle" },
   {
     quoteText: "The years teach much which the days never know.",
     quoteAuthor: "Ralph Emerson",
@@ -19224,13 +17851,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "An obstacle may be either a stepping stone or a stumbling block.",
+    quoteText: "An obstacle may be either a stepping stone or a stumbling block.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
+    quoteText: "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
     quoteAuthor: "William White",
   },
   {
@@ -19242,11 +17867,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Each misfortune you encounter will carry in it the seed of tomorrows good luck.",
     quoteAuthor: "Og Mandino",
-  },
-  {
-    quoteText:
-      "If you want to study yourself — look into the hearts of other people. If you want to study other people — look into your own heart.",
-    quoteAuthor: "Friedrich von Schiller",
   },
   {
     quoteText:
@@ -19316,8 +17936,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Blaise Pascal",
   },
   {
-    quoteText:
-      "If you get up one more time than you fall, you will make it through.",
+    quoteText: "If you get up one more time than you fall, you will make it through.",
     quoteAuthor: "",
   },
   {
@@ -19331,8 +17950,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "To get the full value of joy you must have someone to divide it with.",
+    quoteText: "To get the full value of joy you must have someone to divide it with.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -19350,8 +17968,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Voltaire",
   },
   {
-    quoteText:
-      "To be happy is to be able to become aware of oneself without fright.",
+    quoteText: "To be happy is to be able to become aware of oneself without fright.",
     quoteAuthor: "Walter Benjamin",
   },
   {
@@ -19391,10 +18008,7 @@ export const quotes: Quote[] = [
     quoteText: "You teach best what you most need to learn.",
     quoteAuthor: "Richard Bach",
   },
-  {
-    quoteText: "Worry gives a small thing a big shadow.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Worry gives a small thing a big shadow.", quoteAuthor: "" },
   {
     quoteText:
       "Fine words and an insinuating appearance are seldom associated with true virtue",
@@ -19413,8 +18027,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Zadok Rabinowitz",
   },
   {
-    quoteText:
-      "If you change the way you look at things, the things you look at change.",
+    quoteText: "If you change the way you look at things, the things you look at change.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -19453,8 +18066,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sinvyest Tan",
   },
   {
-    quoteText:
-      "Without some goals and some efforts to reach it, no man can live.",
+    quoteText: "Without some goals and some efforts to reach it, no man can live.",
     quoteAuthor: "John Dewey",
   },
   {
@@ -19503,8 +18115,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Lynd",
   },
   {
-    quoteText:
-      "Success is determined by those whom prove the impossible, possible.",
+    quoteText: "Success is determined by those whom prove the impossible, possible.",
     quoteAuthor: "James Pence",
   },
   {
@@ -19531,8 +18142,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mother Teresa",
   },
   {
-    quoteText:
-      "The only real failure in life is not to be true to the best one knows.",
+    quoteText: "The only real failure in life is not to be true to the best one knows.",
     quoteAuthor: "Buddha",
   },
   {
@@ -19641,8 +18251,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Southey",
   },
   {
-    quoteText:
-      "To follow, without halt, one aim: There is the secret of success.",
+    quoteText: "To follow, without halt, one aim: There is the secret of success.",
     quoteAuthor: "Anna Pavlova",
   },
   {
@@ -19719,17 +18328,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Letting go isn’t the end of the world; it’s the beginning of a new life.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
       "When you discover your mission, you will feel its demand. It will fill you with enthusiasm and a burning desire to get to work on it.",
     quoteAuthor: "W. Clement Stone",
   },
   {
-    quoteText:
-      "Life is what happens to you while you're busy making other plans.",
+    quoteText: "Life is what happens to you while you're busy making other plans.",
     quoteAuthor: "John Lennon",
   },
   {
@@ -19748,8 +18351,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "When there is no enemy within, the enemies outside cannot hurt you.",
+    quoteText: "When there is no enemy within, the enemies outside cannot hurt you.",
     quoteAuthor: "African proverb",
   },
   {
@@ -19788,8 +18390,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "English proverb",
   },
   {
-    quoteText:
-      "Kindness is the language which the deaf can hear and the blind can see.",
+    quoteText: "Kindness is the language which the deaf can hear and the blind can see.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -19811,17 +18412,13 @@ export const quotes: Quote[] = [
     quoteText: "Knowledge rests not upon truth alone, but upon error also.",
     quoteAuthor: "Carl Jung",
   },
-  {
-    quoteText: "No man was ever wise by chance.",
-    quoteAuthor: "Seneca",
-  },
+  { quoteText: "No man was ever wise by chance.", quoteAuthor: "Seneca" },
   {
     quoteText: "If you have knowledge, let others light their candles in it.",
     quoteAuthor: "Margaret Fuller",
   },
   {
-    quoteText:
-      "To get the full value of joy you must have someone to divide it with.",
+    quoteText: "To get the full value of joy you must have someone to divide it with.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -19830,8 +18427,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "It is impossible for a man to learn what he thinks he already knows.",
+    quoteText: "It is impossible for a man to learn what he thinks he already knows.",
     quoteAuthor: "Epictetus",
   },
   {
@@ -19839,8 +18435,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Carlyle",
   },
   {
-    quoteText:
-      "If you find yourself in a hole, the first thing to do is stop digging.",
+    quoteText: "If you find yourself in a hole, the first thing to do is stop digging.",
     quoteAuthor: "Will Rogers",
   },
   {
@@ -19868,8 +18463,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -19959,11 +18553,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "To free us from the expectations of others, to give us back to ourselves — there lies the great, singular power of self-respect.",
-    quoteAuthor: "Joan Didion",
-  },
-  {
-    quoteText:
       "He who controls others may be powerful, but he who has mastered himself is mightier still.",
     quoteAuthor: "Lao Tzu",
   },
@@ -20026,8 +18615,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Larry Elder",
   },
   {
-    quoteText:
-      "A man of ability and the desire to accomplish something can do anything.",
+    quoteText: "A man of ability and the desire to accomplish something can do anything.",
     quoteAuthor: "Donald Kircher",
   },
   {
@@ -20041,8 +18629,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Chinese proverb",
   },
   {
-    quoteText:
-      "Logic will get you from A to B. Imagination will take you everywhere.",
+    quoteText: "Logic will get you from A to B. Imagination will take you everywhere.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -20051,8 +18638,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bernard Shaw",
   },
   {
-    quoteText:
-      "No yesterdays are ever wasted for those who give themselves to today.",
+    quoteText: "No yesterdays are ever wasted for those who give themselves to today.",
     quoteAuthor: "Brendan Francis",
   },
   {
@@ -20063,11 +18649,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "Autumn is a second spring when every leaf is a flower.",
     quoteAuthor: "Albert Camus",
-  },
-  {
-    quoteText:
-      "There are no failures — just experiences and your reactions to them.",
-    quoteAuthor: "Tom Krause",
   },
   {
     quoteText:
@@ -20135,8 +18716,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Aristotle",
   },
   {
-    quoteText:
-      "We all have problems. The way we solve them is what makes us different.",
+    quoteText: "We all have problems. The way we solve them is what makes us different.",
     quoteAuthor: "",
   },
   {
@@ -20150,8 +18730,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Cicero",
   },
   {
-    quoteText:
-      "To be happy is to be able to become aware of oneself without fright.",
+    quoteText: "To be happy is to be able to become aware of oneself without fright.",
     quoteAuthor: "Walter Benjamin",
   },
   {
@@ -20168,13 +18747,9 @@ export const quotes: Quote[] = [
       "I'm not interested in age. People who tell me their age are silly. You're as old as you feel.",
     quoteAuthor: "Elizabeth Arden",
   },
+  { quoteText: "Kindness is the greatest wisdom.", quoteAuthor: "" },
   {
-    quoteText: "Kindness is the greatest wisdom.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "To bring anything into your life, imagine that it's already there.",
+    quoteText: "To bring anything into your life, imagine that it's already there.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -20210,14 +18785,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "The best place to find a helping hand is at the end of your own arm.",
+    quoteText: "The best place to find a helping hand is at the end of your own arm.",
     quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
-    quoteAuthor: "André Gide",
   },
   {
     quoteText:
@@ -20246,14 +18815,8 @@ export const quotes: Quote[] = [
       "The trouble with most people is that they think with their hopes or fears or wishes rather than with their minds.",
     quoteAuthor: "Will Durant",
   },
-  {
-    quoteText: "You only lose what you cling to.",
-    quoteAuthor: "Buddha",
-  },
-  {
-    quoteText: "You give before you get.",
-    quoteAuthor: "Napoleon Hill",
-  },
+  { quoteText: "You only lose what you cling to.", quoteAuthor: "Buddha" },
+  { quoteText: "You give before you get.", quoteAuthor: "Napoleon Hill" },
   {
     quoteText: "Do good by stealth, and blush to find it fame.",
     quoteAuthor: "Alexander Pope",
@@ -20269,8 +18832,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    quoteText: "The weak can never forgive. Forgiveness is the attribute of the strong.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -20291,11 +18853,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Adversity isn't set against you to fail; adversity is a way to build your character so that you can succeed over and over again through perseverance.",
     quoteAuthor: "Byron Pulsifer",
-  },
-  {
-    quoteText:
-      "Why worry about things you can’t control when you can keep yourself busy controlling the things that depend on you?",
-    quoteAuthor: "",
   },
   {
     quoteText: "Spring is a time for rebirth and the fulfilment of new life.",
@@ -20375,8 +18932,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "Real magic in relationships means an absence of judgement of others.",
+    quoteText: "Real magic in relationships means an absence of judgement of others.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -20394,8 +18950,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Audre Lorde",
   },
   {
-    quoteText:
-      "Imagination is not a talent of some men but is the health of every man.",
+    quoteText: "Imagination is not a talent of some men but is the health of every man.",
     quoteAuthor: "Ralph Waldo Emerson",
   },
   {
@@ -20413,8 +18968,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mahatma Gandhi",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -20473,13 +19027,9 @@ export const quotes: Quote[] = [
     quoteText: "To climb steep hills requires a slow pace at first.",
     quoteAuthor: "William Shakespeare",
   },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
   {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
-  {
-    quoteText:
-      "If you light a lamp for somebody, it will also brighten your path.",
+    quoteText: "If you light a lamp for somebody, it will also brighten your path.",
     quoteAuthor: "Buddha",
   },
   {
@@ -20492,14 +19042,8 @@ export const quotes: Quote[] = [
       "There is nothing so useless as doing efficiently that which should not be done at all.",
     quoteAuthor: "Peter Drucker",
   },
-  {
-    quoteText: "Everyone smiles in the same language.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Everyone smiles in the same language.", quoteAuthor: "" },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
     quoteText: "God has given you one face, and you make yourself another.",
     quoteAuthor: "William Shakespeare",
@@ -20599,14 +19143,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Byron Pulsifer",
   },
   {
-    quoteText:
-      "The difficulties of life are intended to make us better, not bitter.",
+    quoteText: "The difficulties of life are intended to make us better, not bitter.",
     quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Slow down and enjoy life. It's not only the scenery you miss by going too fast — you also miss the sense of where you are going and why.",
-    quoteAuthor: "Eddie Cantor",
   },
   {
     quoteText:
@@ -20637,13 +19175,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "German proverb",
   },
   {
-    quoteText:
-      "Knowledge has three degrees — opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition.",
-    quoteAuthor: "Plotinus",
-  },
-  {
-    quoteText:
-      "Impossibilities are merely things which we have not yet learned.",
+    quoteText: "Impossibilities are merely things which we have not yet learned.",
     quoteAuthor: "Charles Chesnutt",
   },
   {
@@ -20670,17 +19202,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The greatest antidote to insecurity and the sense of fear is compassion — it brings one back to the basis of one's inner strength",
-    quoteAuthor: "Dalai Lama",
-  },
-  {
-    quoteText:
       "Courage is the discovery that you may not win, and trying when you know you can lose.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "To know oneself is to study oneself in action with another person.",
+    quoteText: "To know oneself is to study oneself in action with another person.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -20761,10 +19287,7 @@ export const quotes: Quote[] = [
       "Never miss an opportunity to make others happy, even if you have to leave them alone in order to do it.",
     quoteAuthor: "",
   },
-  {
-    quoteText: "A stumble may prevent a fall.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A stumble may prevent a fall.", quoteAuthor: "" },
   {
     quoteText:
       "Never regret. If it's good, it's wonderful. If it's bad, it's experience.",
@@ -20775,8 +19298,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Better than a thousand hollow words, is one word that brings peace.",
+    quoteText: "Better than a thousand hollow words, is one word that brings peace.",
     quoteAuthor: "Buddha",
   },
   {
@@ -20804,8 +19326,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "The best place to find a helping hand is at the end of your own arm.",
+    quoteText: "The best place to find a helping hand is at the end of your own arm.",
     quoteAuthor: "",
   },
   {
@@ -20813,8 +19334,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Peter Elbow",
   },
   {
-    quoteText:
-      "Numberless are the worlds wonders, but none more wonderful than man.",
+    quoteText: "Numberless are the worlds wonders, but none more wonderful than man.",
     quoteAuthor: "Sophocles",
   },
   {
@@ -20827,8 +19347,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Don't judge each day by the harvest you reap but by the seeds you plant.",
+    quoteText: "Don't judge each day by the harvest you reap but by the seeds you plant.",
     quoteAuthor: "Robert Stevenson",
   },
   {
@@ -20863,8 +19382,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Lennon",
   },
   {
-    quoteText:
-      "Life isn't about finding yourself. Life is about creating yourself.",
+    quoteText: "Life isn't about finding yourself. Life is about creating yourself.",
     quoteAuthor: "Bernard Shaw",
   },
   {
@@ -20910,10 +19428,7 @@ export const quotes: Quote[] = [
       "The important thing is this: to be able at any moment to sacrifice what we are for what we could become.",
     quoteAuthor: "Charles Dubois",
   },
-  {
-    quoteText: "Fortune befriends the bold.",
-    quoteAuthor: "John Dryden",
-  },
+  { quoteText: "Fortune befriends the bold.", quoteAuthor: "John Dryden" },
   {
     quoteText:
       "As we grow as unique persons, we learn to respect the uniqueness of others.",
@@ -20933,8 +19448,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Lennon",
   },
   {
-    quoteText:
-      "A man of ability and the desire to accomplish something can do anything.",
+    quoteText: "A man of ability and the desire to accomplish something can do anything.",
     quoteAuthor: "Donald Kircher",
   },
   {
@@ -20956,10 +19470,7 @@ export const quotes: Quote[] = [
     quoteText: "I know but one freedom and that is the freedom of the mind.",
     quoteAuthor: "Antoine de Saint-Exupery",
   },
-  {
-    quoteText: "Change your words. Change your world.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Change your words. Change your world.", quoteAuthor: "" },
   {
     quoteText:
       "The key to growth is the introduction of higher dimensions of consciousness into our awareness.",
@@ -20989,8 +19500,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Charles DeLint",
   },
   {
-    quoteText:
-      "A man should look for what is, and not for what he thinks should be.",
+    quoteText: "A man should look for what is, and not for what he thinks should be.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -21012,32 +19522,24 @@ export const quotes: Quote[] = [
       "The true way to render ourselves happy is to love our work and find in it our pleasure.",
     quoteAuthor: "Francoise de Motteville",
   },
-  {
-    quoteText: "Fortune befriends the bold.",
-    quoteAuthor: "John Dryden",
-  },
+  { quoteText: "Fortune befriends the bold.", quoteAuthor: "John Dryden" },
   {
     quoteText:
       "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine.",
     quoteAuthor: "Nikola Tesla",
   },
-  {
-    quoteText: "Worry gives a small thing a big shadow.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Worry gives a small thing a big shadow.", quoteAuthor: "" },
   {
     quoteText:
       "Those who are blessed with the most talent don't necessarily outperform everyone else. It's the people with follow-through who excel.",
     quoteAuthor: "Mary Kay Ash",
   },
   {
-    quoteText:
-      "An obstacle may be either a stepping stone or a stumbling block.",
+    quoteText: "An obstacle may be either a stepping stone or a stumbling block.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    quoteText: "The weak can never forgive. Forgiveness is the attribute of the strong.",
     quoteAuthor: "Mohandas Gandhi",
   },
   {
@@ -21051,8 +19553,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thornton Wilder",
   },
   {
-    quoteText:
-      "I hear and I forget. I see and I remember. I do and I understand.",
+    quoteText: "I hear and I forget. I see and I remember. I do and I understand.",
     quoteAuthor: "Confucius",
   },
   {
@@ -21069,8 +19570,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "William R. Inge",
   },
   {
-    quoteText:
-      "It is not enough to have a good mind; the main thing is to use it well.",
+    quoteText: "It is not enough to have a good mind; the main thing is to use it well.",
     quoteAuthor: "Rene Descartes",
   },
   {
@@ -21092,8 +19592,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Michael Korda",
   },
   {
-    quoteText:
-      "When you judge another, you do not define them, you define yourself.",
+    quoteText: "When you judge another, you do not define them, you define yourself.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -21113,11 +19612,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "When you arise in the morning, think of what a precious privilege it is to be alive — to breathe, to think, to enjoy, to love.",
-    quoteAuthor: "Marcus Aurelius",
-  },
-  {
-    quoteText:
       "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
     quoteAuthor: "Michelangelo",
   },
@@ -21131,10 +19625,7 @@ export const quotes: Quote[] = [
       "A subtle thought that is in error may yet give rise to fruitful inquiry that can establish truths of great value.",
     quoteAuthor: "Isaac Asimov",
   },
-  {
-    quoteText: "You give before you get.",
-    quoteAuthor: "Napoleon Hill",
-  },
+  { quoteText: "You give before you get.", quoteAuthor: "Napoleon Hill" },
   {
     quoteText: "Make the most of yourself for that is all there is of you.",
     quoteAuthor: "Ralph Emerson",
@@ -21144,8 +19635,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "Think for yourselves and let others enjoy the privilege to do so too.",
+    quoteText: "Think for yourselves and let others enjoy the privilege to do so too.",
     quoteAuthor: "Voltaire",
   },
   {
@@ -21185,10 +19675,6 @@ export const quotes: Quote[] = [
     quoteText:
       "The final proof of greatness lies in being able to endure criticism without resentment.",
     quoteAuthor: "Elbert Hubbard",
-  },
-  {
-    quoteText: "Take it easy — but take it.",
-    quoteAuthor: "Woody Guthrie",
   },
   {
     quoteText: "If you want a thing done well, do it yourself.",
@@ -21259,18 +19745,13 @@ export const quotes: Quote[] = [
       "The grand essentials of happiness are: something to do, something to love, and something to hope for.",
     quoteAuthor: "Chalmers",
   },
+  { quoteText: "A stumble may prevent a fall.", quoteAuthor: "" },
   {
-    quoteText: "A stumble may prevent a fall.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "He who wishes to secure the good of others, has already secured his own.",
+    quoteText: "He who wishes to secure the good of others, has already secured his own.",
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "It is not enough to have a good mind; the main thing is to use it well.",
+    quoteText: "It is not enough to have a good mind; the main thing is to use it well.",
     quoteAuthor: "Rene Descartes",
   },
   {
@@ -21423,13 +19904,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "The truth which has made us free will in the end make us glad also.",
+    quoteText: "The truth which has made us free will in the end make us glad also.",
     quoteAuthor: "Felix Adler",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -21456,8 +19935,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ovid",
   },
   {
-    quoteText:
-      "Doing what you love is the cornerstone of having abundance in your life.",
+    quoteText: "Doing what you love is the cornerstone of having abundance in your life.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -21470,8 +19948,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Without some goals and some efforts to reach it, no man can live.",
+    quoteText: "Without some goals and some efforts to reach it, no man can live.",
     quoteAuthor: "John Dewey",
   },
   {
@@ -21490,8 +19967,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "We must not allow ourselves to become like the system we oppose.",
+    quoteText: "We must not allow ourselves to become like the system we oppose.",
     quoteAuthor: "Bishop Desmond Tutu",
   },
   {
@@ -21500,8 +19976,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ed Cunningham",
   },
   {
-    quoteText:
-      "The most formidable weapon against errors of every kind is reason.",
+    quoteText: "The most formidable weapon against errors of every kind is reason.",
     quoteAuthor: "Thomas Paine",
   },
   {
@@ -21519,8 +19994,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Learn to listen. Opportunity could be knocking at your door very softly.",
+    quoteText: "Learn to listen. Opportunity could be knocking at your door very softly.",
     quoteAuthor: "Frank Tyger",
   },
   {
@@ -21548,8 +20022,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Arthur Conan Doyle",
   },
   {
-    quoteText:
-      "Beware of the half truth. You may have gotten hold of the wrong half.",
+    quoteText: "Beware of the half truth. You may have gotten hold of the wrong half.",
     quoteAuthor: "",
   },
   {
@@ -21566,8 +20039,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Powell",
   },
   {
-    quoteText:
-      "Most folks are about as happy as they make up their minds to be.",
+    quoteText: "Most folks are about as happy as they make up their minds to be.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
@@ -21583,10 +20055,7 @@ export const quotes: Quote[] = [
       "Sincerity is the way of Heaven. The attainment of sincerity is the way of men.",
     quoteAuthor: "Confucius",
   },
-  {
-    quoteText: "Be as you wish to seem.",
-    quoteAuthor: "Socrates",
-  },
+  { quoteText: "Be as you wish to seem.", quoteAuthor: "Socrates" },
   {
     quoteText:
       "The greatest mistake you can make in life is to be continually fearing you will make one.",
@@ -21611,8 +20080,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "The free man is he who does not fear to go to the end of his thought.",
+    quoteText: "The free man is he who does not fear to go to the end of his thought.",
     quoteAuthor: "Leon Blum",
   },
   {
@@ -21624,8 +20092,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sylvia Voirol",
   },
   {
-    quoteText:
-      "People may doubt what you say, but they will believe what you do.",
+    quoteText: "People may doubt what you say, but they will believe what you do.",
     quoteAuthor: "Lewis Cass",
   },
   {
@@ -21634,8 +20101,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Rudolf Arnheim",
   },
   {
-    quoteText:
-      "Never idealize others. They will never live up to your expectations.",
+    quoteText: "Never idealize others. They will never live up to your expectations.",
     quoteAuthor: "Leo Buscaglia",
   },
   {
@@ -21652,8 +20118,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Bonaparte",
   },
   {
-    quoteText:
-      "Listen to your intuition. It will tell you everything you need to know.",
+    quoteText: "Listen to your intuition. It will tell you everything you need to know.",
     quoteAuthor: "Anthony D'Angelo",
   },
   {
@@ -21752,8 +20217,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Anais Nin",
   },
   {
-    quoteText:
-      "Real success is finding your lifework in the work that you love.",
+    quoteText: "Real success is finding your lifework in the work that you love.",
     quoteAuthor: "David McCullough",
   },
   {
@@ -21786,11 +20250,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jean de la Fontaine",
   },
   {
-    quoteText:
-      "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
-    quoteAuthor: "André Gide",
-  },
-  {
     quoteText: "Why worry about tomorrow, when today is all we have?",
     quoteAuthor: "",
   },
@@ -21818,8 +20277,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "A man who doesn't trust himself can never really trust anyone else.",
+    quoteText: "A man who doesn't trust himself can never really trust anyone else.",
     quoteAuthor: "Cardinal Retz",
   },
   {
@@ -21860,8 +20318,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sophocles",
   },
   {
-    quoteText:
-      "The superior man is modest in his speech, but exceeds in his actions.",
+    quoteText: "The superior man is modest in his speech, but exceeds in his actions.",
     quoteAuthor: "Confucius",
   },
   {
@@ -21884,22 +20341,14 @@ export const quotes: Quote[] = [
       "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
     quoteAuthor: "Marcus Aurelius",
   },
-  {
-    quoteText: "Change your words. Change your world.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "Take it easy — but take it.",
-    quoteAuthor: "Woody Guthrie",
-  },
+  { quoteText: "Change your words. Change your world.", quoteAuthor: "" },
   {
     quoteText:
       "Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit.",
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "The universe is transformation; our life is what our thoughts make it.",
+    quoteText: "The universe is transformation; our life is what our thoughts make it.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -21945,8 +20394,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Winston Churchill",
   },
   {
-    quoteText:
-      "A man of ability and the desire to accomplish something can do anything.",
+    quoteText: "A man of ability and the desire to accomplish something can do anything.",
     quoteAuthor: "Donald Kircher",
   },
   {
@@ -21955,8 +20403,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "Reason and free inquiry are the only effectual agents against error.",
+    quoteText: "Reason and free inquiry are the only effectual agents against error.",
     quoteAuthor: "Thomas Jefferson",
   },
   {
@@ -22009,8 +20456,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Colin Powell",
   },
   {
-    quoteText:
-      "People may doubt what you say, but they will believe what you do.",
+    quoteText: "People may doubt what you say, but they will believe what you do.",
     quoteAuthor: "Lewis Cass",
   },
   {
@@ -22019,8 +20465,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "When you judge another, you do not define them, you define yourself.",
+    quoteText: "When you judge another, you do not define them, you define yourself.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -22043,17 +20488,12 @@ export const quotes: Quote[] = [
     quoteAuthor: "Abernathy",
   },
   {
-    quoteText:
-      "We must not allow ourselves to become like the system we oppose.",
+    quoteText: "We must not allow ourselves to become like the system we oppose.",
     quoteAuthor: "Bishop Desmond Tutu",
   },
+  { quoteText: "Change your thoughts, change your life!", quoteAuthor: "" },
   {
-    quoteText: "Change your thoughts, change your life!",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "When performance exceeds ambition, the overlap is called success.",
+    quoteText: "When performance exceeds ambition, the overlap is called success.",
     quoteAuthor: "Cullen Hightower",
   },
   {
@@ -22073,18 +20513,13 @@ export const quotes: Quote[] = [
     quoteText: "Gratitude is the fairest blossom which springs from the soul.",
     quoteAuthor: "Henry Beecher",
   },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "Tension is who you think you should be. Relaxation is who you are.",
+    quoteText: "Tension is who you think you should be. Relaxation is who you are.",
     quoteAuthor: "Chinese proverb",
   },
   {
-    quoteText:
-      "Anything you really want, you can attain, if you really go after it.",
+    quoteText: "Anything you really want, you can attain, if you really go after it.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -22107,13 +20542,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "The truth which has made us free will in the end make us glad also.",
+    quoteText: "The truth which has made us free will in the end make us glad also.",
     quoteAuthor: "Felix Adler",
   },
   {
-    quoteText:
-      "Chaos is inherent in all compounded things. Strive on with diligence.",
+    quoteText: "Chaos is inherent in all compounded things. Strive on with diligence.",
     quoteAuthor: "Buddha",
   },
   {
@@ -22142,8 +20575,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sigmund Freud",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -22185,17 +20617,11 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
-    quoteAuthor: "André Gide",
-  },
-  {
-    quoteText:
       "In separateness lies the world's great misery, in compassion lies the world's true strength.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "If you can't explain it simply, you don't understand it well enough.",
+    quoteText: "If you can't explain it simply, you don't understand it well enough.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -22210,11 +20636,6 @@ export const quotes: Quote[] = [
     quoteText:
       "Happiness does not come from having much, but from being attached to little.",
     quoteAuthor: "Cheng Yen",
-  },
-  {
-    quoteText:
-      "You must train your intuition — you must trust the small voice inside you which tells you exactly what to say, what to decide.",
-    quoteAuthor: "Ingrid Bergman",
   },
   {
     quoteText:
@@ -22251,11 +20672,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eden Phillpotts",
   },
   {
-    quoteText:
-      "Never tell me the sky’s the limit when there are footprints on the moon.",
-    quoteAuthor: "",
-  },
-  {
     quoteText: "Be kind whenever possible. It is always possible.",
     quoteAuthor: "Dalai Lama",
   },
@@ -22265,13 +20681,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Barbara Baron",
   },
   {
-    quoteText:
-      "It is impossible for a man to learn what he thinks he already knows.",
+    quoteText: "It is impossible for a man to learn what he thinks he already knows.",
     quoteAuthor: "Epictetus",
   },
   {
-    quoteText:
-      "Success is getting what you want. Happiness is wanting what you get.",
+    quoteText: "Success is getting what you want. Happiness is wanting what you get.",
     quoteAuthor: "Dale Carnegie",
   },
   {
@@ -22290,14 +20704,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Elbert Hubbard",
   },
   {
-    quoteText:
-      "Imagination is the living power and prime agent of all human perception.",
+    quoteText: "Imagination is the living power and prime agent of all human perception.",
     quoteAuthor: "Samuel Taylor Coleridge",
-  },
-  {
-    quoteText:
-      "My mama always said: life's like a box of chocolate — you never know what you gonna get.",
-    quoteAuthor: "Forrest Gump",
   },
   {
     quoteText:
@@ -22305,8 +20713,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Robert Pirsig",
   },
   {
-    quoteText:
-      "Yeah we all shine on, like the moon, and the stars, and the sun.",
+    quoteText: "Yeah we all shine on, like the moon, and the stars, and the sun.",
     quoteAuthor: "John Lennon",
   },
   {
@@ -22370,8 +20777,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -22379,10 +20785,7 @@ export const quotes: Quote[] = [
       "The winner ain't the one with the fastest car it's the one who refuses to lose.",
     quoteAuthor: "Dale Earnhardt",
   },
-  {
-    quoteText: "Talk doesn't cook rice.",
-    quoteAuthor: "Chinese proverb",
-  },
+  { quoteText: "Talk doesn't cook rice.", quoteAuthor: "Chinese proverb" },
   {
     quoteText:
       "To be thoughtful and kind only takes a few seconds compared to the timeless hurt caused by one rude gesture.",
@@ -22403,8 +20806,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "E. M. Forster",
   },
   {
-    quoteText:
-      "Rather than wishing for change, you first must be prepared to change.",
+    quoteText: "Rather than wishing for change, you first must be prepared to change.",
     quoteAuthor: "Catherine Pulsifer",
   },
   {
@@ -22459,8 +20861,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "George Orwell",
   },
   {
-    quoteText:
-      "Life isn't about finding yourself. Life is about creating yourself.",
+    quoteText: "Life isn't about finding yourself. Life is about creating yourself.",
     quoteAuthor: "Bernard Shaw",
   },
   {
@@ -22478,8 +20879,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Benjamin Franklin",
   },
   {
-    quoteText:
-      "I hear and I forget. I see and I remember. I do and I understand.",
+    quoteText: "I hear and I forget. I see and I remember. I do and I understand.",
     quoteAuthor: "Confucius",
   },
   {
@@ -22491,8 +20891,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "No man can succeed in a line of endeavor which he does not like.",
+    quoteText: "No man can succeed in a line of endeavor which he does not like.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -22511,8 +20910,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Simone",
   },
   {
-    quoteText:
-      "Love is just a word until someone comes along and gives it meaning.",
+    quoteText: "Love is just a word until someone comes along and gives it meaning.",
     quoteAuthor: "",
   },
   {
@@ -22544,8 +20942,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "John Simone",
   },
   {
-    quoteText:
-      "Most folks are about as happy as they make up their minds to be.",
+    quoteText: "Most folks are about as happy as they make up their minds to be.",
     quoteAuthor: "Abraham Lincoln",
   },
   {
@@ -22553,10 +20950,7 @@ export const quotes: Quote[] = [
       "The greatest way to live with honor in this world is to be what we pretend to be.",
     quoteAuthor: "Socrates",
   },
-  {
-    quoteText: "Kindness is the greatest wisdom.",
-    quoteAuthor: "",
-  },
+  { quoteText: "Kindness is the greatest wisdom.", quoteAuthor: "" },
   {
     quoteText:
       "To know your purpose is to live a life of direction, and in that direction is found peace and tranquillity.",
@@ -22637,8 +21031,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Doug Larson",
   },
   {
-    quoteText:
-      "The odds of hitting your target go up dramatically when you aim at it.",
+    quoteText: "The odds of hitting your target go up dramatically when you aim at it.",
     quoteAuthor: "Mal Pancoast",
   },
   {
@@ -22665,8 +21058,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Simone Weil",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -22701,8 +21093,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ralph Marston",
   },
   {
-    quoteText:
-      "It's not what happens to you, but how you react to it that matters.",
+    quoteText: "It's not what happens to you, but how you react to it that matters.",
     quoteAuthor: "Epictetus",
   },
   {
@@ -22721,8 +21112,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "It's not who you are that holds you back, it's who you think you're not.",
+    quoteText: "It's not who you are that holds you back, it's who you think you're not.",
     quoteAuthor: "",
   },
   {
@@ -22740,13 +21130,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "The deepest craving of human nature is the need to be appreciated.",
+    quoteText: "The deepest craving of human nature is the need to be appreciated.",
     quoteAuthor: "William James",
   },
   {
-    quoteText:
-      "The free man is he who does not fear to go to the end of his thought.",
+    quoteText: "The free man is he who does not fear to go to the end of his thought.",
     quoteAuthor: "Leon Blum",
   },
   {
@@ -22815,22 +21203,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Wolfgang Amadeus Mozart",
   },
   {
-    quoteText:
-      "There is only one success — to be able to spend your life in your own way.",
-    quoteAuthor: "Christopher Morley",
-  },
-  {
     quoteText: "We lost because we told ourselves we lost.",
     quoteAuthor: "Leo Tolstoy",
   },
   {
-    quoteText:
-      "All the flowers of all the tomorrows are in the seeds of today.",
+    quoteText: "All the flowers of all the tomorrows are in the seeds of today.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "The difficulties of life are intended to make us better, not bitter.",
+    quoteText: "The difficulties of life are intended to make us better, not bitter.",
     quoteAuthor: "",
   },
   {
@@ -22838,10 +21219,7 @@ export const quotes: Quote[] = [
       "Man is not sum of what he has already, but rather the sum of what he does not yet have, of what he could have.",
     quoteAuthor: "Jean-Paul Sartre",
   },
-  {
-    quoteText: "A stumble may prevent a fall.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A stumble may prevent a fall.", quoteAuthor: "" },
   {
     quoteText:
       "We can only be said to be alive in those moments when our hearts are conscious of our treasures.",
@@ -22851,11 +21229,6 @@ export const quotes: Quote[] = [
     quoteText:
       "As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.",
     quoteAuthor: "John F. Kennedy",
-  },
-  {
-    quoteText:
-      "You have power over your mind — not outside events. Realize this, and you will find strength.",
-    quoteAuthor: "Marcus Aurelius",
   },
   {
     quoteText:
@@ -22884,10 +21257,7 @@ export const quotes: Quote[] = [
     quoteText: "He who knows that enough is enough will always have enough.",
     quoteAuthor: "Lao Tzu",
   },
-  {
-    quoteText: "The cautious seldom err.",
-    quoteAuthor: "Confucius",
-  },
+  { quoteText: "The cautious seldom err.", quoteAuthor: "Confucius" },
   {
     quoteText: "He who talks more is sooner exhausted.",
     quoteAuthor: "Lao Tzu",
@@ -22913,8 +21283,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dale Earnhardt",
   },
   {
-    quoteText:
-      "People may doubt what you say, but they will believe what you do.",
+    quoteText: "People may doubt what you say, but they will believe what you do.",
     quoteAuthor: "Lewis Cass",
   },
   {
@@ -22940,8 +21309,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Jacob Braude",
   },
   {
-    quoteText:
-      "Mistakes are always forgivable, if one has the courage to admit them.",
+    quoteText: "Mistakes are always forgivable, if one has the courage to admit them.",
     quoteAuthor: "Bruce Lee",
   },
   {
@@ -22950,8 +21318,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Simone Weil",
   },
   {
-    quoteText:
-      "Success is determined by those whom prove the impossible, possible.",
+    quoteText: "Success is determined by those whom prove the impossible, possible.",
     quoteAuthor: "James Pence",
   },
   {
@@ -22959,13 +21326,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Haynes Bayly",
   },
   {
-    quoteText:
-      "Life is a succession of moments. To live each one is to succeed.",
+    quoteText: "Life is a succession of moments. To live each one is to succeed.",
     quoteAuthor: "Corita Kent",
   },
   {
-    quoteText:
-      "Doing what you love is the cornerstone of having abundance in your life.",
+    quoteText: "Doing what you love is the cornerstone of having abundance in your life.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -23039,11 +21404,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "Knowledge has three degrees — opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition.",
-    quoteAuthor: "Plotinus",
-  },
-  {
-    quoteText:
       "Discovery consists of seeing what everybody has seen and thinking what nobody else has thought.",
     quoteAuthor: "Jonathan Swift",
   },
@@ -23067,14 +21427,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Most people are about as happy as they make up their minds to be",
+    quoteText: "Most people are about as happy as they make up their minds to be",
     quoteAuthor: "Abraham Lincoln",
-  },
-  {
-    quoteText:
-      "Every sixty seconds you spend angry, upset or mad, is a full minute of happiness you’ll never get back.",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -23097,8 +21451,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Og Mandino",
   },
   {
-    quoteText:
-      "Slow down and everything you are chasing will come around and catch you.",
+    quoteText: "Slow down and everything you are chasing will come around and catch you.",
     quoteAuthor: "John De Paola",
   },
   {
@@ -23125,8 +21478,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Pablo Picasso",
   },
   {
-    quoteText:
-      "It is not enough to have a good mind; the main thing is to use it well.",
+    quoteText: "It is not enough to have a good mind; the main thing is to use it well.",
     quoteAuthor: "Rene Descartes",
   },
   {
@@ -23143,8 +21495,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "Better than a thousand hollow words, is one word that brings peace.",
+    quoteText: "Better than a thousand hollow words, is one word that brings peace.",
     quoteAuthor: "Buddha",
   },
   {
@@ -23177,14 +21528,8 @@ export const quotes: Quote[] = [
     quoteAuthor: "Ed Cunningham",
   },
   {
-    quoteText:
-      "I may not know everything, but everything is not known yet anyway.",
+    quoteText: "I may not know everything, but everything is not known yet anyway.",
     quoteAuthor: "Byron Pulsifer",
-  },
-  {
-    quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
   },
   {
     quoteText:
@@ -23250,13 +21595,9 @@ export const quotes: Quote[] = [
       "There is nothing in a caterpillar that tells you it's going to be a butterfly.",
     quoteAuthor: "Buckminster Fuller",
   },
+  { quoteText: "You only lose what you cling to.", quoteAuthor: "Buddha" },
   {
-    quoteText: "You only lose what you cling to.",
-    quoteAuthor: "Buddha",
-  },
-  {
-    quoteText:
-      "The only real failure in life is not to be true to the best one knows.",
+    quoteText: "The only real failure in life is not to be true to the best one knows.",
     quoteAuthor: "Buddha",
   },
   {
@@ -23269,17 +21610,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Hazlitt",
   },
   {
-    quoteText:
-      "What you are is what you have been. What you’ll be is what you do now.",
-    quoteAuthor: "Buddha",
-  },
-  {
     quoteText: "If there is no struggle, there is no progress.",
     quoteAuthor: "Frederick Douglass",
   },
   {
-    quoteText:
-      "The cure for boredom is curiosity. There is no cure for curiosity.",
+    quoteText: "The cure for boredom is curiosity. There is no cure for curiosity.",
     quoteAuthor: "Ellen Parr",
   },
   {
@@ -23288,8 +21623,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Saroyan",
   },
   {
-    quoteText:
-      "To bring anything into your life, imagine that it's already there.",
+    quoteText: "To bring anything into your life, imagine that it's already there.",
     quoteAuthor: "Richard Bach",
   },
   {
@@ -23303,8 +21637,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eleanor Roosevelt",
   },
   {
-    quoteText:
-      "It's not what happens to you, but how you react to it that matters.",
+    quoteText: "It's not what happens to you, but how you react to it that matters.",
     quoteAuthor: "Epictetus",
   },
   {
@@ -23312,8 +21645,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Thomas Jefferson",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -23322,8 +21654,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "If you think you can, you can. And if you think you can't, you're right.",
+    quoteText: "If you think you can, you can. And if you think you can't, you're right.",
     quoteAuthor: "Henry Ford",
   },
   {
@@ -23332,8 +21663,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Sam Levenson",
   },
   {
-    quoteText:
-      "Experience keeps a dear school, but fools will learn in no other.",
+    quoteText: "Experience keeps a dear school, but fools will learn in no other.",
     quoteAuthor: "Benjamin Franklin",
   },
   {
@@ -23397,8 +21727,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Frank Herbert",
   },
   {
-    quoteText:
-      "The future is completely open, and we are writing it moment to moment.",
+    quoteText: "The future is completely open, and we are writing it moment to moment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -23455,8 +21784,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Audre Lorde",
   },
   {
-    quoteText:
-      "It does not matter how slowly you go as long as you do not stop.",
+    quoteText: "It does not matter how slowly you go as long as you do not stop.",
     quoteAuthor: "Confucius",
   },
   {
@@ -23527,8 +21855,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Goethe",
   },
   {
-    quoteText:
-      "You might well remember that nothing can bring you success but yourself.",
+    quoteText: "You might well remember that nothing can bring you success but yourself.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -23563,8 +21890,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Alfred Whitehead",
   },
   {
-    quoteText:
-      "The future is completely open, and we are writing it moment to moment.",
+    quoteText: "The future is completely open, and we are writing it moment to moment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -23578,19 +21904,13 @@ export const quotes: Quote[] = [
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Nothing ever goes away until it has taught us what we need to know.",
+    quoteText: "Nothing ever goes away until it has taught us what we need to know.",
     quoteAuthor: "Pema Chodron",
   },
   {
     quoteText:
       "A little knowledge that acts is worth infinitely more than much knowledge that is idle.",
     quoteAuthor: "Kahlil Gibran",
-  },
-  {
-    quoteText:
-      "A good teacher is like a candle — it consumes itself to light the way for others.",
-    quoteAuthor: "",
   },
   {
     quoteText:
@@ -23632,11 +21952,6 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "The aim of life is self-development. To realize ones nature perfectly — that is what each of us is here for.",
-    quoteAuthor: "Oscar Wilde",
-  },
-  {
-    quoteText:
       "It all depends on how we look at things, and not how they are in themselves.",
     quoteAuthor: "Carl Jung",
   },
@@ -23645,8 +21960,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "George Santayan",
   },
   {
-    quoteText:
-      "It isn't where you come from, it's where you're going that counts.",
+    quoteText: "It isn't where you come from, it's where you're going that counts.",
     quoteAuthor: "Ella Fitzgerald",
   },
   {
@@ -23656,11 +21970,6 @@ export const quotes: Quote[] = [
   {
     quoteText: "We never live; we are always in the expectation of living.",
     quoteAuthor: "Voltaire",
-  },
-  {
-    quoteText:
-      "Happiness is a Swedish sunset — it is there for all, but most of us look the other way and lose it.",
-    quoteAuthor: "Mark Twain",
   },
   {
     quoteText: "To enjoy life, we must touch much of it lightly.",
@@ -23686,8 +21995,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "If one does not know to which port is sailing, no wind is favorable.",
+    quoteText: "If one does not know to which port is sailing, no wind is favorable.",
     quoteAuthor: "Seneca",
   },
   {
@@ -23733,8 +22041,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Confucius",
   },
   {
-    quoteText:
-      "He who lives in harmony with himself lives in harmony with the universe.",
+    quoteText: "He who lives in harmony with himself lives in harmony with the universe.",
     quoteAuthor: "Marcus Aurelius",
   },
   {
@@ -23785,11 +22092,6 @@ export const quotes: Quote[] = [
     quoteText:
       "At the center of your being you have the answer; you know who you are and you know what you want.",
     quoteAuthor: "Lao Tzu",
-  },
-  {
-    quoteText:
-      "It is the greatest of all mistakes to do nothing because you can only do little — do what you can.",
-    quoteAuthor: "Sydney Smith",
   },
   {
     quoteText:
@@ -23848,8 +22150,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Eckhart Tolle",
   },
   {
-    quoteText:
-      "It's not who you are that holds you back, it's who you think you're not.",
+    quoteText: "It's not who you are that holds you back, it's who you think you're not.",
     quoteAuthor: "",
   },
   {
@@ -23862,8 +22163,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Mahatma Gandhi",
   },
   {
-    quoteText:
-      "Great is the art of beginning, but greater is the art of ending.",
+    quoteText: "Great is the art of beginning, but greater is the art of ending.",
     quoteAuthor: "Lazurus Long",
   },
   {
@@ -23872,8 +22172,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "To study and not think is a waste. To think and not study is dangerous.",
+    quoteText: "To study and not think is a waste. To think and not study is dangerous.",
     quoteAuthor: "Confucius",
   },
   {
@@ -23923,8 +22222,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Henry Van Dyke",
   },
   {
-    quoteText:
-      "To forgive is to set a prisoner free and realize that prisoner was you.",
+    quoteText: "To forgive is to set a prisoner free and realize that prisoner was you.",
     quoteAuthor: "Lewis B. Smedes",
   },
   {
@@ -23957,10 +22255,7 @@ export const quotes: Quote[] = [
       "I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence.",
     quoteAuthor: "Frederick Douglass",
   },
-  {
-    quoteText: "You give before you get.",
-    quoteAuthor: "Napoleon Hill",
-  },
+  { quoteText: "You give before you get.", quoteAuthor: "Napoleon Hill" },
   {
     quoteText:
       "More often than not, anger is actually an indication of weakness rather than of strength.",
@@ -23985,22 +22280,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Richard Bach",
   },
   {
-    quoteText:
-      "The only limit to your impact is your imagination and commitment.",
+    quoteText: "The only limit to your impact is your imagination and commitment.",
     quoteAuthor: "Tony Robbins",
-  },
-  {
-    quoteText:
-      "A good teacher is like a candle — it consumes itself to light the way for others.",
-    quoteAuthor: "",
   },
   {
     quoteText: "You must welcome change as the rule but not as your ruler.",
     quoteAuthor: "Denis Waitley",
   },
   {
-    quoteText:
-      "If you correct your mind, the rest of your life will fall into place.",
+    quoteText: "If you correct your mind, the rest of your life will fall into place.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -24088,8 +22376,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Antoine de Saint-Exupery",
   },
   {
-    quoteText:
-      "You might well remember that nothing can bring you success but yourself.",
+    quoteText: "You might well remember that nothing can bring you success but yourself.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -24098,8 +22385,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bernice Reagon",
   },
   {
-    quoteText:
-      "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
+    quoteText: "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
     quoteAuthor: "Buddha",
   },
   {
@@ -24112,8 +22398,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Shakespeare",
   },
   {
-    quoteText:
-      "Peace cannot be kept by force. It can only be achieved by understanding.",
+    quoteText: "Peace cannot be kept by force. It can only be achieved by understanding.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -24132,8 +22417,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Carl Jung",
   },
   {
-    quoteText:
-      "They must often change, who would be constant in happiness or wisdom.",
+    quoteText: "They must often change, who would be constant in happiness or wisdom.",
     quoteAuthor: "Confucius",
   },
   {
@@ -24206,8 +22490,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Menninger",
   },
   {
-    quoteText:
-      "The bird of paradise alights only upon the hand that does not grasp.",
+    quoteText: "The bird of paradise alights only upon the hand that does not grasp.",
     quoteAuthor: "John Berry",
   },
   {
@@ -24273,8 +22556,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Albert Einstein",
   },
   {
-    quoteText:
-      "The superior man is modest in his speech, but exceeds in his actions.",
+    quoteText: "The superior man is modest in his speech, but exceeds in his actions.",
     quoteAuthor: "Confucius",
   },
   {
@@ -24293,8 +22575,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Rabbi Hillel",
   },
   {
-    quoteText:
-      "You can't trust without risk but neither can you live in a cocoon.",
+    quoteText: "You can't trust without risk but neither can you live in a cocoon.",
     quoteAuthor: "Byron Pulsifer",
   },
   {
@@ -24326,8 +22607,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Forrest Church",
   },
   {
-    quoteText:
-      "Think for yourselves and let others enjoy the privilege to do so too.",
+    quoteText: "Think for yourselves and let others enjoy the privilege to do so too.",
     quoteAuthor: "Voltaire",
   },
   {
@@ -24344,11 +22624,6 @@ export const quotes: Quote[] = [
     quoteText:
       "I endeavour to be wise when I cannot be merry, easy when I cannot be glad, content with what cannot be mended and patient when there is no redress.",
     quoteAuthor: "Elizabeth Montagu",
-  },
-  {
-    quoteText:
-      "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate — that's my philosophy.",
-    quoteAuthor: "Thornton Wilder",
   },
   {
     quoteText: "Things do not change, we change.",
@@ -24384,8 +22659,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Moliere",
   },
   {
-    quoteText:
-      "Obstacles are those things you see when you take your eyes off the goal.",
+    quoteText: "Obstacles are those things you see when you take your eyes off the goal.",
     quoteAuthor: "Hannah More",
   },
   {
@@ -24424,8 +22698,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Vaclav Havel",
   },
   {
-    quoteText:
-      "To be tested is good. The challenged life may be the best therapist.",
+    quoteText: "To be tested is good. The challenged life may be the best therapist.",
     quoteAuthor: "Gail Sheehy",
   },
   {
@@ -24488,13 +22761,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Yogi Berra",
   },
   {
-    quoteText:
-      "Don't settle for a relationship that won't let you be yourself.",
+    quoteText: "Don't settle for a relationship that won't let you be yourself.",
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "If we did the things we are capable of, we would astound ourselves.",
+    quoteText: "If we did the things we are capable of, we would astound ourselves.",
     quoteAuthor: "Thomas Edison",
   },
   {
@@ -24543,8 +22814,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "Know how to listen, and you will profit even from those who talk badly.",
+    quoteText: "Know how to listen, and you will profit even from those who talk badly.",
     quoteAuthor: "Plutarch",
   },
   {
@@ -24584,27 +22854,19 @@ export const quotes: Quote[] = [
   },
   {
     quoteText:
-      "People are not lazy. They simply have impotent goals — that is, goals that do not inspire them.",
-    quoteAuthor: "Tony Robbins",
-  },
-  {
-    quoteText:
       "Don't miss all the beautiful colors of the rainbow looking for that pot of gold.",
     quoteAuthor: "",
   },
   {
-    quoteText:
-      "Truth, and goodness, and beauty are but different faces of the same all.",
+    quoteText: "Truth, and goodness, and beauty are but different faces of the same all.",
     quoteAuthor: "Ralph Emerson",
   },
   {
-    quoteText:
-      "Forgiveness does not change the past, but it does enlarge the future.",
+    quoteText: "Forgiveness does not change the past, but it does enlarge the future.",
     quoteAuthor: "Paul Boese",
   },
   {
-    quoteText:
-      "If one way be better than another, that you may be sure is natures way.",
+    quoteText: "If one way be better than another, that you may be sure is natures way.",
     quoteAuthor: "Aristotle",
   },
   {
@@ -24612,10 +22874,7 @@ export const quotes: Quote[] = [
       "To know your purpose is to live a life of direction, and in that direction is found peace and tranquillity.",
     quoteAuthor: "Byron Pulsifer",
   },
-  {
-    quoteText: "A beautiful thing is never perfect.",
-    quoteAuthor: "",
-  },
+  { quoteText: "A beautiful thing is never perfect.", quoteAuthor: "" },
   {
     quoteText: "Keep your eyes on the stars and your feet on the ground.",
     quoteAuthor: "Theodore Roosevelt",
@@ -24677,8 +22936,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Franklin Roosevelt",
   },
   {
-    quoteText:
-      "The future is completely open, and we are writing it moment to moment.",
+    quoteText: "The future is completely open, and we are writing it moment to moment.",
     quoteAuthor: "Pema Chodron",
   },
   {
@@ -24762,11 +23020,6 @@ export const quotes: Quote[] = [
     quoteAuthor: "Oscar Wilde",
   },
   {
-    quoteText:
-      "What you are is what you have been. What you’ll be is what you do now.",
-    quoteAuthor: "Buddha",
-  },
-  {
     quoteText: "Watch the little things; a small leak will sink a great ship.",
     quoteAuthor: "Benjamin Franklin",
   },
@@ -24799,8 +23052,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Walter Lippmann",
   },
   {
-    quoteText:
-      "All achievements, all earned riches, have their beginning in an idea.",
+    quoteText: "All achievements, all earned riches, have their beginning in an idea.",
     quoteAuthor: "Napoleon Hill",
   },
   {
@@ -24814,14 +23066,10 @@ export const quotes: Quote[] = [
     quoteAuthor: "Dalai Lama",
   },
   {
-    quoteText:
-      "Life is what happens to you while you're busy making other plans.",
+    quoteText: "Life is what happens to you while you're busy making other plans.",
     quoteAuthor: "John Lennon",
   },
-  {
-    quoteText: "Peace begins with a smile.",
-    quoteAuthor: "Mother Teresa",
-  },
+  { quoteText: "Peace begins with a smile.", quoteAuthor: "Mother Teresa" },
   {
     quoteText:
       "I have always thought the actions of men the best interpreters of their thoughts.",
@@ -24838,18 +23086,15 @@ export const quotes: Quote[] = [
     quoteAuthor: "Napoleon Hill",
   },
   {
-    quoteText:
-      "Kindness is the golden chain by which society is bound together.",
+    quoteText: "Kindness is the golden chain by which society is bound together.",
     quoteAuthor: "Johann Wolfgang von Goethe",
   },
   {
-    quoteText:
-      "In the long run we get no more than we have been willing to risk giving.",
+    quoteText: "In the long run we get no more than we have been willing to risk giving.",
     quoteAuthor: "Sheldon Kopp",
   },
   {
-    quoteText:
-      "We are Divine enough to ask and we are important enough to receive.",
+    quoteText: "We are Divine enough to ask and we are important enough to receive.",
     quoteAuthor: "Wayne Dyer",
   },
   {
@@ -24858,13 +23103,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "William Shakespeare",
   },
   {
-    quoteText:
-      "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    quoteText: "Three things cannot be long hidden: the sun, the moon, and the truth.",
     quoteAuthor: "Buddha",
   },
   {
-    quoteText:
-      "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
+    quoteText: "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
     quoteAuthor: "William White",
   },
   {
@@ -24872,22 +23115,15 @@ export const quotes: Quote[] = [
       "You do not become good by trying to be good, but by finding the goodness that is already within you.",
     quoteAuthor: "Eckhart Tolle",
   },
-  {
-    quoteText: "When you lose, don't lose the lesson.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText: "Worry gives a small thing a big shadow.",
-    quoteAuthor: "",
-  },
+  { quoteText: "When you lose, don't lose the lesson.", quoteAuthor: "" },
+  { quoteText: "Worry gives a small thing a big shadow.", quoteAuthor: "" },
   {
     quoteText:
       "Successful people ask better questions, and as a result, they get better answers.",
     quoteAuthor: "Tony Robbins",
   },
   {
-    quoteText:
-      "A man of ability and the desire to accomplish something can do anything.",
+    quoteText: "A man of ability and the desire to accomplish something can do anything.",
     quoteAuthor: "Donald Kircher",
   },
   {
@@ -24907,13 +23143,9 @@ export const quotes: Quote[] = [
       "By letting it go it all gets done. The world is won by those who let it go. But when you try and try. The world is beyond the winning.",
     quoteAuthor: "Lao Tzu",
   },
+  { quoteText: "A good rest is half the work.", quoteAuthor: "" },
   {
-    quoteText: "A good rest is half the work.",
-    quoteAuthor: "",
-  },
-  {
-    quoteText:
-      "He who conquers others is strong; He who conquers himself is mighty.",
+    quoteText: "He who conquers others is strong; He who conquers himself is mighty.",
     quoteAuthor: "Lao Tzu",
   },
   {
@@ -24965,8 +23197,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bruce Lee",
   },
   {
-    quoteText:
-      "Weve got to have a dream if we are going to make a dream come true.",
+    quoteText: "Weve got to have a dream if we are going to make a dream come true.",
     quoteAuthor: "Walt Disney",
   },
   {
@@ -24975,13 +23206,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Catherine Pulsifer",
   },
   {
-    quoteText:
-      "Follow your instincts. That is where true wisdom manifests itself.",
+    quoteText: "Follow your instincts. That is where true wisdom manifests itself.",
     quoteAuthor: "Oprah Winfrey",
   },
   {
-    quoteText:
-      "A man should look for what is, and not for what he thinks should be.",
+    quoteText: "A man should look for what is, and not for what he thinks should be.",
     quoteAuthor: "Albert Einstein",
   },
   {
@@ -24989,8 +23218,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Aristotle",
   },
   {
-    quoteText:
-      "To be upset over what you don't have is to waste what you do have.",
+    quoteText: "To be upset over what you don't have is to waste what you do have.",
     quoteAuthor: "Ken S. Keyes",
   },
   {
@@ -25077,8 +23305,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Etty Hillesum",
   },
   {
-    quoteText:
-      "To get the full value of joy you must have someone to divide it with.",
+    quoteText: "To get the full value of joy you must have someone to divide it with.",
     quoteAuthor: "Mark Twain",
   },
   {
@@ -25148,8 +23375,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Publilius Syrus",
   },
   {
-    quoteText:
-      "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
+    quoteText: "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
     quoteAuthor: "Buddha",
   },
   {
@@ -25184,8 +23410,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Bernice Reagon",
   },
   {
-    quoteText:
-      "Think as a wise man but communicate in the language of the people.",
+    quoteText: "Think as a wise man but communicate in the language of the people.",
     quoteAuthor: "William Yeats",
   },
   {
@@ -25249,13 +23474,11 @@ export const quotes: Quote[] = [
     quoteAuthor: "Frank Crane",
   },
   {
-    quoteText:
-      "It is not enough to have a good mind; the main thing is to use it well.",
+    quoteText: "It is not enough to have a good mind; the main thing is to use it well.",
     quoteAuthor: "Rene Descartes",
   },
   {
-    quoteText:
-      "The winds and waves are always on the side of the ablest navigators.",
+    quoteText: "The winds and waves are always on the side of the ablest navigators.",
     quoteAuthor: "Edward Gibbon",
   },
   {
@@ -25267,8 +23490,7 @@ export const quotes: Quote[] = [
     quoteAuthor: "Maya Angelou",
   },
   {
-    quoteText:
-      "It is the quality of our work which will please God, not the quantity.",
+    quoteText: "It is the quality of our work which will please God, not the quantity.",
     quoteAuthor: "Mahatma Gandhi",
   },
   {
