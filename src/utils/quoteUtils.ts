@@ -15,7 +15,9 @@ export function getRandomQuote(): Quote {
 
   return {
     text: quote.quoteText,
-    author: quote.quoteAuthor,
+    // In the quotes array, some quote have author = ""
+    // If so, return "Anonymous" instead
+    author: quote.quoteAuthor || "Anonymous",
     index: randomIndex,
   };
 }
