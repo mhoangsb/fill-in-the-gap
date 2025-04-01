@@ -13,7 +13,6 @@ type ShowAnswerResult = {
 
 enum ShowAnswerErrorCode {
   NoMatchFound,
-  InvalidHealth,
   NoOngoingQuestion,
 }
 
@@ -39,14 +38,6 @@ export default async function showAnswer(
       isOk: false,
       errorMessage: "Error: Match does not have ongoing question",
       errorCode: ShowAnswerErrorCode.NoOngoingQuestion,
-    };
-  }
-
-  if (match.currentHealth <= HEALTH_COST_SHOW_ANSWER) {
-    return {
-      isOk: false,
-      errorMessage: `Error: Invalid current health. Health must be above HEALTH_COST_SHOW_ANSWER = ${HEALTH_COST_SHOW_ANSWER} to show answer`,
-      errorCode: ShowAnswerErrorCode.InvalidHealth,
     };
   }
 
