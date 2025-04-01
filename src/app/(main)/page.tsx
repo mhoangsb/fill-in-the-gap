@@ -1,16 +1,21 @@
-"use client";
+import createNewMatch from "@/server-actions/createNewMatch";
+import getNewQuestion from "@/server-actions/getNewQuestion";
+import Game from "./_components/Game";
 
-import { useState } from "react";
+export default async function HomePage() {
+  const initialMatchToken = await createNewMatch();
 
-export default function HomePage() {
-  const [count, setCount] = useState(0);
+  const initialQuestionResponse = await getNewQuestion(initialMatchToken);
+
+  if (!initialQuestionResponse.isOk) {
+    throw new Error("Your code is f**ked");
+  }
+
+  const initialQuestion = initialQuestionResponse.payload;
 
   return (
-    <button
-      className="w-full border border-red-300 text-center text-3xl"
-      onClick={() => setCount(count + 1)}
-    >
-      {count}
-    </button>
+    <div className="mx-auto max-w-5xl">
+      <Game initialMatchToken={initialMatchToken} initialQuestion={initialQuestion} />;
+    </div>
   );
 }
