@@ -48,6 +48,7 @@ export default async function showAnswer(
     },
     data: {
       currentHealth: newHealth,
+      currentQuestionId: NULL_QUESTION_ID,
     },
   });
 
