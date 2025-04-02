@@ -15,7 +15,7 @@ export default async function HomePage() {
 
   return (
     <div className="mx-auto max-w-5xl">
-      <Game initialMatchToken={initialMatchToken} initialQuestion={initialQuestion} />;
+      <Game initialMatchToken={initialMatchToken} initialQuestion={initialQuestion} />
     </div>
   );
 }
