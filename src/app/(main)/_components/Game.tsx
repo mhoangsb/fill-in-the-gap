@@ -17,6 +17,18 @@ import Tally from "./Tally";
 import useServerActionWithPendingState from "@/utils/useServerActionWithPendingState";
 import submitAnswer from "@/server-actions/submitAnswer";
 
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import showAnswer from "@/server-actions/showAnswer";
+
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
 });
@@ -32,6 +44,9 @@ export default function Game({
   const [question, setQuestion] = useState<QuestionCharacter[]>(
     getQuestionCharacters(initialQuestion.text, initialQuestion.missingCharacterIndexes),
   );
+  const [missingCharIndexes, setMissingCharIndexes] = useState<number[]>(
+    initialQuestion.missingCharacterIndexes,
+  );
   const [author, setAuthor] = useState<string>(initialQuestion.author);
   const [score, setScore] = useState<number>(INITIAL_SCORE);
   const [health, setHealth] = useState<number>(INITIAL_HEALTH);
@@ -40,6 +55,12 @@ export default function Game({
     useServerActionWithPendingState(submitAnswer);
   const [isGetNewQuestionPending, getNewQuestionServerAction] =
     useServerActionWithPendingState(getNewQuestion);
+  const [isShowingAnswerPending, showAnswerServerAction] =
+    useServerActionWithPendingState(showAnswer);
+  const [
+    isNotEnoughHealthToShowAnswerDialogOpen,
+    setIsNotEnoughHealthToShowAnswerDialogOpen,
+  ] = useState(false);
 
   const questionSegments = getQuestionSegments(question);
 
@@ -102,12 +123,39 @@ export default function Game({
 
     setQuestion(questionCharacters);
     setAuthor(res.payload.author);
+    setMissingCharIndexes(res.payload.missingCharacterIndexes);
     setMatchStatus("QuestionOngoing");
   };
 
-  const handleShowAnswer = async () => {
-    // not enough score
-    // enough score
+  const handleShowAnswer = () => {
+    if (health > HEALTH_COST_SHOW_ANSWER) {
+      showAnswerCore();
+    } else {
+      setIsNotEnoughHealthToShowAnswerDialogOpen(true);
+    }
+  };
+
+  const showAnswerCore = async () => {
+    const res = await showAnswerServerAction(matchToken);
+
+    if (!res.isOk) {
+      console.log(res);
+      throw new Error("Error");
+    }
+
+    const answer = res.payload.originQuote;
+
+    setQuestion(getQuestionCharacters(answer, missingCharIndexes));
+
+    // health cannot be below 0
+    const newHealth = Math.max(health - HEALTH_COST_SHOW_ANSWER, 0);
+    setHealth(newHealth);
+
+    if (newHealth > 0) {
+      setMatchStatus("QuestionFinished");
+    } else {
+      setMatchStatus("MatchFinished");
+    }
   };
 
   const handleStartNewMatch = async () => {};
@@ -154,7 +202,11 @@ export default function Game({
               className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
               onClick={handleShowAnswer}
             >
-              Hiện đáp án (-{HEALTH_COST_SHOW_ANSWER} máu)
+              {isShowingAnswerPending ? (
+                <LoadingDiv />
+              ) : (
+                <span>Hiện đáp án (-{HEALTH_COST_SHOW_ANSWER} máu)</span>
+              )}
             </button>
           </>
         )}
@@ -180,6 +232,26 @@ export default function Game({
         <Tally label="Điểm" value={score} />
         <Tally label="Máu" value={health} />
       </div>
+
+      <AlertDialog
+        open={isNotEnoughHealthToShowAnswerDialogOpen}
+        onOpenChange={setIsNotEnoughHealthToShowAnswerDialogOpen}
+      >
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Máu của bạn đang quá thấp</AlertDialogTitle>
+            <AlertDialogDescription>
+              {`Cần ${HEALTH_COST_SHOW_ANSWER} máu để hiện đáp án. Bạn đang có ${health} máu. Vòng chơi sẽ kết thúc nếu bạn đồng ý hiện đáp án.`}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Hủy</AlertDialogCancel>
+            <AlertDialogAction onClick={showAnswerCore}>
+              Vẫn hiện đáp án
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </div>
   );
 }
