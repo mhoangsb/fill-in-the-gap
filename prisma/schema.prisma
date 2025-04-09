@@ -14,6 +14,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  email       String   @id
+  matches     Match[]
+  createdAt   DateTime @default(now())
+  displayName String   @unique
+
+  @@map("fitg_user")
+}
+
 model Match {
   cryptographicallyStrongRandomToken String   @id
   currentScore                       Int
@@ -21,7 +30,10 @@ model Match {
   currentQuestionId                  Int
   createdAt                          DateTime @default(now())
   updatedAt                          DateTime @updatedAt
+  user                               User?    @relation(fields: [userEmail], references: [email])
+  userEmail                          String?
 
+  @@index([currentScore])
   // Prefix project name to table name so that I can use 1 DB for multiple projects
   @@map("fitg_match")
 }
