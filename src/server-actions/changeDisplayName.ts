@@ -4,11 +4,7 @@ import { auth } from "@/auth";
 import prisma from "@/utils/prisma";
 import { ServerActionResult } from "@/utils/types";
 import { Prisma } from "@/../generated/prisma";
-
-enum ChangeDisplayNameErrorCode {
-  NotAuthenticated,
-  NameExisted,
-}
+import { ChangeDisplayNameServerActionErrorCode } from "@/utils/types";
 
 export default async function changeDisplayName(
   newName: string,
@@ -18,7 +14,7 @@ export default async function changeDisplayName(
   if (!session) {
     return {
       isOk: false,
-      errorCode: ChangeDisplayNameErrorCode.NotAuthenticated,
+      errorCode: ChangeDisplayNameServerActionErrorCode.NotAuthenticated,
       errorMessage: "Not logged in yet",
     };
   }
@@ -40,7 +36,7 @@ export default async function changeDisplayName(
     if (e instanceof Prisma.PrismaClientKnownRequestError && e.code === "P2002") {
       return {
         isOk: false,
-        errorCode: ChangeDisplayNameErrorCode.NameExisted,
+        errorCode: ChangeDisplayNameServerActionErrorCode.NameExisted,
         errorMessage: `Name "${newName}" existed`,
       };
     }

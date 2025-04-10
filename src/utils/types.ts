@@ -8,3 +8,8 @@ export type ServerActionResult<T> =
       isOk: true;
       payload: T;
     };
+
+export enum ChangeDisplayNameServerActionErrorCode {
+  NotAuthenticated,
+  NameExisted,
+}
