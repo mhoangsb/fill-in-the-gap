@@ -2,6 +2,8 @@ import createNewMatch from "@/server-actions/createNewMatch";
 import getNewQuestion from "@/server-actions/getNewQuestion";
 import Game from "./_components/Game";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const initialMatchToken = await createNewMatch();
 
