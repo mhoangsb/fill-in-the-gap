@@ -38,7 +38,7 @@ export default function MainLayout({
   return (
     <>
       <header
-        className={`${bungee.className} fixed top-0 z-40 flex w-screen border-b-2 border-dashed border-b-gray-600`}
+        className={`${bungee.className} fixed top-0 z-40 flex w-screen border-b-2 border-dashed border-b-gray-600 bg-gray-950`}
       >
         <div
           className="grid place-content-center border-r-2 border-dashed border-r-gray-600 px-3 sm:hidden"
