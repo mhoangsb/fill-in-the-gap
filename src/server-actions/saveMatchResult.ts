@@ -2,6 +2,7 @@
 
 import { auth } from "@/auth";
 import prisma from "@/utils/prisma";
+import { revalidatePath } from "next/cache";
 
 export default async function saveMatchResult(matchToken: string): Promise<void> {
   const session = await auth();
@@ -26,4 +27,6 @@ export default async function saveMatchResult(matchToken: string): Promise<void>
       },
     },
   });
+
+  revalidatePath("/profile");
 }
