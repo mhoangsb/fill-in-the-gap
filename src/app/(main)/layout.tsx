@@ -46,7 +46,7 @@ export default function MainLayout({
         >
           <Bars3Icon className="size-6" />
         </div>
-        <div className="grow py-2 text-center text-4xl">Fill In The Gap</div>
+        <div className="grow py-2 text-center text-4xl sm:pl-16">Fill In The Gap</div>
       </header>
 
       <nav className="fixed top-0 z-30 mt-14 hidden h-screen flex-col border-r-2 border-dashed border-r-gray-600 bg-gray-950 pb-14 max-[365px]:mt-24 sm:flex">
