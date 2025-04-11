@@ -1,6 +1,7 @@
-import { auth, signIn, signOut } from "@/auth";
+import { auth, signIn } from "@/auth";
 import DisplayName from "./_componentns/DisplayName";
 import prisma from "@/utils/prisma";
+import SignOutButton from "./_componentns/SignOutButton";
 
 // Don't put this inside ProfilePage() function
 // Otherwise session variable (inside ProfilePage function)
@@ -55,15 +56,7 @@ export default async function ProfilePage() {
         <DisplayName initialDisplayName={userInDB.displayName} />
       </div>
 
-      <button
-        onClick={async () => {
-          "use server";
-
-          await signOut();
-        }}
-      >
-        Sign out
-      </button>
+      <SignOutButton />
     </div>
   );
 }
