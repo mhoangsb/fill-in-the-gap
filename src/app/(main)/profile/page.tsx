@@ -2,6 +2,15 @@ import { auth, signIn } from "@/auth";
 import DisplayName from "./_componentns/DisplayName";
 import prisma from "@/utils/prisma";
 import SignOutButton from "./_componentns/SignOutButton";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 
 // Don't put this inside ProfilePage() function
 // Otherwise session variable (inside ProfilePage function)
@@ -36,6 +45,13 @@ export default async function ProfilePage() {
     where: {
       email: session.user.email,
     },
+    include: {
+      matches: {
+        orderBy: {
+          updatedAt: "desc",
+        },
+      },
+    },
   });
 
   return (
@@ -56,7 +72,35 @@ export default async function ProfilePage() {
         <DisplayName initialDisplayName={userInDB.displayName} />
       </div>
 
-      <SignOutButton />
+      <div className="mt-5 flex justify-end">
+        <SignOutButton />
+      </div>
+
+      <div className="mt-12">
+        <h2 className="mb-5 border-b-2 border-dashed border-gray-600 pb-1 text-lg">
+          Lịch sử chơi
+        </h2>
+
+        <Table className="text-base">
+          <TableCaption className="sr-only">Lịch sử chơi</TableCaption>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Người chơi</TableHead>
+              <TableHead>Thời gian</TableHead>
+              <TableHead className="text-center">Điểm</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {userInDB.matches.map((match) => (
+              <TableRow key={match.createdAt.toString()}>
+                <TableCell>{userInDB.displayName}</TableCell>
+                <TableCell>{match.updatedAt.toLocaleString("vi-VN")}</TableCell>
+                <TableCell className="text-center">{match.currentScore}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </div>
     </div>
   );
 }
