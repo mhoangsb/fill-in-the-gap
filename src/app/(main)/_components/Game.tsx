@@ -12,7 +12,7 @@ import {
   SCORE_PER_CORRECT_ANSWER,
   SCORE_PER_HEALTH_BOOST,
 } from "@/utils/constants";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Tally from "./Tally";
 import useServerActionWithPendingState from "@/utils/useServerActionWithPendingState";
 import submitAnswer from "@/server-actions/submitAnswer";
@@ -28,6 +28,9 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import showAnswer from "@/server-actions/showAnswer";
+import createNewMatch from "@/server-actions/createNewMatch";
+import { signIn, useSession } from "next-auth/react";
+import saveMatchResult from "@/server-actions/saveMatchResult";
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
@@ -57,12 +60,17 @@ export default function Game({
     useServerActionWithPendingState(getNewQuestion);
   const [isShowingAnswerPending, showAnswerServerAction] =
     useServerActionWithPendingState(showAnswer);
+  const [isCreateNewMatchPending, createNewMatchServerAction] =
+    useServerActionWithPendingState(createNewMatch);
   const [
     isNotEnoughHealthToShowAnswerDialogOpen,
     setIsNotEnoughHealthToShowAnswerDialogOpen,
   ] = useState(false);
+  const [isPromptToLoginDialogOpen, setIsPromptToLoginDialogOpen] = useState(false);
 
   const questionSegments = getQuestionSegments(question);
+
+  const { data: session } = useSession();
 
   const setNewCharacterValue = (questionTextIndex: number, newChar: string) => {
     const newQuestion = [...question];
@@ -104,6 +112,7 @@ export default function Game({
 
       if (newHealth <= 0) {
         setMatchStatus("MatchFinished");
+        showAnswerCore();
       }
     }
   };
@@ -158,14 +167,82 @@ export default function Game({
     }
   };
 
-  const handleStartNewMatch = async () => {};
+  const handleStartNewMatch = async () => {
+    if (session) {
+      await saveMatchResult(matchToken);
+      await startNewMatchCore();
+      return;
+    }
+
+    setIsPromptToLoginDialogOpen(true);
+
+    // If hasn't logged in
+    // prompt to log in
+    //
+    // If user choose to play anonymously
+    // fetch new match + set new state
+    //
+    // If user choose to log in
+    // save matchToken to localstorage
+    // call signIn() -> user go away -> user go back
+    // -> use an effect to retrieve matchToken -> call saveMatchResult()
+  };
+
+  const handleStartNewMatchWithoutLoggingIn = async () => {
+    // Don't need to setIsPromptToLoginDialogOpen(false) because alert component
+    // does that itself
+    await startNewMatchCore();
+  };
+
+  const handleLoginThenStartNewMatch = async () => {
+    sessionStorage.setItem("matchToken", matchToken);
+    signIn();
+  };
+
+  useEffect(() => {
+    const previousMatchToken = sessionStorage.getItem("matchToken");
+
+    if (previousMatchToken) {
+      saveMatchResult(previousMatchToken);
+    }
+
+    sessionStorage.removeItem("matchToken");
+  }, []);
+
+  /**
+   * get new matchToken + set matchToken state
+   * fetch new question + set various state
+   */
+  const startNewMatchCore = async () => {
+    const newMatchToken = await createNewMatchServerAction();
+    setMatchToken(newMatchToken);
+
+    const res = await getNewQuestionServerAction(newMatchToken);
+
+    if (!res.isOk) {
+      console.log(res);
+      throw new Error("Error");
+    }
+
+    const questionCharacters = getQuestionCharacters(
+      res.payload.text,
+      res.payload.missingCharacterIndexes,
+    );
+
+    setQuestion(questionCharacters);
+    setAuthor(res.payload.author);
+    setMissingCharIndexes(res.payload.missingCharacterIndexes);
+    setMatchStatus("QuestionOngoing");
+    setScore(INITIAL_SCORE);
+    setHealth(INITIAL_HEALTH);
+  };
 
   return (
     <div className="mt-28 px-4 sm:px-10">
       <div>
         <div className={`${robotoMono.className} text-center text-lg sm:text-2xl`}>
           {questionSegments.map((segment, i) => (
-            <div key={i} className="mr-[1ch] inline-block">
+            <div key={i} className="mt-1 mr-[1ch] inline-block">
               {segment.map((char, j) => {
                 if (char.isHiddenChar) {
                   return (
@@ -223,7 +300,11 @@ export default function Game({
             className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
             onClick={handleStartNewMatch}
           >
-            Ván đầu đã kết thúc. Bắt đầu ván mới
+            {isCreateNewMatchPending ? (
+              <LoadingDiv />
+            ) : (
+              "Ván đầu đã kết thúc. Bắt đầu ván mới"
+            )}
           </button>
         )}
       </div>
@@ -248,6 +329,28 @@ export default function Game({
             <AlertDialogCancel>Hủy</AlertDialogCancel>
             <AlertDialogAction onClick={showAnswerCore}>
               Vẫn hiện đáp án
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+
+      <AlertDialog
+        open={isPromptToLoginDialogOpen}
+        onOpenChange={setIsPromptToLoginDialogOpen}
+      >
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Đăng nhập để sử dụng thêm tính năng</AlertDialogTitle>
+            <AlertDialogDescription>
+              Đăng nhập để lưu lịch sử chơi và tham gia vào bảng xếp hạng.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel onClick={handleStartNewMatchWithoutLoggingIn}>
+              Tiếp tục chơi ẩn danh
+            </AlertDialogCancel>
+            <AlertDialogAction onClick={handleLoginThenStartNewMatch}>
+              Đăng nhập
             </AlertDialogAction>
           </AlertDialogFooter>
         </AlertDialogContent>
@@ -334,3 +437,5 @@ function getQuestionSegments(
 
   return segmentList;
 }
+
+// TODO: show answer when match end
