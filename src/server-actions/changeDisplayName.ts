@@ -5,6 +5,7 @@ import prisma from "@/utils/prisma";
 import { ServerActionResult } from "@/utils/types";
 import { Prisma } from "@/../generated/prisma";
 import { ChangeDisplayNameServerActionErrorCode } from "@/utils/types";
+import { revalidatePath } from "next/cache";
 
 export default async function changeDisplayName(
   newName: string,
@@ -49,6 +50,8 @@ export default async function changeDisplayName(
 
     throw e;
   }
+
+  revalidatePath("/profile");
 
   return {
     isOk: true,
