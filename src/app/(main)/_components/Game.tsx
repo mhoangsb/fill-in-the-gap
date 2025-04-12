@@ -251,6 +251,7 @@ export default function Game({
                       type="text"
                       maxLength={1}
                       className="mx-0.5 w-[1ch] border-b border-gray-400 transition-shadow outline-none focus:border-gray-400"
+                      autoCapitalize="none"
                       value={char.char}
                       onChange={(e) =>
                         setNewCharacterValue(char.originalIndex, e.target.value)
