@@ -4,6 +4,7 @@ import changeDisplayName from "@/server-actions/changeDisplayName";
 import { ChangeDisplayNameServerActionErrorCode } from "@/utils/types";
 import useServerActionWithPendingState from "@/utils/useServerActionWithPendingState";
 import { useState } from "react";
+import { PencilIcon } from "@heroicons/react/24/outline";
 
 export default function DisplayName({
   initialDisplayName,
@@ -44,7 +45,7 @@ export default function DisplayName({
     <div>
       <div className="flex flex-wrap items-center justify-between gap-y-1">
         <label className="flex-1/2">Tên hiển thị:</label>
-        <div className="flex min-w-56 flex-1/2 justify-between border-2 border-dashed border-gray-800 focus-within:border-gray-600">
+        <div className="flex min-w-56 flex-1/2 items-center justify-between border-2 border-dashed border-gray-800 focus-within:border-gray-600">
           <input
             value={currentName}
             onChange={(e) => setCurrentName(e.currentTarget.value)}
@@ -64,6 +65,7 @@ export default function DisplayName({
               )}
             </button>
           )}
+          {!hasNameChanged && <PencilIcon className="mx-3 size-5" />}
         </div>
       </div>
       {errorMessage && (
