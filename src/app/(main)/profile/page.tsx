@@ -77,7 +77,7 @@ export default async function ProfilePage() {
       </div>
 
       <div className="mt-12">
-        <h2 className="mb-5 border-b-2 border-dashed border-gray-600 pb-1 text-lg">
+        <h2 className="border-b-2 border-dashed border-gray-600 pb-1 text-lg">
           Lịch sử chơi
         </h2>
 
