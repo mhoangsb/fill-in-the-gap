@@ -9,6 +9,8 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+export const dynamic = "force-dynamic";
+
 export default async function LeaderboardPage() {
   const NUM_OF_MATCHES_SHOWN = 20;
 
