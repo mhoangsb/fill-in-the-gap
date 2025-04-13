@@ -45,11 +45,11 @@ export default function DisplayName({
     <div>
       <div className="flex flex-wrap items-center justify-between gap-y-1">
         <label className="flex-1/2">Tên hiển thị:</label>
-        <div className="flex min-w-56 flex-1/2 items-center justify-between border-2 border-dashed border-gray-800 focus-within:border-gray-600">
+        <div className="relative flex min-w-56 flex-1/2 items-center justify-between border-2 border-dashed border-gray-800 focus-within:border-gray-600">
           <input
             value={currentName}
             onChange={(e) => setCurrentName(e.currentTarget.value)}
-            className="min-w-44 grow px-4 py-2 focus:outline-none"
+            className="min-w-44 grow py-2 pl-4 focus:outline-none"
             type="text"
             minLength={1}
           />
@@ -65,7 +65,9 @@ export default function DisplayName({
               )}
             </button>
           )}
-          {!hasNameChanged && <PencilIcon className="mx-3 size-5" />}
+          {!hasNameChanged && (
+            <PencilIcon className="pointer-events-none absolute right-0 mx-3 size-5" />
+          )}
         </div>
       </div>
       {errorMessage && (
