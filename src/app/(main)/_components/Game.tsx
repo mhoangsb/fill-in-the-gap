@@ -24,12 +24,7 @@ import transformToRichChars from "@/utils/transformToRichChars";
 import getWords from "@/utils/getWords";
 
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 
 import Tally from "./Tally";
 import SpinningSquare from "./SpinningSquare";
@@ -339,46 +334,42 @@ export default function Game({
         <div className="flex flex-col items-center gap-2">
           <div className="flex items-center gap-1">
             <span className="text-lg">Điểm</span>
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger>
-                  <InformationCircleIcon className="size-6 cursor-help text-gray-500" />
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>Ván đấu bắt đầu với {INITIAL_SCORE} điểm.</p>
-                  <p>
-                    Với mỗi câu trả lời đúng, bạn được cộng {SCORE_PER_CORRECT_ANSWER}{" "}
-                    điểm.
-                  </p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
+            <Popover>
+              <PopoverTrigger>
+                <InformationCircleIcon className="size-6 cursor-pointer text-gray-500" />
+              </PopoverTrigger>
+              <PopoverContent className="flex flex-col gap-1.5 bg-gray-900">
+                <p>Ván đấu bắt đầu với {INITIAL_SCORE} điểm.</p>
+                <p>
+                  Với mỗi câu trả lời đúng, bạn được cộng {SCORE_PER_CORRECT_ANSWER} điểm.
+                </p>
+              </PopoverContent>
+            </Popover>
           </div>
           <Tally value={score} />
         </div>
+
         <div className="flex flex-col items-center gap-2">
           <div className="flex items-center gap-1">
             <span className="text-lg">Máu</span>
-            <TooltipProvider>
-              <Tooltip>
-                <TooltipTrigger>
-                  <InformationCircleIcon className="size-6 cursor-help text-gray-500" />
-                </TooltipTrigger>
-                <TooltipContent className="text-base">
-                  <p>Ván đầu bắt đầu với {INITIAL_HEALTH} máu.</p>
-                  <p>
-                    Bạn sẽ bị trừ {HEALTH_PENALTY_WRONG_ANSWER} máu với mỗi lần gửi sai
-                    đáp án.
-                  </p>
-                  <p>Màn chơi sẽ kết thúc khi máu bằng 0.</p>
-                  <p>
-                    Với mỗi {SCORE_PER_HEALTH_BOOST} câu trả lời đúng, bạn được tăng{" "}
-                    {HEALTH_BOOST} máu.
-                  </p>
-                  <p>Mỗi lần hiện đáp án tốn {HEALTH_COST_SHOW_ANSWER} máu.</p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
+            <Popover>
+              <PopoverTrigger>
+                <InformationCircleIcon className="size-6 cursor-pointer text-gray-500" />
+              </PopoverTrigger>
+              <PopoverContent className="flex flex-col gap-1.5 bg-gray-900">
+                <p>Ván đầu bắt đầu với {INITIAL_HEALTH} máu.</p>
+                <p>
+                  Bạn sẽ bị trừ {HEALTH_PENALTY_WRONG_ANSWER} máu với mỗi lần gửi sai đáp
+                  án.
+                </p>
+                <p>Màn chơi sẽ kết thúc khi máu bằng 0.</p>
+                <p>
+                  Với mỗi {SCORE_PER_HEALTH_BOOST} câu trả lời đúng, bạn được tăng{" "}
+                  {HEALTH_BOOST} máu.
+                </p>
+                <p>Mỗi lần hiện đáp án tốn {HEALTH_COST_SHOW_ANSWER} máu.</p>
+              </PopoverContent>
+            </Popover>
           </div>
           <Tally value={health} />
         </div>
