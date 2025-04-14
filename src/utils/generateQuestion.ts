@@ -68,22 +68,48 @@ function generateRandomNumber(minInclusive: number, maxExclusive: number): numbe
 }
 
 function getNumberOfMissingCharacters(currentScore: number, quoteLength: number): number {
-  const step = 5;
+  const LOWER_LIMIT = 1;
+  const UPPER_LIMIT = Math.floor((quoteLength * 30) / 100);
 
-  let percentage = currentScore * step;
+  const clamp = (x: number): number => {
+    if (x <= LOWER_LIMIT) {
+      return LOWER_LIMIT;
+    }
 
-  if (percentage > 30) {
-    percentage = 30;
+    if (x >= UPPER_LIMIT) {
+      return UPPER_LIMIT;
+    }
+
+    return x;
+  };
+
+  if (currentScore <= 2) {
+    return clamp(2);
   }
-  if (percentage < 5) {
-    percentage = 5;
+
+  if (currentScore <= 5) {
+    return clamp(3);
   }
 
-  let numOfMissingChars = Math.floor((quoteLength / 100) * percentage);
-
-  if (numOfMissingChars < 1) {
-    numOfMissingChars = 1;
+  if (currentScore <= 10) {
+    return clamp(5);
   }
 
-  return numOfMissingChars;
+  if (currentScore <= 15) {
+    return clamp(8);
+  }
+
+  if (currentScore <= 20) {
+    return clamp(10);
+  }
+
+  if (currentScore <= 25) {
+    return clamp(15);
+  }
+
+  if (currentScore <= 30) {
+    return clamp(20);
+  }
+
+  return clamp(99);
 }
