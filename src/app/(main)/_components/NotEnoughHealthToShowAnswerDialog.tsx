@@ -11,7 +11,7 @@ import {
 
 import { HEALTH_COST_SHOW_ANSWER } from "@/utils/constants";
 
-export function NotEnoughHealthToShowAnswerDialog({
+export default function NotEnoughHealthToShowAnswerDialog({
   currentHealth,
   isDialogOpen,
   onOpenChange,

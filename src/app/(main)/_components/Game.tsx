@@ -26,7 +26,7 @@ import getWords from "@/utils/getWords";
 import Tally from "./Tally";
 import SpinningSquare from "./SpinningSquare";
 import PromptToLoginDialog from "./PromptToLoginDialog";
-import { NotEnoughHealthToShowAnswerDialog } from "./NotEnoughHealthToShowAnswerDialog";
+import NotEnoughHealthToShowAnswerDialog from "./NotEnoughHealthToShowAnswerDialog";
 
 import { signIn, useSession } from "next-auth/react";
 
