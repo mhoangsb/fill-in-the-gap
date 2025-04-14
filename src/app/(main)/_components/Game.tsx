@@ -2,7 +2,15 @@
 
 import { Roboto_Mono } from "next/font/google";
 
+import { useEffect, useState } from "react";
+
 import getNewQuestion, { QuestionSendToClient } from "@/server-actions/getNewQuestion";
+import showAnswer from "@/server-actions/showAnswer";
+import createNewMatch from "@/server-actions/createNewMatch";
+import saveMatchResult from "@/server-actions/saveMatchResult";
+import submitAnswer from "@/server-actions/submitAnswer";
+import useServerActionWithPendingState from "@/utils/useServerActionWithPendingState";
+
 import {
   HEALTH_BOOST,
   HEALTH_COST_SHOW_ANSWER,
@@ -12,25 +20,17 @@ import {
   SCORE_PER_CORRECT_ANSWER,
   SCORE_PER_HEALTH_BOOST,
 } from "@/utils/constants";
-import { useEffect, useState } from "react";
-import Tally from "./Tally";
-import useServerActionWithPendingState from "@/utils/useServerActionWithPendingState";
-import submitAnswer from "@/server-actions/submitAnswer";
+import transformToRichChars from "@/utils/transformToRichChars";
+import getWords from "@/utils/getWords";
 
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
-import showAnswer from "@/server-actions/showAnswer";
-import createNewMatch from "@/server-actions/createNewMatch";
+import Tally from "./Tally";
+import SpinningSquare from "./SpinningSquare";
+import PromptToLoginDialog from "./PromptToLoginDialog";
+import { NotEnoughHealthToShowAnswerDialog } from "./NotEnoughHealthToShowAnswerDialog";
+
 import { signIn, useSession } from "next-auth/react";
-import saveMatchResult from "@/server-actions/saveMatchResult";
+
+import { MatchStatus, RichChar, Word } from "@/utils/types";
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
@@ -44,117 +44,57 @@ export default function Game({
   initialQuestion: QuestionSendToClient;
 }) {
   const [matchToken, setMatchToken] = useState<string>(initialMatchToken);
-  const [question, setQuestion] = useState<QuestionCharacter[]>(
-    getQuestionCharacters(initialQuestion.text, initialQuestion.missingCharacterIndexes),
-  );
-  const [missingCharIndexes, setMissingCharIndexes] = useState<number[]>(
-    initialQuestion.missingCharacterIndexes,
-  );
-  const [author, setAuthor] = useState<string>(initialQuestion.author);
+
+  const [matchStatus, setMatchStatus] = useState<MatchStatus>("QuestionOngoing");
   const [score, setScore] = useState<number>(INITIAL_SCORE);
   const [health, setHealth] = useState<number>(INITIAL_HEALTH);
-  const [matchStatus, setMatchStatus] = useState<MatchStatus>("QuestionOngoing");
-  const [isSubmitAnswerPending, submitAnswerServerAction] =
+
+  const [question, setQuestion] = useState<RichChar[]>(
+    transformToRichChars(initialQuestion.text, initialQuestion.hiddenCharIndexes),
+  );
+  const [author, setAuthor] = useState<string>(initialQuestion.author);
+
+  // SA is short for ServerAction
+  const [isSubmitAnswerPending, submitAnswerSA] =
     useServerActionWithPendingState(submitAnswer);
-  const [isGetNewQuestionPending, getNewQuestionServerAction] =
+  const [isGetNewQuestionPending, getNewQuestionSA] =
     useServerActionWithPendingState(getNewQuestion);
-  const [isShowingAnswerPending, showAnswerServerAction] =
+  const [isShowingAnswerPending, showAnswerSA] =
     useServerActionWithPendingState(showAnswer);
-  const [isCreateNewMatchPending, createNewMatchServerAction] =
+  const [isCreateNewMatchPending, createNewMatchSA] =
     useServerActionWithPendingState(createNewMatch);
+
   const [
     isNotEnoughHealthToShowAnswerDialogOpen,
     setIsNotEnoughHealthToShowAnswerDialogOpen,
   ] = useState(false);
   const [isPromptToLoginDialogOpen, setIsPromptToLoginDialogOpen] = useState(false);
 
-  const questionSegments = getQuestionSegments(question);
+  const { data: authSession } = useSession();
 
-  const { data: session } = useSession();
-
-  const setNewCharacterValue = (questionTextIndex: number, newChar: string) => {
-    const newQuestion = [...question];
-
-    if (!newQuestion[questionTextIndex].isHiddenChar) {
-      throw new Error("This code should never run");
-    }
-
-    newQuestion[questionTextIndex].char = newChar;
-
-    setQuestion(newQuestion);
-  };
-
-  const handleSubmitAnswer = async () => {
-    if (isSubmitAnswerPending) {
-      return;
-    }
-
-    const fullQuote = question.map((char) => char.char).join("");
-
-    const result = await submitAnswerServerAction(matchToken, fullQuote);
-
-    if (!result.isOk) {
-      console.log(result);
-      throw new Error("Error");
-    }
-
-    if (result.payload.isCorrect) {
-      setScore(score + SCORE_PER_CORRECT_ANSWER);
-
-      if ((score + SCORE_PER_CORRECT_ANSWER) % SCORE_PER_HEALTH_BOOST === 0) {
-        setHealth(health + HEALTH_BOOST);
-      }
-
-      setMatchStatus("QuestionFinished");
-    } else {
-      const newHealth = health - HEALTH_PENALTY_WRONG_ANSWER;
-      setHealth(newHealth);
-
-      if (newHealth <= 0) {
-        setMatchStatus("MatchFinished");
-        showAnswerCore();
-      }
-    }
-  };
-
-  const handleGetNewQuestion = async () => {
-    const res = await getNewQuestionServerAction(matchToken);
-
-    if (!res.isOk) {
-      console.log(res);
-      throw new Error("Error");
-    }
-
-    const questionCharacters = getQuestionCharacters(
-      res.payload.text,
-      res.payload.missingCharacterIndexes,
-    );
-
-    setQuestion(questionCharacters);
-    setAuthor(res.payload.author);
-    setMissingCharIndexes(res.payload.missingCharacterIndexes);
-    setMatchStatus("QuestionOngoing");
-  };
-
-  const handleShowAnswer = () => {
-    if (health > HEALTH_COST_SHOW_ANSWER) {
-      showAnswerCore();
-    } else {
-      setIsNotEnoughHealthToShowAnswerDialogOpen(true);
-    }
-  };
+  const words: Word[] = getWords(question);
 
   const showAnswerCore = async () => {
-    const res = await showAnswerServerAction(matchToken);
+    const res = await showAnswerSA(matchToken);
 
     if (!res.isOk) {
       console.log(res);
-      throw new Error("Error");
+      throw new Error(
+        "showAnswer returned an error code. This should never happen in production",
+      );
     }
 
-    const answer = res.payload.originQuote;
+    const answer: string = res.payload.originQuote;
 
-    setQuestion(getQuestionCharacters(answer, missingCharIndexes));
+    const questionWithHiddenCharsShown: RichChar[] = [...question];
+
+    for (const richChar of questionWithHiddenCharsShown) {
+      if (richChar.isHidden) {
+        richChar.char = answer[richChar.originalIndex];
+      }
+    }
+
+    setQuestion(questionWithHiddenCharsShown);
 
     // health cannot be below 0
     const newHealth = Math.max(health - HEALTH_COST_SHOW_ANSWER, 0);
@@ -167,39 +107,139 @@ export default function Game({
     }
   };
 
-  const handleStartNewMatch = async () => {
-    if (session) {
+  const startNewMatchCore = async () => {
+    const newMatchToken = await createNewMatchSA();
+    setMatchToken(newMatchToken);
+
+    const res = await getNewQuestionSA(newMatchToken);
+
+    if (!res.isOk) {
+      console.log(res);
+      throw new Error(
+        "createNewMatch returned an error code. This should never happen in production",
+      );
+    }
+
+    const questionChars = transformToRichChars(
+      res.payload.text,
+      res.payload.hiddenCharIndexes,
+    );
+
+    setQuestion(questionChars);
+    setAuthor(res.payload.author);
+    setMatchStatus("QuestionOngoing");
+    setScore(INITIAL_SCORE);
+    setHealth(INITIAL_HEALTH);
+  };
+
+  const handleUserInputToHiddenChar = (originalIndex: number, newChar: string) => {
+    const newQuestion = [...question];
+
+    if (!newQuestion[originalIndex].isHidden) {
+      throw new Error(
+        "My code is flawed. User is modifying not hidden char." +
+          "This code should never run in production.",
+      );
+    }
+
+    newQuestion[originalIndex].char = newChar;
+
+    setQuestion(newQuestion);
+  };
+
+  const handleUserSubmitAnswer = async () => {
+    if (isSubmitAnswerPending) {
+      return;
+    }
+
+    const fullQuote = question.map((char) => char.char).join("");
+
+    const res = await submitAnswerSA(matchToken, fullQuote);
+
+    if (!res.isOk) {
+      console.log(res);
+      throw new Error(
+        "submitAnswer returned an error code. This should never happen in production",
+      );
+    }
+
+    if (res.payload.isCorrect) {
+      const newScore = score + SCORE_PER_CORRECT_ANSWER;
+      setScore(newScore);
+
+      const shouldPlayerGetHealthBoost = newScore % SCORE_PER_HEALTH_BOOST === 0;
+      if (shouldPlayerGetHealthBoost) {
+        setHealth(health + HEALTH_BOOST);
+      }
+
+      setMatchStatus("QuestionFinished");
+    } else {
+      // health cannot be below 0
+      const newHealth = Math.max(health - HEALTH_PENALTY_WRONG_ANSWER, 0);
+      setHealth(newHealth);
+
+      if (newHealth <= 0) {
+        setMatchStatus("MatchFinished");
+        showAnswerCore();
+      }
+    }
+  };
+
+  const handleUserProcessToNextQuestion = async () => {
+    const res = await getNewQuestionSA(matchToken);
+
+    if (!res.isOk) {
+      console.log(res);
+      throw new Error(
+        "getNewQuestion returned an error code. This should never happen in production",
+      );
+    }
+
+    const questionChars = transformToRichChars(
+      res.payload.text,
+      res.payload.hiddenCharIndexes,
+    );
+
+    setQuestion(questionChars);
+    setAuthor(res.payload.author);
+    setMatchStatus("QuestionOngoing");
+  };
+
+  const handleUserShowAnswer = () => {
+    if (health > HEALTH_COST_SHOW_ANSWER) {
+      showAnswerCore();
+    } else {
+      setIsNotEnoughHealthToShowAnswerDialogOpen(true);
+    }
+  };
+
+  const handleUserStartNewMatch = async () => {
+    if (authSession) {
       await saveMatchResult(matchToken);
       await startNewMatchCore();
       return;
     }
 
     setIsPromptToLoginDialogOpen(true);
-
-    // If hasn't logged in
-    // prompt to log in
-    //
-    // If user choose to play anonymously
-    // fetch new match + set new state
-    //
-    // If user choose to log in
-    // save matchToken to localstorage
-    // call signIn() -> user go away -> user go back
-    // -> use an effect to retrieve matchToken -> call saveMatchResult()
   };
 
-  const handleStartNewMatchWithoutLoggingIn = async () => {
-    // Don't need to setIsPromptToLoginDialogOpen(false) because alert component
-    // does that itself
-    await startNewMatchCore();
-  };
-
-  const handleLoginThenStartNewMatch = async () => {
+  const handleUserLoginThenStartNewMatch = async () => {
+    // Call signIn() will redirect user away from the current page, to the login page.
+    // Thus, all state will be lost, including matchToken state, which is needed when
+    // making the request (after user got redirect back to this page) to the server to
+    // link current match with user account in DB.
+    //
+    // For the above reason, save matchToken state to sessionStorage so that I can
+    // retrieve it after user got redirect back here (in useEffect)
     sessionStorage.setItem("matchToken", matchToken);
+
+    // This AuthJS's signIn() function will redirect user away from this page, to the sign
+    // in page.
     signIn();
   };
 
   useEffect(() => {
+    // See also: handleUserLoginThenStartNewMatch()
     const previousMatchToken = sessionStorage.getItem("matchToken");
 
     if (previousMatchToken) {
@@ -209,42 +249,15 @@ export default function Game({
     sessionStorage.removeItem("matchToken");
   }, []);
 
-  /**
-   * get new matchToken + set matchToken state
-   * fetch new question + set various state
-   */
-  const startNewMatchCore = async () => {
-    const newMatchToken = await createNewMatchServerAction();
-    setMatchToken(newMatchToken);
-
-    const res = await getNewQuestionServerAction(newMatchToken);
-
-    if (!res.isOk) {
-      console.log(res);
-      throw new Error("Error");
-    }
-
-    const questionCharacters = getQuestionCharacters(
-      res.payload.text,
-      res.payload.missingCharacterIndexes,
-    );
-
-    setQuestion(questionCharacters);
-    setAuthor(res.payload.author);
-    setMissingCharIndexes(res.payload.missingCharacterIndexes);
-    setMatchStatus("QuestionOngoing");
-    setScore(INITIAL_SCORE);
-    setHealth(INITIAL_HEALTH);
-  };
-
   return (
     <div className="mt-28 px-4 sm:px-10">
+      {/* Question section */}
       <div>
         <div className={`${robotoMono.className} text-center text-lg sm:text-2xl`}>
-          {questionSegments.map((segment, i) => (
+          {words.map((word, i) => (
             <div key={i} className="mt-1 mr-[1ch] inline-block">
-              {segment.map((char, j) => {
-                if (char.isHiddenChar) {
+              {word.map((char, j) => {
+                if (char.isHidden) {
                   return (
                     <input
                       key={j}
@@ -254,7 +267,7 @@ export default function Game({
                       autoCapitalize="none"
                       value={char.char}
                       onChange={(e) =>
-                        setNewCharacterValue(char.originalIndex, e.target.value)
+                        handleUserInputToHiddenChar(char.originalIndex, e.target.value)
                       }
                     />
                   );
@@ -267,42 +280,45 @@ export default function Game({
         <div className="mt-7 px-3 text-right sm:px-10">{`- ${author} -`}</div>
       </div>
 
+      {/* Button section */}
       <div className="mx-auto mt-7 flex max-w-md gap-3">
         {matchStatus === "QuestionOngoing" && (
           <>
             <button
               className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
-              onClick={handleSubmitAnswer}
+              onClick={handleUserSubmitAnswer}
             >
-              {isSubmitAnswerPending ? <LoadingDiv /> : <span>Gửi đáp án</span>}
+              {isSubmitAnswerPending ? <SpinningSquare /> : <span>Gửi đáp án</span>}
             </button>
             <button
               className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
-              onClick={handleShowAnswer}
+              onClick={handleUserShowAnswer}
             >
               {isShowingAnswerPending ? (
-                <LoadingDiv />
+                <SpinningSquare />
               ) : (
                 <span>Hiện đáp án (-{HEALTH_COST_SHOW_ANSWER} máu)</span>
               )}
             </button>
           </>
         )}
+
         {matchStatus === "QuestionFinished" && (
           <button
             className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
-            onClick={handleGetNewQuestion}
+            onClick={handleUserProcessToNextQuestion}
           >
-            {isGetNewQuestionPending ? <LoadingDiv /> : "Câu hỏi tiếp theo"}
+            {isGetNewQuestionPending ? <SpinningSquare /> : "Câu hỏi tiếp theo"}
           </button>
         )}
+
         {matchStatus === "MatchFinished" && (
           <button
             className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
-            onClick={handleStartNewMatch}
+            onClick={handleUserStartNewMatch}
           >
             {isCreateNewMatchPending ? (
-              <LoadingDiv />
+              <SpinningSquare />
             ) : (
               "Ván đầu đã kết thúc. Bắt đầu ván mới"
             )}
@@ -310,133 +326,26 @@ export default function Game({
         )}
       </div>
 
+      {/* Score + Health section */}
       <div className="mt-7 flex justify-center gap-3">
         <Tally label="Điểm" value={score} />
         <Tally label="Máu" value={health} />
       </div>
 
-      <AlertDialog
-        open={isNotEnoughHealthToShowAnswerDialogOpen}
+      {/* Dialogs */}
+      <NotEnoughHealthToShowAnswerDialog
+        currentHealth={health}
+        isDialogOpen={isNotEnoughHealthToShowAnswerDialogOpen}
         onOpenChange={setIsNotEnoughHealthToShowAnswerDialogOpen}
-      >
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Máu của bạn đang quá thấp</AlertDialogTitle>
-            <AlertDialogDescription>
-              {`Cần ${HEALTH_COST_SHOW_ANSWER} máu để hiện đáp án. Bạn đang có ${health} máu. Vòng chơi sẽ kết thúc nếu bạn đồng ý hiện đáp án.`}
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel>Hủy</AlertDialogCancel>
-            <AlertDialogAction onClick={showAnswerCore}>
-              Vẫn hiện đáp án
-            </AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
+        onUserShowAnswerAnyway={showAnswerCore}
+      />
 
-      <AlertDialog
-        open={isPromptToLoginDialogOpen}
+      <PromptToLoginDialog
+        isDialogOpen={isPromptToLoginDialogOpen}
         onOpenChange={setIsPromptToLoginDialogOpen}
-      >
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Đăng nhập để sử dụng thêm tính năng</AlertDialogTitle>
-            <AlertDialogDescription>
-              Đăng nhập để lưu lịch sử chơi và tham gia vào bảng xếp hạng.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel onClick={handleStartNewMatchWithoutLoggingIn}>
-              Tiếp tục chơi ẩn danh
-            </AlertDialogCancel>
-            <AlertDialogAction onClick={handleLoginThenStartNewMatch}>
-              Đăng nhập
-            </AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
+        onUserProcessAnonymously={startNewMatchCore}
+        onUserProcessWithLogin={handleUserLoginThenStartNewMatch}
+      />
     </div>
   );
 }
-
-function LoadingDiv() {
-  return <div className="mx-auto size-4 animate-spin border border-gray-500"></div>;
-}
-
-type MatchStatus = "QuestionOngoing" | "QuestionFinished" | "MatchFinished";
-
-/**
- * Originally, question text is string (each character is also a string)
- *
- * QuestionCharacter type represent each character (string) but with extra
- * information like is the current character a hidden one, and if it is,
- * what is its index in the original question text.
- */
-type QuestionCharacter =
-  | {
-      isHiddenChar: true;
-      originalIndex: number;
-      char: string;
-    }
-  | {
-      isHiddenChar: false;
-      char: string;
-    };
-
-/**
- * Convert question text of type string to type QuestionCharacter
- */
-function getQuestionCharacters(
-  questionText: string,
-  missingCharIndexes: number[],
-): QuestionCharacter[] {
-  return questionText.split("").map((char, i) => {
-    if (!missingCharIndexes.includes(i)) {
-      return {
-        isHiddenChar: false,
-        char,
-      };
-    }
-
-    return {
-      isHiddenChar: true,
-      originalIndex: i,
-
-      // TODO: I don't like using underscore as placeholder
-      char: char === "_" ? "" : char,
-    };
-  });
-}
-
-/**
- * Segment is a list of QuestionCharacter that will be displayed in the same line
- * For example: "ferrari" but not "fer
- * rari"
- */
-function getQuestionSegments(
-  questionCharacters: QuestionCharacter[],
-): Array<QuestionCharacter[]> {
-  const segmentList: Array<QuestionCharacter[]> = [];
-
-  let tempSegment: QuestionCharacter[] = [];
-
-  for (let i = 0; i < questionCharacters.length; ++i) {
-    const char = questionCharacters[i];
-
-    if (!char.isHiddenChar && char.char === " ") {
-      segmentList.push(tempSegment);
-      tempSegment = [];
-    }
-
-    tempSegment.push(char);
-  }
-
-  if (tempSegment.length) {
-    segmentList.push(tempSegment);
-  }
-
-  return segmentList;
-}
-
-// TODO: show answer when match end

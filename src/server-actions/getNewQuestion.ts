@@ -10,7 +10,7 @@ import { ServerActionResult } from "@/utils/types";
 export type QuestionSendToClient = {
   text: string;
   author: string;
-  missingCharacterIndexes: number[];
+  hiddenCharIndexes: number[];
 };
 
 enum GetNewQuestionErrorCode {
@@ -72,7 +72,7 @@ export default async function getNewQuestion(
       // Do not pass in newQuestion.quoteId
       text: newQuestion.text,
       author: newQuestion.author,
-      missingCharacterIndexes: newQuestion.missingCharacterIndexes,
+      hiddenCharIndexes: newQuestion.missingCharacterIndexes,
     },
   };
 }
