@@ -173,6 +173,28 @@ export default function Game({
     setQuestion(newQuestion);
   };
 
+  const handleKeyUpInputElement = (
+    e: KeyboardEvent<HTMLInputElement>,
+    originalIndex: number,
+  ) => {
+    const keyPressed = e.key;
+
+    if (keyPressed === "ArrowLeft") {
+      focusPreviousInput(originalIndex);
+      return;
+    }
+
+    if (keyPressed === "ArrowRight") {
+      focusNextInput(originalIndex);
+      return;
+    }
+
+    if (/^[a-zA-Z0-9]$/.test(keyPressed)) {
+      focusNextInput(originalIndex);
+      return;
+    }
+  };
+
   const handleKeyDownInputElement = (
     e: KeyboardEvent<HTMLInputElement>,
     originalIndex: number,
@@ -180,23 +202,8 @@ export default function Game({
     const valueBeforeChange = (e.target as HTMLInputElement).value;
     const keyPressed = e.key;
 
-    if (keyPressed === "ArrowLeft") {
-      setTimeout(() => focusPreviousInput(originalIndex), 0);
-      return;
-    }
-
-    if (keyPressed === "ArrowRight") {
-      setTimeout(() => focusNextInput(originalIndex), 0);
-      return;
-    }
-
-    if (/^[a-zA-Z0-9]$/.test(keyPressed)) {
-      setTimeout(() => focusNextInput(originalIndex), 0);
-      return;
-    }
-
     if (valueBeforeChange === "" && keyPressed === "Backspace") {
-      setTimeout(() => focusPreviousInput(originalIndex), 0);
+      setTimeout(() => focusPreviousInput(originalIndex), 100);
       return;
     }
   };
@@ -396,6 +403,7 @@ export default function Game({
                           e.target.value,
                         )
                       }
+                      onKeyUp={(e) => handleKeyUpInputElement(e, richChar.originalIndex)}
                       onKeyDown={(e) =>
                         handleKeyDownInputElement(e, richChar.originalIndex)
                       }
