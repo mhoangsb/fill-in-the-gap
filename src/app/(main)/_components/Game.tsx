@@ -2,7 +2,7 @@
 
 import { Roboto_Mono } from "next/font/google";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import getNewQuestion, { QuestionSendToClient } from "@/server-actions/getNewQuestion";
 import showAnswer from "@/server-actions/showAnswer";
@@ -73,9 +73,31 @@ export default function Game({
   ] = useState(false);
   const [isPromptToLoginDialogOpen, setIsPromptToLoginDialogOpen] = useState(false);
 
+  const inputsRef = useRef<Map<number, HTMLInputElement>>(null);
+  const shouldFocusTheFirstInput = useRef<boolean>(true);
+
   const { data: authSession } = useSession();
 
   const words: Word[] = getWords(question);
+
+  const hiddenCharIndexes: number[] = question.reduce(
+    (result: number[], currentRichChar) => {
+      if (currentRichChar.isHidden) {
+        return [...result, currentRichChar.originalIndex];
+      }
+
+      return result;
+    },
+    [] as number[],
+  );
+
+  const getInputsRefMap = () => {
+    if (!inputsRef.current) {
+      inputsRef.current = new Map<number, HTMLInputElement>();
+    }
+
+    return inputsRef.current;
+  };
 
   const showAnswerCore = async () => {
     const res = await showAnswerSA(matchToken);
@@ -133,6 +155,7 @@ export default function Game({
     setMatchStatus("QuestionOngoing");
     setScore(INITIAL_SCORE);
     setHealth(INITIAL_HEALTH);
+    shouldFocusTheFirstInput.current = true;
   };
 
   const handleUserInputToHiddenChar = (originalIndex: number, newChar: string) => {
@@ -206,6 +229,7 @@ export default function Game({
     setQuestion(questionChars);
     setAuthor(res.payload.author);
     setMatchStatus("QuestionOngoing");
+    shouldFocusTheFirstInput.current = true;
   };
 
   const handleUserShowAnswer = () => {
@@ -241,7 +265,7 @@ export default function Game({
     signIn();
   };
 
-  useEffect(() => {
+  const checkPreviousMatchTokenAndSaveMatchResult = () => {
     // See also: handleUserLoginThenStartNewMatch()
     const previousMatchToken = sessionStorage.getItem("matchToken");
 
@@ -250,7 +274,30 @@ export default function Game({
     }
 
     sessionStorage.removeItem("matchToken");
-  }, []);
+  };
+
+  useEffect(checkPreviousMatchTokenAndSaveMatchResult, []);
+
+  const focusTheFirstInput = () => {
+    const originalIndexOfFirstInput = hiddenCharIndexes[0];
+
+    const inputsRefMap = getInputsRefMap();
+    const firstInputElement = inputsRefMap.get(originalIndexOfFirstInput);
+
+    if (!firstInputElement) {
+      throw new Error("If my logic is correct, this should never run");
+    }
+
+    firstInputElement.focus();
+  };
+
+  useEffect(() => {
+    if (shouldFocusTheFirstInput.current) {
+      focusTheFirstInput();
+    }
+
+    shouldFocusTheFirstInput.current = false;
+  });
 
   return (
     <div className="mt-28 px-4 sm:px-10">
@@ -259,23 +306,42 @@ export default function Game({
         <div className={`${robotoMono.className} text-center text-lg sm:text-2xl`}>
           {words.map((word, i) => (
             <div key={i} className="mt-1 mr-[1ch] inline-block">
-              {word.map((char, j) => {
-                if (char.isHidden) {
+              {word.map((richChar, j) => {
+                if (richChar.isHidden) {
                   return (
                     <input
                       key={j}
                       type="text"
                       maxLength={1}
-                      className="mx-0.5 w-[1ch] border-b border-gray-400 transition-shadow outline-none focus:border-gray-400"
+                      className="mx-0.5 w-[1ch] border-b border-gray-400 transition-shadow outline-none focus:border-blue-700"
                       autoCapitalize="none"
-                      value={char.char}
+                      value={richChar.char}
                       onChange={(e) =>
-                        handleUserInputToHiddenChar(char.originalIndex, e.target.value)
+                        handleUserInputToHiddenChar(
+                          richChar.originalIndex,
+                          e.target.value,
+                        )
                       }
+                      ref={(node) => {
+                        // This ref callback function will be called with node === null
+                        // when <input /> is removed from the DOM to do clean up
+                        // But since I already return a clean up function, I don't need to
+                        // do anything when node === null
+                        if (!node) {
+                          return;
+                        }
+
+                        const inputsRefMap = getInputsRefMap();
+                        inputsRefMap.set(richChar.originalIndex, node);
+
+                        return () => {
+                          inputsRefMap.delete(richChar.originalIndex);
+                        };
+                      }}
                     />
                   );
                 }
-                return <span key={j}>{char.char}</span>;
+                return <span key={j}>{richChar.char}</span>;
               })}
             </div>
           ))}
