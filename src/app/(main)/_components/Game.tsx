@@ -2,7 +2,7 @@
 
 import { Roboto_Mono } from "next/font/google";
 
-import { KeyboardEvent, useEffect, useRef, useState } from "react";
+import { KeyboardEvent, useEffect, useRef, useState, Fragment } from "react";
 
 import getNewQuestion, { QuestionSendToClient } from "@/server-actions/getNewQuestion";
 import showAnswer from "@/server-actions/showAnswer";
@@ -386,49 +386,53 @@ export default function Game({
       <div>
         <div className={`${robotoMono.className} text-center text-lg sm:text-2xl`}>
           {words.map((word, i) => (
-            <div key={i} className="mt-1 mr-[1ch] inline-block">
-              {word.map((richChar, j) => {
-                if (richChar.isHidden) {
-                  return (
-                    <input
-                      key={j}
-                      type="text"
-                      maxLength={1}
-                      className="mx-0.5 w-[1ch] border-b border-gray-400 transition-shadow outline-none focus:border-blue-700"
-                      autoCapitalize="none"
-                      value={richChar.char}
-                      onChange={(e) =>
-                        handleUserInputToHiddenChar(
-                          richChar.originalIndex,
-                          e.target.value,
-                        )
-                      }
-                      onKeyUp={(e) => handleKeyUpInputElement(e, richChar.originalIndex)}
-                      onKeyDown={(e) =>
-                        handleKeyDownInputElement(e, richChar.originalIndex)
-                      }
-                      ref={(node) => {
-                        // This ref callback function will be called with node === null
-                        // when <input /> is removed from the DOM to do clean up
-                        // But since I already return a clean up function, I don't need to
-                        // do anything when node === null
-                        if (!node) {
-                          return;
+            <Fragment key={i}>
+              <div className="mt-1 inline-block">
+                {word.map((richChar, j) => {
+                  if (richChar.isHidden) {
+                    return (
+                      <input
+                        key={j}
+                        type="text"
+                        maxLength={1}
+                        className="mx-0.5 w-[1ch] border-b border-gray-400 transition-shadow outline-none focus:border-blue-700"
+                        autoCapitalize="none"
+                        value={richChar.char}
+                        onChange={(e) =>
+                          handleUserInputToHiddenChar(
+                            richChar.originalIndex,
+                            e.target.value,
+                          )
                         }
+                        onKeyUp={(e) =>
+                          handleKeyUpInputElement(e, richChar.originalIndex)
+                        }
+                        onKeyDown={(e) =>
+                          handleKeyDownInputElement(e, richChar.originalIndex)
+                        }
+                        ref={(node) => {
+                          // This ref callback function will be called with node === null
+                          // when <input /> is removed from the DOM to do clean up
+                          // But since I already return a clean up function, I don't need to
+                          // do anything when node === null
+                          if (!node) {
+                            return;
+                          }
 
-                        const inputsRefMap = getInputsRefMap();
-                        inputsRefMap.set(richChar.originalIndex, node);
+                          const inputsRefMap = getInputsRefMap();
+                          inputsRefMap.set(richChar.originalIndex, node);
 
-                        return () => {
-                          inputsRefMap.delete(richChar.originalIndex);
-                        };
-                      }}
-                    />
-                  );
-                }
-                return <span key={j}>{richChar.char}</span>;
-              })}
-            </div>
+                          return () => {
+                            inputsRefMap.delete(richChar.originalIndex);
+                          };
+                        }}
+                      />
+                    );
+                  }
+                  return <span key={j}>{richChar.char}</span>;
+                })}
+              </div>{" "}
+            </Fragment>
           ))}
         </div>
         <div className="mt-7 px-3 text-right sm:px-10">{`- ${author} -`}</div>
