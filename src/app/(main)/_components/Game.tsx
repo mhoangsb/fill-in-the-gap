@@ -380,6 +380,30 @@ export default function Game({
     shouldFocusTheFirstInput.current = false;
   });
 
+  useEffect(() => {
+    const handleShiftEnterShortcut = (event: globalThis.KeyboardEvent) => {
+      if (event.shiftKey && event.key === "Enter") {
+        if (matchStatus === "QuestionOngoing") {
+          handleUserSubmitAnswer();
+        }
+
+        if (matchStatus === "QuestionFinished") {
+          handleUserProcessToNextQuestion();
+        }
+
+        if (matchStatus === "MatchFinished") {
+          handleUserStartNewMatch();
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleShiftEnterShortcut);
+
+    return () => {
+      window.removeEventListener("keydown", handleShiftEnterShortcut);
+    };
+  });
+
   return (
     <div className="mt-28 px-4 sm:px-10">
       {/* Question section */}
@@ -439,14 +463,20 @@ export default function Game({
       </div>
 
       {/* Button section */}
-      <div className="mx-auto mt-7 flex max-w-md gap-3">
+      <div className="mx-auto mt-7 flex max-w-lg flex-wrap gap-3">
         {matchStatus === "QuestionOngoing" && (
           <>
             <button
               className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
               onClick={handleUserSubmitAnswer}
             >
-              {isSubmitAnswerPending ? <SpinningSquare /> : <span>Gửi đáp án</span>}
+              {isSubmitAnswerPending ? (
+                <SpinningSquare />
+              ) : (
+                <span>
+                  Gửi đáp án <span className="hidden sm:inline">[Shift + Enter]</span>
+                </span>
+              )}
             </button>
             <button
               className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
@@ -455,7 +485,12 @@ export default function Game({
               {isShowingAnswerPending ? (
                 <SpinningSquare />
               ) : (
-                <span>Hiện đáp án (-{HEALTH_COST_SHOW_ANSWER} máu)</span>
+                <span>
+                  Hiện đáp án{" "}
+                  <span className="whitespace-nowrap">
+                    (-{HEALTH_COST_SHOW_ANSWER} máu)
+                  </span>
+                </span>
               )}
             </button>
           </>
@@ -466,7 +501,14 @@ export default function Game({
             className="flex-1 cursor-pointer border-2 border-dashed border-gray-600 px-4 py-2 hover:border-gray-400"
             onClick={handleUserProcessToNextQuestion}
           >
-            {isGetNewQuestionPending ? <SpinningSquare /> : "Câu hỏi tiếp theo"}
+            {isGetNewQuestionPending ? (
+              <SpinningSquare />
+            ) : (
+              <span>
+                Câu hỏi tiếp theo{" "}
+                <span className="hidden sm:inline">[Shift + Enter]</span>
+              </span>
+            )}
           </button>
         )}
 
@@ -478,7 +520,10 @@ export default function Game({
             {isCreateNewMatchPending ? (
               <SpinningSquare />
             ) : (
-              "Ván đầu đã kết thúc. Bắt đầu ván mới"
+              <span>
+                Ván đầu đã kết thúc. Bắt đầu ván mới.{" "}
+                <span className="hidden sm:inline">[Shift + Enter]</span>
+              </span>
             )}
           </button>
         )}
