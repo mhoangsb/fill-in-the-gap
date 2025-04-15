@@ -87,27 +87,27 @@ function getNumberOfMissingCharacters(currentScore: number, quoteLength: number)
     return clamp(2);
   }
 
-  if (currentScore <= 5) {
+  if (currentScore <= 4) {
     return clamp(3);
   }
 
-  if (currentScore <= 10) {
+  if (currentScore <= 8) {
     return clamp(5);
   }
 
-  if (currentScore <= 15) {
+  if (currentScore <= 12) {
     return clamp(8);
   }
 
-  if (currentScore <= 20) {
+  if (currentScore <= 16) {
     return clamp(10);
   }
 
-  if (currentScore <= 25) {
+  if (currentScore <= 20) {
     return clamp(15);
   }
 
-  if (currentScore <= 30) {
+  if (currentScore <= 25) {
     return clamp(20);
   }
 
