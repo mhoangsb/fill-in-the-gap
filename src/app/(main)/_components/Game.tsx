@@ -2,7 +2,7 @@
 
 import { Roboto_Mono } from "next/font/google";
 
-import { useEffect, useRef, useState } from "react";
+import { KeyboardEvent, useEffect, useRef, useState } from "react";
 
 import getNewQuestion, { QuestionSendToClient } from "@/server-actions/getNewQuestion";
 import showAnswer from "@/server-actions/showAnswer";
@@ -173,6 +173,80 @@ export default function Game({
     setQuestion(newQuestion);
   };
 
+  const handleKeyDownInputElement = (
+    e: KeyboardEvent<HTMLInputElement>,
+    originalIndex: number,
+  ) => {
+    const valueBeforeChange = (e.target as HTMLInputElement).value;
+    const keyPressed = e.key;
+
+    if (keyPressed === "ArrowLeft") {
+      setTimeout(() => focusPreviousInput(originalIndex), 0);
+      return;
+    }
+
+    if (keyPressed === "ArrowRight") {
+      setTimeout(() => focusNextInput(originalIndex), 0);
+      return;
+    }
+
+    if (/^[a-zA-Z0-9]$/.test(keyPressed)) {
+      setTimeout(() => focusNextInput(originalIndex), 0);
+      return;
+    }
+
+    if (valueBeforeChange === "" && keyPressed === "Backspace") {
+      setTimeout(() => focusPreviousInput(originalIndex), 0);
+      return;
+    }
+  };
+
+  const focusPreviousInput = (originalIndex: number) => {
+    const index = hiddenCharIndexes.findIndex((x) => x === originalIndex);
+
+    if (index === -1) {
+      throw new Error("This should never run if my code is correct");
+    }
+
+    if (index === 0) {
+      return;
+    }
+
+    const originalIndexOfPreviousInput = hiddenCharIndexes[index - 1];
+
+    const previousInput = getInputsRefMap().get(originalIndexOfPreviousInput);
+
+    if (!previousInput) {
+      throw new Error("This should never run if my code is correct");
+    }
+
+    previousInput.focus();
+    previousInput.select();
+  };
+
+  const focusNextInput = (originalIndex: number) => {
+    const index = hiddenCharIndexes.findIndex((x) => x === originalIndex);
+
+    if (index === -1) {
+      throw new Error("This should never run if my code is correct");
+    }
+
+    if (index === hiddenCharIndexes.length - 1) {
+      return;
+    }
+
+    const originalIndexOfNextInput = hiddenCharIndexes[index + 1];
+
+    const nextInput = getInputsRefMap().get(originalIndexOfNextInput);
+
+    if (!nextInput) {
+      throw new Error("This should never run if my code is correct");
+    }
+
+    nextInput.focus();
+    nextInput.select();
+  };
+
   const handleUserSubmitAnswer = async () => {
     if (isSubmitAnswerPending) {
       return;
@@ -321,6 +395,9 @@ export default function Game({
                           richChar.originalIndex,
                           e.target.value,
                         )
+                      }
+                      onKeyDown={(e) =>
+                        handleKeyDownInputElement(e, richChar.originalIndex)
                       }
                       ref={(node) => {
                         // This ref callback function will be called with node === null
