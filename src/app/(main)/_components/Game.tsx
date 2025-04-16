@@ -203,7 +203,8 @@ export default function Game({
     const keyPressed = e.key;
 
     if (valueBeforeChange === "" && keyPressed === "Backspace") {
-      setTimeout(() => focusPreviousInput(originalIndex), 100);
+      e.preventDefault();
+      focusPreviousInput(originalIndex);
       return;
     }
   };
