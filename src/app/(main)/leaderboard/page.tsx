@@ -1,13 +1,7 @@
 import prisma from "@/utils/prisma";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
+
+import OnlyRenderOnClient from "@/components/OnlyRenderOnClient";
+import Matches from "./_components/Matches";
 
 export const dynamic = "force-dynamic";
 
@@ -38,29 +32,18 @@ export default async function LeaderboardPage() {
         {`Top ${NUM_OF_MATCHES_SHOWN} điểm cao`}
       </h1>
 
-      <Table className="text-base">
-        <TableCaption className="sr-only">Điểm cao</TableCaption>
-        <TableHeader>
-          <TableRow>
-            <TableHead>STT</TableHead>
-            <TableHead>Người chơi</TableHead>
-            <TableHead>Thời gian</TableHead>
-            <TableHead className="text-center">Điểm</TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {matchesWithHighestScore.map((match, i) => (
-            // Use ! to tell TS that match.user cannot be null
-            // Because I only query matches with not null user
-            <TableRow key={match.createdAt.toString() + match.user!.displayName}>
-              <TableCell>{i + 1}</TableCell>
-              <TableCell>{match.user!.displayName}</TableCell>
-              <TableCell>{match.updatedAt.toLocaleString("vi-VN")}</TableCell>
-              <TableCell className="text-center">{match.currentScore}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
+      <OnlyRenderOnClient>
+        <Matches
+          matches={matchesWithHighestScore.map((match) => ({
+            // Can use ! here because in the code above,
+            // I only query match with user not null
+            userDisplayName: match.user!.displayName,
+            currentScore: match.currentScore,
+            createdAt: match.createdAt,
+            updatedAt: match.updatedAt,
+          }))}
+        />
+      </OnlyRenderOnClient>
     </div>
   );
 }
