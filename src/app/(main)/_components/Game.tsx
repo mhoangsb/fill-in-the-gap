@@ -412,7 +412,7 @@ export default function Game({
         <div className={`${robotoMono.className} text-center text-lg sm:text-2xl`}>
           {words.map((word, i) => (
             <Fragment key={i}>
-              <div className="mt-1 inline">
+              <div className="mt-1 inline-block">
                 {word.map((richChar, j) => {
                   if (richChar.isHidden) {
                     return (
