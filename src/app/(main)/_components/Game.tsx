@@ -420,7 +420,7 @@ export default function Game({
                         key={j}
                         type="text"
                         maxLength={1}
-                        className="mx-0.5 w-[1ch] border-b border-gray-400 transition-shadow outline-none focus:border-blue-700"
+                        className="relative bottom-0.5 mx-0.5 w-[1ch] border-b border-gray-400 align-middle outline-none focus:border-blue-700"
                         autoCapitalize="none"
                         value={richChar.char}
                         onChange={(e) =>
