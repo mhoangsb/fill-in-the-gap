@@ -420,7 +420,7 @@ export default function Game({
                         key={j}
                         type="text"
                         maxLength={1}
-                        className="relative bottom-0.5 mx-0.5 w-[1ch] border-b border-gray-400 align-middle outline-none focus:border-blue-700"
+                        className="mx-0.5 w-[1ch] align-middle shadow-[0_1px_0_0_white] outline-none focus:shadow-[0_1px_0_0_var(--color-blue-700)]"
                         autoCapitalize="none"
                         value={richChar.char}
                         onChange={(e) =>
@@ -454,7 +454,11 @@ export default function Game({
                       />
                     );
                   }
-                  return <span key={j}>{richChar.char}</span>;
+                  return (
+                    <span className="align-middle" key={j}>
+                      {richChar.char}
+                    </span>
+                  );
                 })}
               </div>{" "}
             </Fragment>
